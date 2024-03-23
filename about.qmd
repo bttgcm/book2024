@@ -38,6 +38,7 @@ methods. Have published peer reviewed articles.
 [Linkedin page](https://www.linkedin.com/in/giacomobutte/)
 
 ## Education
+
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=6, fig.height=5}
 #| column: margin
 # library
@@ -64,15 +65,13 @@ treemap(df, index=c("Group","Degree"),     vSize="Education", type="index",
 
 | Degree                                              | Istitution                                |
 |-----------------------------------------------------|-------------------------------------------|
-| MSc Environmental Engineering                       |  Newcastle University, UK 2019            |
+| MSc Environmental Engineering                       | Newcastle University, UK 2019             |
 | MSc Sustainable Mountain Development                | UHI Perth, UK 2024                        |
-| MA Interior Architecture                            |  Politecnico Milan, ITA, 2003‑2006        |
-| BA Industrial Design                                |  Politecnico Milan, ITA, 2000‑2003        |
-| PG Cert Civil Engineering                           |  Surrey University, 2023                  |
+| MA Interior Architecture                            | Politecnico Milan, ITA, 2003‑2006         |
+| BA Industrial Design                                | Politecnico Milan, ITA, 2000‑2003         |
+| PG Cert Civil Engineering                           | Surrey University, 2023                   |
 | Micromaster Data, Economics, and Development Policy | MITx, 2023                                |
 | Diploma in design and analysis of water supply line | Universitat Politecnica De Valencia, 2024 |
-
-
 
 ## Experience
 
