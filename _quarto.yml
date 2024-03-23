@@ -1,15 +1,12 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Giacomo Butte"
   site-url: "https://www.giacomobutte.com"
   favicon: "assets/00_favicon/favicon.ico"
   twitter-card: true
-  cookie-consent:
-    type: express
-    style: simple
-    palette: light
   #prefs-text: "This site uses Google Analytics to analyse website traffic and improve your expreience of the site."
  # google-analytics:
    # tracking-id: "G-29RLTHLZB5"

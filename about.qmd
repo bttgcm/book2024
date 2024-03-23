@@ -75,4 +75,17 @@ treemap(df, index=c("Group","Degree"),     vSize="Education", type="index",
 
 ## Experience
 
-![](img/graph.png)
+```{r, echo=FALSE, warning=FALSE, message=FALSE, fig.width=6, fig.height=5}
+#| label: fig-mtcars
+#| fig-cap: "Experience between 2001-2024, size based on duration"
+#| column: margin
+
+library(magick)
+image_read("img/viz.png")
+
+```
+asdasdsa
+
+
+![](img/g.png){#| column: margin}
+
