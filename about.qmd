@@ -64,7 +64,7 @@ treemap(df, index=c("Group","Degree"),     vSize="Education", type="index",
 ```
 
 | Degree                                              | Istitution                                |
-|-----------------------------------------------------|-------------------------------------------|
+|----------------------------------------|--------------------------------|
 | MSc Environmental Engineering                       | Newcastle University, UK 2019             |
 | MSc Sustainable Mountain Development                | UHI Perth, UK 2024                        |
 | MA Interior Architecture                            | Politecnico Milan, ITA, 2003‑2006         |
