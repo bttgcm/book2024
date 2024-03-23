@@ -1,0 +1,40 @@
+---
+format:
+  html:
+    grid:
+      margin-width: 450px
+      body-width: 500px
+    toc: true
+---
+## Research
+In the past I have carried work using probabilistic models for estimation. One publication used Quantitative Microbial Risk Assessment for estimating the risk of illness by wastewater sludge for agricultural practices in Uganda [^1] and cholera for Thai aquaculture workers[^2].  A similar stochastic model was used for a different type of estimate while at ICIMOD to quantify the costs and benefits from spring water revival activities in mid-hill Nepal[^3]. 
+
+While at Newcastle University I proposed a framework for data gatering for Water Security[^4]. I was also involved in different research done by colleagues in Ethiopia[^5] and in Nepal[^6].
+
+[^1]:Butte, G., C. Niwagaba, and A. Nordin. [Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output'](https://doi.org/10.1016/j.watres.2021.117068). Water Research 197 (1 June 2021)
+
+[^2]:Acharya, Kishor, Giacomo Butte, and David Werner. **'Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management'**. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.
+
+[^3]:Butte, Giacomo, Karishma Khadka, and Sanjeev Buchar. **'Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal'**. (To Be Submitted), 2024
+
+[^4]:Butte, Giacomo, Yady Tatiana Solano-Correa, Maria Valasia Peppa, Diana Marcela Ruíz-Ordóñez, Rachael Maysels, Nasser Tuqan, Xanthe Polaine, Carolina Montoya-Pachongo, Claire Walsh, and Thomas Curtis. [A Framework for Water Security Data Gathering Strategies](https://doi.org/10.3390/w14182907**)\*\*. Water 14, no. 18 (January 2022)
+
+[^5]:Hiruy, Andualem Mekonnen, Jemila Mohammed, Mihret Mersha Haileselassie, Kishor Acharya, Giacomo Butte, Alemseged Tamiru Haile, Claire Walsh, and David Werner. ['Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia'](https://doi.org/10.1016/j.scitotenv.2022.153912). Science of The Total Environment 826 (20 June 2022)
+
+[^6]:Pantha, Kalyan, Kishor Acharya, Sanjeeb Mohapatra, Santosh Khanal, Niroj Amatya, Carolina Ospina-Betancourth, Giacomo Butte, Suman Dhun Shrestha, Prajwal Rajbhandari, and David Werner. [Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing](https://doi.org/10.1038/s41545-021-00099-1). Npj Clean Water 4, no. 1 (18 February 2021): 1--10.
+
+## Reporting
+
+*Coursework /* [What COVID recovery policies for Ladakh? A preliminary screening](img/Butte_ladakh_policy.pdf)
+
+*Coursework /* [Analysis of migration patters in the italian Alps](img/Butte_mountain.pdf)
+
+*Coursework /* [Report on basic characterisation of Ladakh](img/Butte_Ladakh.pdf)
+
+*Coursework /* [Preliminary design for a 22 storey tower](img/Butte_coursework_concrete.pdf)
+
+*Coursework /* [Financial appraisal for the construction of a temporary bridge](img/Butte_hammersmith.pdf)
+
+## Design
+
+[PDF portfolio of selected works](img/Butte_portfolio_arch.pdf)

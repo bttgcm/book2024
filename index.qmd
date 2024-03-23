@@ -1,0 +1,27 @@
+---
+format:
+  html:
+    grid:
+      margin-width: 450px
+      body-width: 600px
+    toc: false
+---
+
+#  {.unnumbered}
+
+![](img/NSB.jpg)
+## Now
+Working for MSF in Bangladesh untill August as construction manager.
+in the last quarter of 2024 will be doing two interesting projects on product knowledge for research with ICIMOD and SLU.
+
+
+## Past
+I have spent the last 20 years by studying and working on different aspects of the relationship between human society, the built and the natural environment. Between 2000 and 2010 I have studied and worked in design and architecture firms exploring the cultural and socio-economic drivers that shape the built environment. In 2010, after relocating to Cambodia I started working as a consultant and contractor in the development sector. I have designed urban upgrading in informal settlements, small community centres. In Nepal I had the opportunity of being part of the post-earthquake response and reconstruction.
+
+In 2018, I took an MSc in Environmental Engineering at Newcastle University to better understand the relationship between the built and the natural environment. I was part of research projects on water quality and environmental risk assessment. This was also a great opportunity to acquire a sharper work methodology and learn new tools for assessment and analysis.
+
+In 2020 I have started working in the emergency sector as water, sanitation and habitat project manager. I have worked in Sudan (ICRC), Liberia and Malawi (MSF) mostly on health facilities infrastructure, water supply and emergency response.
+
+
+## Future
+If I could make a wish, I would like to work between field operations and HQ, between practitioners and researchers bridging different stakeholders. 

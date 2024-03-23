@@ -1,0 +1,70 @@
+project:
+  type: website
+
+website:
+  title: "Giacomo Butte"
+  site-url: "https://www.giacomobutte.com"
+  favicon: "assets/00_favicon/favicon.ico"
+  twitter-card: true
+  cookie-consent:
+    type: express
+    style: simple
+    palette: light
+  #prefs-text: "This site uses Google Analytics to analyse website traffic and improve your expreience of the site."
+ # google-analytics:
+   # tracking-id: "G-29RLTHLZB5"
+   # anonymize-ip: true
+
+  navbar:
+    background: primary
+    search: true
+    #left:
+    #  - href: index.qmd
+    #    text: Home
+    #  - about.qmd
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Profile
+        href: about.qmd
+      - text: Projects
+        href: projects.qmd
+      - text: Notebook
+        href: blog.qmd
+
+
+  page-footer:
+    #background: light
+    border: true
+    left: "Copyright 2024, Giacomo Butte"
+    center: ""
+   # right:
+    #  - icon: twitter
+     #   href: "https://www.twitter.com/jakobknulp"
+      #- icon: github
+       # href: "https://github.com/bttgcm"
+      #- icon: google
+       # href: "https://scholar.google.com/citations?user=3H4vg4cAAAAJ&hl=en&oi=ao"
+
+format:
+  html:
+    theme: [litera, custom.scss] #litera
+    #css: styles.css
+    fontsize: "15px"
+    linestretch: 1.6
+    mainfont: "Roboto"
+    monofont: "Fira Mono"
+    smooth-scroll: true
+    toc: true
+    code-link: false
+    grid:
+      margin-width: 350px
+
+reference-location: margin
+citation-location: margin
+
+#https://quarto-dev.github.io/quarto-gallery/page-layout/tufte.html
+
+
+
+
