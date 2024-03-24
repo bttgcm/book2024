@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Giacomo Butte – projects</title>
+<title>Giacomo Butte</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./assets/00_favicon/favicon.ico" rel="icon">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -48,7 +46,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -57,39 +61,27 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"express",
-  "palette":"light",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  });
-});
-</script> 
-  
 <style>html{ scroll-behavior: smooth; }</style>
 
 
+<meta name="twitter:title" content="Giacomo Butte">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Giacomo Butte</span>
     </a>
@@ -101,25 +93,25 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">Profile</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Profile</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" rel="" target="" aria-current="page">
- <span class="menu-text">Projects</span></a>
+    <a class="nav-link active" href="./projects.html" aria-current="page"> 
+<span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html" rel="" target="">
- <span class="menu-text">Notebook</span></a>
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Notebook</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools">
-</div>
           </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -133,8 +125,11 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#research" id="toc-research" class="nav-link active" data-scroll-target="#research">Research</a></li>
+  <li><a href="#visualisation-and-knowledge-products" id="toc-visualisation-and-knowledge-products" class="nav-link" data-scroll-target="#visualisation-and-knowledge-products">Visualisation and knowledge products</a></li>
+  <li><a href="#teaching" id="toc-teaching" class="nav-link" data-scroll-target="#teaching">Teaching</a></li>
   <li><a href="#reporting" id="toc-reporting" class="nav-link" data-scroll-target="#reporting">Reporting</a></li>
   <li><a href="#design" id="toc-design" class="nav-link" data-scroll-target="#design">Design</a></li>
+  <li><a href="#work-samples" id="toc-work-samples" class="nav-link" data-scroll-target="#work-samples">Work samples</a></li>
   </ul>
 </nav>
     </div>
@@ -143,10 +138,18 @@ cookieconsent.run({
 
 
 
+
 <section id="research" class="level2 page-columns page-full">
 <h2 class="anchored" data-anchor-id="research">Research</h2>
-<div class="page-columns page-full"><p>In the past I have carried work using probabilistic models for estimation. One publication used Quantitative Microbial Risk Assessment for estimating the risk of illness by wastewater sludge for agricultural practices in Uganda <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and cholera for Thai aquaculture workers<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>. A similar stochastic model was used for a different type of estimate while at ICIMOD to quantify the costs and benefits from spring water revival activities in mid-hill Nepal<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Butte, G., C. Niwagaba, and A. Nordin. <a href="https://doi.org/10.1016/j.watres.2021.117068">Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output’</a>. Water Research 197 (1 June 2021)</p></li><li id="fn2"><p><sup>2</sup>&nbsp;Acharya, Kishor, Giacomo Butte, and David Werner. <strong>‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’</strong>. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.</p></li><li id="fn3"><p><sup>3</sup>&nbsp;Butte, Giacomo, Karishma Khadka, and Sanjeev Buchar. <strong>‘Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal’</strong>. (To Be Submitted), 2024</p></li></div></div>
-<div class="page-columns page-full"><p>While at Newcastle University I proposed a framework for data gatering for Water Security<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. I was also involved in different research done by colleagues in Ethiopia<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> and in Nepal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;Butte, Giacomo, Yady Tatiana Solano-Correa, Maria Valasia Peppa, Diana Marcela Ruíz-Ordóñez, Rachael Maysels, Nasser Tuqan, Xanthe Polaine, Carolina Montoya-Pachongo, Claire Walsh, and Thomas Curtis. <a href="https://doi.org/10.3390/w14182907**">A Framework for Water Security Data Gathering Strategies</a>**. Water 14, no. 18 (January 2022)</p></li><li id="fn5"><p><sup>5</sup>&nbsp;Hiruy, Andualem Mekonnen, Jemila Mohammed, Mihret Mersha Haileselassie, Kishor Acharya, Giacomo Butte, Alemseged Tamiru Haile, Claire Walsh, and David Werner. <a href="https://doi.org/10.1016/j.scitotenv.2022.153912">‘Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia’</a>. Science of The Total Environment 826 (20 June 2022)</p></li><li id="fn6"><p><sup>6</sup>&nbsp;Pantha, Kalyan, Kishor Acharya, Sanjeeb Mohapatra, Santosh Khanal, Niroj Amatya, Carolina Ospina-Betancourth, Giacomo Butte, Suman Dhun Shrestha, Prajwal Rajbhandari, and David Werner. <a href="https://doi.org/10.1038/s41545-021-00099-1">Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing</a>. Npj Clean Water 4, no. 1 (18 February 2021): 1–10.</p></li></div></div>
+<p><span class="high-word"><em>Risk assessment</em></span> - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and another one on risk by vibrio cholera for Thai aquaculture workers<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Butte, G., C. Niwagaba, and A. Nordin. <a href="https://doi.org/10.1016/j.watres.2021.117068">Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output’</a>. Water Research 197 (1 June 2021)</p></div><div id="fn2"><p><sup>2</sup>&nbsp;Acharya, Kishor, Giacomo Butte, and David Werner. <strong>‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’</strong>. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.</p></div><div id="fn3"><p><sup>3</sup>&nbsp;Butte, Giacomo, Karishma Khadka, and Sanjeev Buchar. <strong>‘Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal’</strong>. (To Be Submitted), 2024</p></div></div><p><span class="high-word"><em>Cost-benefit analysis</em></span> - at <a href="https://www.icimod.org">ICIMOD</a>, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>.</p>
+<p><span class="high-word"><em>Water Security</em></span> While at Newcastle University I proposed a framework for data gathering for Water Security<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>. I was also involved in different research done by colleagues in Ethiopia<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> and in Nepal<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.</p>
+<div class="no-row-height column-margin column-container"><div id="fn4"><p><sup>4</sup>&nbsp;Butte, Giacomo, Yady Tatiana Solano-Correa, Maria Valasia Peppa, Diana Marcela Ruíz-Ordóñez, Rachael Maysels, Nasser Tuqan, Xanthe Polaine, Carolina Montoya-Pachongo, Claire Walsh, and Thomas Curtis. <a href="https://doi.org/10.3390/w14182907**">A Framework for Water Security Data Gathering Strategies</a>**. Water 14, no. 18 (January 2022)</p></div><div id="fn5"><p><sup>5</sup>&nbsp;Hiruy, Andualem Mekonnen, Jemila Mohammed, Mihret Mersha Haileselassie, Kishor Acharya, Giacomo Butte, Alemseged Tamiru Haile, Claire Walsh, and David Werner. <a href="https://doi.org/10.1016/j.scitotenv.2022.153912">‘Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia’</a>. Science of The Total Environment 826 (20 June 2022)</p></div><div id="fn6"><p><sup>6</sup>&nbsp;Pantha, Kalyan, Kishor Acharya, Sanjeeb Mohapatra, Santosh Khanal, Niroj Amatya, Carolina Ospina-Betancourth, Giacomo Butte, Suman Dhun Shrestha, Prajwal Rajbhandari, and David Werner. <a href="https://doi.org/10.1038/s41545-021-00099-1">Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing</a>. Npj Clean Water 4, no. 1 (18 February 2021): 1–10.</p></div></div></section>
+<section id="visualisation-and-knowledge-products" class="level2">
+<h2 class="anchored" data-anchor-id="visualisation-and-knowledge-products">Visualisation and knowledge products</h2>
+</section>
+<section id="teaching" class="level2">
+<h2 class="anchored" data-anchor-id="teaching">Teaching</h2>
 </section>
 <section id="reporting" class="level2">
 <h2 class="anchored" data-anchor-id="reporting">Reporting</h2>
@@ -155,10 +158,16 @@ cookieconsent.run({
 <p><em>Coursework /</em> <a href="img/Butte_Ladakh.pdf">Report on basic characterisation of Ladakh</a></p>
 <p><em>Coursework /</em> <a href="img/Butte_coursework_concrete.pdf">Preliminary design for a 22 storey tower</a></p>
 <p><em>Coursework /</em> <a href="img/Butte_hammersmith.pdf">Financial appraisal for the construction of a temporary bridge</a></p>
+<p><img src="img/design/img01.jpg" class="img-fluid" data-group="my-gallery" alt="A Lovely Image"> <img src="img/design/img02.jpg" class="img-fluid" data-group="my-gallery" alt="A Lovely Image"> <img src="img/design/img03.jpg" class="img-fluid" data-group="my-gallery" alt="A Lovely Image"> <img src="img/design/img04.jpg" class="img-fluid" data-group="my-gallery" alt="A Lovely Image"></p>
 </section>
 <section id="design" class="level2">
 <h2 class="anchored" data-anchor-id="design">Design</h2>
+<p>While working in architectural firms I was part of teams designing</p>
 <p><a href="img/Butte_portfolio_arch.pdf">PDF portfolio of selected works</a></p>
+</section>
+<section id="work-samples" class="level2">
+<h2 class="anchored" data-anchor-id="work-samples">Work samples</h2>
+<p>Academic writing Engineering report Financial appraisal GIS Draiwing</p>
 
 
 </section>
@@ -244,10 +253,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.giacomobutte\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -257,8 +283,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -270,7 +305,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -314,6 +472,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -339,6 +498,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -401,15 +586,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">Copyright 2024, Giacomo Butte</div>   
+    <div class="nav-footer-left">
+<p>Copyright 2024, Giacomo Butte</p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    </div>
     <div class="nav-footer-right">
       &nbsp;
     </div>
   </div>
 </footer>
+
 
 
 
