@@ -112,18 +112,25 @@
     "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot\n\n\nWarning: Removed 349 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\nWarning: Removed 11 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\n\n\n\n\n\n\n\nWarning: Removed 349 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 11 rows containing missing values or values outside the scale range\n(`geom_line()`)."
   },
   {
-    "objectID": "blog/idyll/idyll.html",
-    "href": "blog/idyll/idyll.html",
-    "title": "Explaining QMRA",
+    "objectID": "blog/procurement/index.html",
+    "href": "blog/procurement/index.html",
+    "title": "index",
     "section": "",
-    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
+    "text": "Context: decision in humanitarian context happen in a context characterized by urgency, high consequences for the choice made, time pressure, uncertainty.\n\n!&lt;–The significance of the decisions that have to be made (Cosgrave 1996; Hayles 2010; Metcalfe et al. 2011), lack of information on which to base these decisions (Hobbs et al. 2012; Ortuño et al. 2013; Colombo and Checchi 2018), consequent uncertainty (Benini 1997; Kruke and Olsen 2012; Ortuño et al. 2013), and lack of time in which to make decisions (Cosgrave 1996; Hayles 2010; Comes 2016). decisions are made in situations that are complex, uncertain, and time constrained; where there are many (often poorly coordinated) response actors; and where the stakes are extremely high4.–&gt; - rinke on risk - decisio nunder uncertainties\n\nSensemaking is often faulty. Even in development context, there is often a gap of knowledge in respect to local context. There is a belief that the mainstream globalised approach would work in any context. Staff that is often not exposed to the “outside” lack the tools to make sense of the information htat is receiving.\n\n\nkeywords for future explorations\nSensemaking theory"
   },
   {
-    "objectID": "blog/2021-05-01-acled/index.html",
-    "href": "blog/2021-05-01-acled/index.html",
-    "title": "Interactive map of violent events",
+    "objectID": "blog/dgs/dgsws.html",
+    "href": "blog/dgs/dgsws.html",
+    "title": "Article published on Water Journal",
     "section": "",
-    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
+    "text": "With colleagues fro the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
+  },
+  {
+    "objectID": "blog/airquality/airquality.html",
+    "href": "blog/airquality/airquality.html",
+    "title": "A short exploration on air quality monitoring",
+    "section": "",
+    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
   },
   {
     "objectID": "about.html",
@@ -154,18 +161,18 @@
     "text": "Education"
   },
   {
-    "objectID": "blog/airquality/airquality.html",
-    "href": "blog/airquality/airquality.html",
-    "title": "A short exploration on air quality monitoring",
+    "objectID": "blog/2021-05-01-acled/index.html",
+    "href": "blog/2021-05-01-acled/index.html",
+    "title": "Interactive map of violent events",
     "section": "",
-    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
+    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
   },
   {
-    "objectID": "blog/dgs/dgsws.html",
-    "href": "blog/dgs/dgsws.html",
-    "title": "Article published on Water Journal",
+    "objectID": "blog/idyll/idyll.html",
+    "href": "blog/idyll/idyll.html",
+    "title": "Explaining QMRA",
     "section": "",
-    "text": "With colleagues fro the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
+    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
   },
   {
     "objectID": "blog/qmra/qmra.html",
@@ -179,7 +186,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "A time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",

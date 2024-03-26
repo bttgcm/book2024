@@ -2,6 +2,7 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/procurement/index.html",
       "/blog/rain/index.html",
       "/blog/dgs/dgsws.html",
       "/blog/airquality/airquality.html",
