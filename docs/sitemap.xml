@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.giacomobutte.com/projects.html</loc>
-    <lastmod>2024-03-24T15:26:06.641Z</lastmod>
+    <loc>https://www.giacomobutte.com/scraps.html</loc>
+    <lastmod>2024-03-26T09:39:01.815Z</lastmod>
   </url>
   <url>
-    <loc>https://www.giacomobutte.com/blog.html</loc>
-    <lastmod>2024-03-23T08:18:45.035Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/blog/qmra/qmra.html</loc>
-    <lastmod>2024-03-23T08:18:35.166Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/blog/dgs/dgsws.html</loc>
-    <lastmod>2024-03-23T08:18:34.390Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/blog/airquality/airquality.html</loc>
-    <lastmod>2024-03-23T08:18:34.297Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/about.html</loc>
-    <lastmod>2024-03-24T16:43:05.830Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/blog/2021-05-01-acled/index.html</loc>
-    <lastmod>2024-03-23T08:18:34.263Z</lastmod>
-  </url>
-  <url>
-    <loc>https://www.giacomobutte.com/blog/idyll/idyll.html</loc>
-    <lastmod>2024-03-23T08:18:35.077Z</lastmod>
+    <loc>https://www.giacomobutte.com/index.html</loc>
+    <lastmod>2024-03-26T09:21:21.262Z</lastmod>
   </url>
   <url>
     <loc>https://www.giacomobutte.com/blog/rain/index.html</loc>
     <lastmod>2024-03-23T08:18:35.202Z</lastmod>
   </url>
   <url>
-    <loc>https://www.giacomobutte.com/index.html</loc>
-    <lastmod>2024-03-23T08:28:15.823Z</lastmod>
+    <loc>https://www.giacomobutte.com/blog/idyll/idyll.html</loc>
+    <lastmod>2024-03-23T08:18:35.077Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/blog/2021-05-01-acled/index.html</loc>
+    <lastmod>2024-03-23T08:18:34.263Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/about.html</loc>
+    <lastmod>2024-03-26T09:48:15.194Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/blog/airquality/airquality.html</loc>
+    <lastmod>2024-03-23T08:18:34.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/blog/dgs/dgsws.html</loc>
+    <lastmod>2024-03-23T08:18:34.390Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/blog/qmra/qmra.html</loc>
+    <lastmod>2024-03-23T08:18:35.166Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/blog.html</loc>
+    <lastmod>2024-03-23T08:18:45.035Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.giacomobutte.com/projects.html</loc>
+    <lastmod>2024-03-26T10:56:40.204Z</lastmod>
   </url>
 </urlset>
