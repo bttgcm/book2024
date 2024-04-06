@@ -35,88 +35,32 @@
     "text": "Future\nIf I could make a wish, I would like to work between field operations and HQ, between practitioners and researchers bridging different stakeholders."
   },
   {
-    "objectID": "blog/rain/index.html",
-    "href": "blog/rain/index.html",
-    "title": "A time series analysis on precipitation in Phyang",
+    "objectID": "blog/zotero/index.html",
+    "href": "blog/zotero/index.html",
+    "title": "Using codes for notetaking in Zotero",
     "section": "",
-    "text": "Attaching package: 'lubridate'\n\n\nThe following objects are masked from 'package:base':\n\n    date, intersect, setdiff, union\n\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr   1.1.2     ✔ stringr 1.5.0\n✔ forcats 1.0.0     ✔ tibble  3.2.1\n✔ purrr   1.0.2     ✔ tidyr   1.3.0\n✔ readr   2.1.4     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\nRegistered S3 method overwritten by 'quantmod':\n  method            from\n  as.zoo.data.frame zoo \n\n\nAttaching package: 'forecast'\n\n\nThe following object is masked from 'package:astsa':\n\n    gas\n\n\nRegistered S3 methods overwritten by 'ggfortify':\n  method                 from    \n  autoplot.Arima         forecast\n  autoplot.acf           forecast\n  autoplot.ar            forecast\n  autoplot.bats          forecast\n  autoplot.decomposed.ts forecast\n  autoplot.ets           forecast\n  autoplot.forecast      forecast\n  autoplot.stl           forecast\n  autoplot.ts            forecast\n  fitted.ar              forecast\n  fortify.ts             forecast\n  residuals.ar           forecast\n\n\nAttaching package: 'reshape2'\n\n\nThe following object is masked from 'package:tidyr':\n\n    smiths\n\n\nLoading required package: zoo\n\n\nAttaching package: 'zoo'\n\n\nThe following objects are masked from 'package:base':\n\n    as.Date, as.Date.numeric\n\n\n\n######################### Warning from 'xts' package ##########################\n#                                                                             #\n# The dplyr lag() function breaks how base R's lag() function is supposed to  #\n# work, which breaks lag(my_xts). Calls to lag(my_xts) that you type or       #\n# source() into this session won't work correctly.                            #\n#                                                                             #\n# Use stats::lag() to make sure you're not using dplyr::lag(), or you can add #\n# conflictRules('dplyr', exclude = 'lag') to your .Rprofile to stop           #\n# dplyr from breaking base R's lag() function.                                #\n#                                                                             #\n# Code in packages is not affected. It's protected by R's namespace mechanism #\n# Set `options(xts.warn_dplyr_breaks_lag = FALSE)` to suppress this warning.  #\n#                                                                             #\n###############################################################################\n\n\nAttaching package: 'xts'\n\n\nThe following objects are masked from 'package:dplyr':\n\n    first, last"
+    "text": "When doing a literature review on a given topic, I would find very useful to create codes for a specific sub-topic and then tag the relevant notes or quotes from the articles with the specific code. In this way it is very fast and precise to pinpoint all the relevant information.This is a very similar process as coding in qualitative analysis. At the end I would ideally have a list of notes with links to the articles, as well with tags associated. I have not found a way to do it but this wordkflow gets rather close to it."
   },
   {
-    "objectID": "blog/rain/index.html#exploratory-analysis",
-    "href": "blog/rain/index.html#exploratory-analysis",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Exploratory analysis",
-    "text": "Exploratory analysis\nData was obtained using Google Earth Engine and taken from the dataset CHIRPS Pentad. For reference on R command and tools to be used a great source is the online book on forecasting by Rob J Hyndman and George Athanasopoulos.\nPlot of monthly precipitation from 1981 to 2021 in Phyang and histogram of all monthly rainfall."
+    "objectID": "blog/zotero/index.html#resources",
+    "href": "blog/zotero/index.html#resources",
+    "title": "Using codes for notetaking in Zotero",
+    "section": "Resources",
+    "text": "Resources\nA Zotero manual https://zotero-manual.github.io/tags/"
   },
   {
-    "objectID": "blog/rain/index.html#rolling-average-sum-median",
-    "href": "blog/rain/index.html#rolling-average-sum-median",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Rolling average, sum, median",
-    "text": "Rolling average, sum, median\nPlot shows the rolling average, max, median and sum over a period of 36 months. A reduction in precipitation can be observed between 1998-2010.\n\n\nWarning in runmed(x, k, ...): 'k' must be odd!  Changing 'k' to 37\n\n\nWarning in NextMethod(\"[&lt;-\"): number of items to replace is not a multiple of\nreplacement length"
-  },
-  {
-    "objectID": "blog/rain/index.html#sub-annual-series",
-    "href": "blog/rain/index.html#sub-annual-series",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Sub-annual series",
-    "text": "Sub-annual series\nRainfall data disaggregated per month showing highest rain in June and July and lowest in May October and November. Highest variability across years in found in March, June, July while lowest in September, October and November. Additionally distribution for the month of March(black line), June (green), and July (red) is shown.\n\n\nDon't know how to automatically pick scale for object of type &lt;ts&gt;. Defaulting\nto continuous."
-  },
-  {
-    "objectID": "blog/rain/index.html#decomposition",
-    "href": "blog/rain/index.html#decomposition",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Decomposition",
-    "text": "Decomposition\nThe strength of the trend and seasonal measured between 0 and 1, while “1” means there’s very strong of trend and seasonal occurred.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1            0.4               0.8"
-  },
-  {
-    "objectID": "blog/rain/index.html#seasonality-analisys",
-    "href": "blog/rain/index.html#seasonality-analisys",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Seasonality analisys",
-    "text": "Seasonality analisys\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)\n\n\nWarning in geom_smooth(method = loess, legend = FALSE): Ignoring unknown\nparameters: `legend`\n\n\nDon't know how to automatically pick scale for object of type &lt;ts&gt;. Defaulting\nto continuous.\n`geom_smooth()` using formula = 'y ~ x'"
-  },
-  {
-    "objectID": "blog/rain/index.html#forecasting",
-    "href": "blog/rain/index.html#forecasting",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Forecasting",
-    "text": "Forecasting\nTrain period from 1981 to 12.2015 and test period from 01.2016\nData it is checked against stationary state.\n\n\n\n####################### \n# KPSS Unit Root Test # \n####################### \n\nTest is of type: mu with 5 lags. \n\nValue of test-statistic is: 0.3834 \n\nCritical value for a significance level of: \n                10pct  5pct 2.5pct  1pct\ncritical values 0.347 0.463  0.574 0.739\n\n\n\n############################################### \n# Augmented Dickey-Fuller Test Unit Root Test # \n############################################### \n\nTest regression none \n\n\nCall:\nlm(formula = z.diff ~ z.lag.1 - 1 + z.diff.lag)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-31.409  -4.913   2.164  10.967  73.397 \n\nCoefficients:\n           Estimate Std. Error t value Pr(&gt;|t|)    \nz.lag.1    -0.19147    0.03094  -6.188 1.32e-09 ***\nz.diff.lag -0.19143    0.04498  -4.256 2.51e-05 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 15.7 on 476 degrees of freedom\nMultiple R-squared:  0.1507,    Adjusted R-squared:  0.1471 \nF-statistic: 42.23 on 2 and 476 DF,  p-value: &lt; 2.2e-16\n\n\nValue of test-statistic is: -6.1878 \n\nCritical values for test statistics: \n      1pct  5pct 10pct\ntau1 -2.58 -1.95 -1.62\n\n\nUsing 95% as confidence level, the null hypothesis (ho) for both of test defined as:\nKPSS Test: Data are stationary at 10% confidence (value of 0.3834). DF Test:"
-  },
-  {
-    "objectID": "blog/rain/index.html#arima-analysis",
-    "href": "blog/rain/index.html#arima-analysis",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "ARIMA analysis",
-    "text": "ARIMA analysis\nUsing different models for ARIMA.\n\n\n\n\n\n\n\n\n\n     [,1]  [,2] [,3]  [,4]  [,5]  [,6]  [,7]  [,8]  [,9] [,10] [,11] [,12]\nACF  0.35  0.07 0.03 -0.17 -0.16 -0.03 -0.17 -0.20 -0.02  0.06  0.30  0.74\nPACF 0.35 -0.06 0.03 -0.21 -0.04  0.04 -0.19 -0.12  0.06  0.07  0.29  0.64\n     [,13] [,14] [,15] [,16] [,17] [,18] [,19] [,20] [,21] [,22] [,23] [,24]\nACF   0.32  0.05  0.01 -0.18 -0.15   0.0 -0.17 -0.19  0.01  0.06   0.3  0.71\nPACF -0.05 -0.06 -0.07 -0.08  0.02   0.1 -0.03  0.05  0.08 -0.01   0.1  0.31\n     [,25] [,26] [,27] [,28] [,29] [,30] [,31] [,32] [,33] [,34] [,35] [,36]\nACF   0.30  0.05 -0.01 -0.20 -0.17 -0.04 -0.18 -0.21  0.01  0.05  0.29  0.69\nPACF -0.07 -0.01 -0.09 -0.08 -0.03 -0.05  0.00 -0.03  0.08 -0.03  0.03  0.17\n     [,37] [,38] [,39] [,40] [,41] [,42] [,43] [,44] [,45] [,46] [,47] [,48]\nACF   0.29  0.03 -0.01 -0.18 -0.17 -0.04 -0.16 -0.21 -0.03  0.05  0.29  0.67\nPACF -0.05 -0.05 -0.03  0.02 -0.01  0.02  0.06 -0.03 -0.04  0.00  0.05  0.14\n\n\n\n\n\n\n\n\n\n\n    Ljung-Box test\n\ndata:  Residuals from ARIMA(1,0,1)(0,1,1)[12]\nQ* = 29.36, df = 21, p-value = 0.1056\n\nModel df: 3.   Total lags used: 24"
-  },
-  {
-    "objectID": "blog/rain/index.html#ets-model",
-    "href": "blog/rain/index.html#ets-model",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "ETS model",
-    "text": "ETS model\n\n\n\n\n\n\n\n\n\n\n    Ljung-Box test\n\ndata:  Residuals from ETS(M,Ad,M)\nQ* = 43.792, df = 24, p-value = 0.008067\n\nModel df: 0.   Total lags used: 24"
-  },
-  {
-    "objectID": "blog/rain/index.html#forecasting-1",
-    "href": "blog/rain/index.html#forecasting-1",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Forecasting",
-    "text": "Forecasting\n\n\nDon't know how to automatically pick scale for object of type &lt;ts&gt;. Defaulting\nto continuous.\n\n\nWarning: Removed 11 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 11 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\nWarning: Removed 420 rows containing missing values or values outside the scale range\n(`geom_line()`)."
-  },
-  {
-    "objectID": "blog/rain/index.html#accuracy-of-models",
-    "href": "blog/rain/index.html#accuracy-of-models",
-    "title": "A time series analysis on precipitation in Phyang",
-    "section": "Accuracy of models",
-    "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot\n\n\nWarning: Removed 349 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\nWarning: Removed 11 rows containing missing values or values outside the scale range\n(`geom_line()`).\n\n\n\n\n\n\n\n\n\nWarning: Removed 349 rows containing missing values or values outside the scale range\n(`geom_line()`).\nRemoved 11 rows containing missing values or values outside the scale range\n(`geom_line()`)."
-  },
-  {
-    "objectID": "blog/procurement/index.html",
-    "href": "blog/procurement/index.html",
-    "title": "index",
+    "objectID": "blog/qmra/qmra.html",
+    "href": "blog/qmra/qmra.html",
+    "title": "Article published on Water Research",
     "section": "",
-    "text": "Context: decision in humanitarian context happen in a context characterized by urgency, high consequences for the choice made, time pressure, uncertainty.\n\n!&lt;–The significance of the decisions that have to be made (Cosgrave 1996; Hayles 2010; Metcalfe et al. 2011), lack of information on which to base these decisions (Hobbs et al. 2012; Ortuño et al. 2013; Colombo and Checchi 2018), consequent uncertainty (Benini 1997; Kruke and Olsen 2012; Ortuño et al. 2013), and lack of time in which to make decisions (Cosgrave 1996; Hayles 2010; Comes 2016). decisions are made in situations that are complex, uncertain, and time constrained; where there are many (often poorly coordinated) response actors; and where the stakes are extremely high4.–&gt; - rinke on risk - decisio nunder uncertainties\n\nSensemaking is often faulty. Even in development context, there is often a gap of knowledge in respect to local context. There is a belief that the mainstream globalised approach would work in any context. Staff that is often not exposed to the “outside” lack the tools to make sense of the information htat is receiving.\n\n\nkeywords for future explorations\nSensemaking theory"
+    "text": "Very happy to have published with Charles Niwagaba and Annika Nordin an article on the risk assessment of wastewater sludge reuse. What we tried to quantify is the risk that consumer and workers would face while using wastewater sludge as a fertiliser. The numercial models that we built suggest that there is significant risk for both categories but also that other source of microbial contamination exist. We are now working on a policy briefing that will give suggestions on how to better address this issue in Uganda.\nRead the full article or listen to an episode of Paper to Practice."
+  },
+  {
+    "objectID": "blog/idyll/idyll.html",
+    "href": "blog/idyll/idyll.html",
+    "title": "Explaining QMRA",
+    "section": "",
+    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
   },
   {
     "objectID": "blog/dgs/dgsws.html",
@@ -168,39 +112,116 @@
     "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
   },
   {
-    "objectID": "blog/idyll/idyll.html",
-    "href": "blog/idyll/idyll.html",
-    "title": "Explaining QMRA",
+    "objectID": "blog/evidence/index.html",
+    "href": "blog/evidence/index.html",
+    "title": "Different workflows for rapid evidence gathering",
     "section": "",
-    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
+    "text": "Some notes on how to streamline a research on a specific topic on academic literature using few available free tools. Following a driagram of the process\n\n\n\n\n\nflowchart TB\n  A[Research topic] --&gt; B(Keywords)\n  B --&gt; C[Lit. search on databases]\n  C --&gt; D[Ranking and screening with AS Review]\n  D --&gt; E[Analysis]\n  E --&gt; F(Revised keyword)\n  F --&gt; C\n  E --&gt; G(Evidence synthesis)\n\n\n\n\n\n\n\n\n\nMy initial interest was on trying to understand the impact of healthcare design and nosocomial infections. I started with few quite general keywords: healthcare facility construction nosocomial. This is not the best choice of keywords but it is likely that at the beginning there is a lack of knowledge and terminology.\n\nhealthcare-associated epidemiology nosocomial Evidence Based Relationship Between Healthcare Infrastructure and Nosocomial Infections in Romania Enhancing appropriate environmental design in healthcare facilities for the inhibition of nosocomial infection Facility Design and Healthcare-Acquired Infections Surfaces and fomites as a source of healthcare-associated infections\n\n\n\n\nThe selected string for research shown above was searched in several databases using the Publish or Perish software1.In Scopus 23 articles were found, in crossreference 1000 articles,in semantic scholar 811 articles adn in PubMed 11.\nThe separate RIS files were imported in Zotero and a new file with all the results from different searches was exported\n\n1 https://harzing.com/resources/publish-or-perish/tutorial\n\n\n\nScreening was done using AS review2 in different steps. At first, article were manually screened. Using the terms “nosocomial AND design” 5 articles out of the 8 proposed were marked as relevant.\nThen ASReview started the active learn process on the 1825 papers3 using TF-IDF and Naive Bayes, clustering and dynamic resampling as options.\nThe model then proposed different papers to be reviewed for relevance. )0 articles were reviewed with 33 found to be relevant. As shown below, the model was suggesting papers with a 30% relevance ( around 3 paper over 10).\n\nThe relevant papers (33 then reduced to 30 due to duplication) were then exported.Since this is a manageable number we move to the analysis phase. Another option would be to use this bibliography and repeat from step 3.\n\n2 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work.3 see the website for more explanation\n\n\n\nA first analysis was done to create word-cloud from the titles of the relevant bibliography, see margin column.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNGRAM\n\n\n\nN-Grams\nVOS Viewer\n\n\n\n\nAfter this first round, and by inspecting the most relevant articles a new set of keywords can be proposed:\nFacility Design environmental contamination healthcare nosocomial\n\n\n\nhttps://estech.shinyapps.io/citationchaser/"
   },
   {
-    "objectID": "blog/qmra/qmra.html",
-    "href": "blog/qmra/qmra.html",
-    "title": "Article published on Water Research",
+    "objectID": "blog/evidence/index.html#tools",
+    "href": "blog/evidence/index.html#tools",
+    "title": "Different workflows for rapid evidence gathering",
+    "section": "Tools",
+    "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
+  },
+  {
+    "objectID": "blog/rain/index.html",
+    "href": "blog/rain/index.html",
+    "title": "A time series analysis on precipitation in Phyang",
     "section": "",
-    "text": "Very happy to have published with Charles Niwagaba and Annika Nordin an article on the risk assessment of wastewater sludge reuse. What we tried to quantify is the risk that consumer and workers would face while using wastewater sludge as a fertiliser. The numercial models that we built suggest that there is significant risk for both categories but also that other source of microbial contamination exist. We are now working on a policy briefing that will give suggestions on how to better address this issue in Uganda.\nRead the full article or listen to an episode of Paper to Practice."
+    "text": "Data was obtained using Google Earth Engine and taken from the dataset CHIRPS Pentad. For reference on R command and tools to be used a great source is the online book on forecasting by Rob J Hyndman and George Athanasopoulos.\nPlot of monthly precipitation from 1981 to 2021 in Phyang and histogram of all monthly rainfall."
+  },
+  {
+    "objectID": "blog/rain/index.html#exploratory-analysis",
+    "href": "blog/rain/index.html#exploratory-analysis",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "",
+    "text": "Data was obtained using Google Earth Engine and taken from the dataset CHIRPS Pentad. For reference on R command and tools to be used a great source is the online book on forecasting by Rob J Hyndman and George Athanasopoulos.\nPlot of monthly precipitation from 1981 to 2021 in Phyang and histogram of all monthly rainfall."
+  },
+  {
+    "objectID": "blog/rain/index.html#rolling-average-sum-median",
+    "href": "blog/rain/index.html#rolling-average-sum-median",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Rolling average, sum, median",
+    "text": "Rolling average, sum, median\nPlot shows the rolling average, max, median and sum over a period of 36 months. A reduction in precipitation can be observed between 1998-2010."
+  },
+  {
+    "objectID": "blog/rain/index.html#sub-annual-series",
+    "href": "blog/rain/index.html#sub-annual-series",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Sub-annual series",
+    "text": "Sub-annual series\nRainfall data disaggregated per month showing highest rain in June and July and lowest in May October and November. Highest variability across years in found in March, June, July while lowest in September, October and November. Additionally distribution for the month of March(black line), June (green), and July (red) is shown."
+  },
+  {
+    "objectID": "blog/rain/index.html#decomposition",
+    "href": "blog/rain/index.html#decomposition",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Decomposition",
+    "text": "Decomposition\nThe strength of the trend and seasonal measured between 0 and 1, while “1” means there’s very strong of trend and seasonal occurred.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1            0.4               0.8"
+  },
+  {
+    "objectID": "blog/rain/index.html#seasonality-analisys",
+    "href": "blog/rain/index.html#seasonality-analisys",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Seasonality analisys",
+    "text": "Seasonality analisys\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)\n\n\n\n\n\n\n\n\n\nResults of statistical testing\nPresence of trend not tested.\nEvidence of seasonality: TRUE  (pval: 0)"
+  },
+  {
+    "objectID": "blog/rain/index.html#forecasting",
+    "href": "blog/rain/index.html#forecasting",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Forecasting",
+    "text": "Forecasting\nTrain period from 1981 to 12.2015 and test period from 01.2016\nData it is checked against stationary state.\n\n\n\n####################### \n# KPSS Unit Root Test # \n####################### \n\nTest is of type: mu with 5 lags. \n\nValue of test-statistic is: 0.3834 \n\nCritical value for a significance level of: \n                10pct  5pct 2.5pct  1pct\ncritical values 0.347 0.463  0.574 0.739\n\n\n\n############################################### \n# Augmented Dickey-Fuller Test Unit Root Test # \n############################################### \n\nTest regression none \n\n\nCall:\nlm(formula = z.diff ~ z.lag.1 - 1 + z.diff.lag)\n\nResiduals:\n    Min      1Q  Median      3Q     Max \n-31.409  -4.913   2.164  10.967  73.397 \n\nCoefficients:\n           Estimate Std. Error t value Pr(&gt;|t|)    \nz.lag.1    -0.19147    0.03094  -6.188 1.32e-09 ***\nz.diff.lag -0.19143    0.04498  -4.256 2.51e-05 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 15.7 on 476 degrees of freedom\nMultiple R-squared:  0.1507,    Adjusted R-squared:  0.1471 \nF-statistic: 42.23 on 2 and 476 DF,  p-value: &lt; 2.2e-16\n\n\nValue of test-statistic is: -6.1878 \n\nCritical values for test statistics: \n      1pct  5pct 10pct\ntau1 -2.58 -1.95 -1.62\n\n\nUsing 95% as confidence level, the null hypothesis (ho) for both of test defined as:\nKPSS Test: Data are stationary at 10% confidence (value of 0.3834). DF Test:"
+  },
+  {
+    "objectID": "blog/rain/index.html#arima-analysis",
+    "href": "blog/rain/index.html#arima-analysis",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "ARIMA analysis",
+    "text": "ARIMA analysis\nUsing different models for ARIMA.\n\n\n\n\n\n\n\n\n\n     [,1]  [,2] [,3]  [,4]  [,5]  [,6]  [,7]  [,8]  [,9] [,10] [,11] [,12]\nACF  0.35  0.07 0.03 -0.17 -0.16 -0.03 -0.17 -0.20 -0.02  0.06  0.30  0.74\nPACF 0.35 -0.06 0.03 -0.21 -0.04  0.04 -0.19 -0.12  0.06  0.07  0.29  0.64\n     [,13] [,14] [,15] [,16] [,17] [,18] [,19] [,20] [,21] [,22] [,23] [,24]\nACF   0.32  0.05  0.01 -0.18 -0.15   0.0 -0.17 -0.19  0.01  0.06   0.3  0.71\nPACF -0.05 -0.06 -0.07 -0.08  0.02   0.1 -0.03  0.05  0.08 -0.01   0.1  0.31\n     [,25] [,26] [,27] [,28] [,29] [,30] [,31] [,32] [,33] [,34] [,35] [,36]\nACF   0.30  0.05 -0.01 -0.20 -0.17 -0.04 -0.18 -0.21  0.01  0.05  0.29  0.69\nPACF -0.07 -0.01 -0.09 -0.08 -0.03 -0.05  0.00 -0.03  0.08 -0.03  0.03  0.17\n     [,37] [,38] [,39] [,40] [,41] [,42] [,43] [,44] [,45] [,46] [,47] [,48]\nACF   0.29  0.03 -0.01 -0.18 -0.17 -0.04 -0.16 -0.21 -0.03  0.05  0.29  0.67\nPACF -0.05 -0.05 -0.03  0.02 -0.01  0.02  0.06 -0.03 -0.04  0.00  0.05  0.14\n\n\n\n\n\n\n\n\n\n\n    Ljung-Box test\n\ndata:  Residuals from ARIMA(1,0,1)(0,1,1)[12]\nQ* = 29.36, df = 21, p-value = 0.1056\n\nModel df: 3.   Total lags used: 24"
+  },
+  {
+    "objectID": "blog/rain/index.html#ets-model",
+    "href": "blog/rain/index.html#ets-model",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "ETS model",
+    "text": "ETS model\n\n\n\n\n\n\n\n\n\n\n    Ljung-Box test\n\ndata:  Residuals from ETS(M,Ad,M)\nQ* = 43.792, df = 24, p-value = 0.008067\n\nModel df: 0.   Total lags used: 24"
+  },
+  {
+    "objectID": "blog/rain/index.html#forecasting-1",
+    "href": "blog/rain/index.html#forecasting-1",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Forecasting",
+    "text": "Forecasting"
+  },
+  {
+    "objectID": "blog/rain/index.html#accuracy-of-models",
+    "href": "blog/rain/index.html#accuracy-of-models",
+    "title": "A time series analysis on precipitation in Phyang",
+    "section": "Accuracy of models",
+    "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "index\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Using codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Giacomo Butte",
     "section": "",
-    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. ‘Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal’. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies **. Water 14, no. 18 (January 2022)\nHiruy et al.,‘Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia’ . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
+    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies . Water 14, no. 18 (January 2022)\nHiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
   },
   {
     "objectID": "projects.html#research",
     "href": "projects.html#research",
     "title": "Giacomo Butte",
     "section": "",
-    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. ‘Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal’. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies **. Water 14, no. 18 (January 2022)\nHiruy et al.,‘Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia’ . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
+    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies . Water 14, no. 18 (January 2022)\nHiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
   },
   {
     "objectID": "projects.html#visualisation-and-knowledge-products",
@@ -214,7 +235,7 @@
     "href": "projects.html#reporting",
     "title": "Giacomo Butte",
     "section": "Reporting",
-    "text": "Reporting\nEngineering reports:\n\nPreliminary design for a 22 storey tower \nFinancial appraisal for the construction of a temporary bridge .\n\nPolicy and social analysis:\n\nAnalysis of migration patters in the italian Alps ,\nWhat COVID recovery policies for Ladakh? A preliminary screening. \nReport on basic characterisation of Ladakh"
+    "text": "Reporting\n\nEngineering report / coursework\nPreliminary design for a 22 storey tower \nEngineering report / coursework\nFinancial appraisal for the construction of a temporary bridge .\nPolicy analysis / coursework\nAnalysis of migration patters in the italian Alps ,\nPolicy analysis / coursework\nWhat COVID recovery policies for Ladakh? A preliminary screening. \nPolicy analysis / coursework\nReport on basic characterisation of Ladakh"
   },
   {
     "objectID": "projects.html#architectural-design",
