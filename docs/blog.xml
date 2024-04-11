@@ -178,6 +178,305 @@
   <pubDate>Thu, 02 Apr 2026 18:00:00 GMT</pubDate>
 </item>
 <item>
+  <title>Journal finder</title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/find_journal/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Finding an academic journal for publication it is not a linear process. Here some notes I have taken for different methods can be used. As an example I will use my search related to a recent research done at ICIMOD with the following abstract and keywords:</p>
+<div class="callout callout-style-simple callout-note no-icon">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Natural springs are the main water source for the 13 million people living in the midhills of Himalaya. These sources have been under stress due to numerous factors, such as climate change, infrastructural development, and socio-economic changes. To combat this trend, spring revival activities have been carried out across the Hindu Kush Himalaya in the last few years. Considering two study sites in Nepal, this work attempts the frst costbeneft analysis for spring revival in rural settings. Firstly, using literature and community consultations, we drafted a cause-eﬀect map. Secondly, we quantitatively estimate the costs and benefts using four scenarios: two based on the study sites and two on more generic situations. Positive (&gt;1) beneft-cost ratios were found in three scenarios, showing that spring revival has potential but local conditions (household served, presence of other water sources, usage) are important factors to be considered.</p>
+<p>Keywords: Nepal, spring, mountain, cost-benefit, revival, water</p>
+</div>
+</div>
+</div>
+<section id="using-search-engines" class="level2">
+<h2 class="anchored" data-anchor-id="using-search-engines">Using Search engines</h2>
+<p>The first method uses <a href="https://journalfinder.elsevier.com">ELSEVIER journal finder</a> and using the abstract as input. The matches were all marked as low matches. The second method used <a href="https://jane.biosemantics.org">JANE semantic engine</a>. results seemed very general and even using the keywords did not produce interesting results. CLARIVATE manuscript matcher (<a href="https://mjl.clarivate.com/manuscript-matcher" class="uri">https://mjl.clarivate.com/manuscript-matcher</a>). The reulsts were even less pertinent than in the previous 2 cases. See table below.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<table class="table table-sm table-striped small" data-quarto-postprocess="true">
+<caption>Results of searches form 3 engines</caption>
+<thead>
+<tr class="header">
+<th style="text-align: right;" data-quarto-table-cell-role="th">Rank</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">ELSEVIER_abs</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">JANE</th>
+<th style="text-align: left;" data-quarto-table-cell-role="th">Clarivate</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;">Forest Policy and Economics</td>
+<td style="text-align: left;">The Science of the total environment&nbsp;</td>
+<td style="text-align: left;">SUSTAINABILITY</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;">Ecological Economics</td>
+<td style="text-align: left;">Environmental monitoring and assessment</td>
+<td style="text-align: left;">ENVIRONMENTAL SCIENCE AND POLLUTION RESEARCH</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;">Land Use Policy</td>
+<td style="text-align: left;">Scientific reports</td>
+<td style="text-align: left;">APPLIED SCIENCES-BASEL</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;">World Development</td>
+<td style="text-align: left;">Heliyon&nbsp;</td>
+<td style="text-align: left;">PEERJ</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;">Environmental Development</td>
+<td style="text-align: left;">Environmental science and pollution research international</td>
+<td style="text-align: left;">ENERGIES</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;">Journal of Rural Studies</td>
+<td style="text-align: left;">Journal of geophysical research</td>
+<td style="text-align: left;">ENVIRONMENTAL MONITORING AND ASSESSMENT</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;">Global Environmental Change</td>
+<td style="text-align: left;">PloS one</td>
+<td style="text-align: left;">BIOMED RESEARCH INTERNATIONAL</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;">World Development Perspectives</td>
+<td style="text-align: left;">BMC microbiology</td>
+<td style="text-align: left;">ENVIRONMENTAL EARTH SCIENCES</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;">Ecosystem Services</td>
+<td style="text-align: left;">International journal of environmental research and public health</td>
+<td style="text-align: left;">LAND</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;">International Journal of Disaster Risk Reduction</td>
+<td style="text-align: left;">PeerJ</td>
+<td style="text-align: left;">NATURAL HAZARDS</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div>
+</section>
+<section id="using-cited-bibliography" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="using-cited-bibliography">Using cited bibliography</h2>
+<p>In the past I found a simpler and more effective way was also tried simply by looking at the cited bibliography in the text<sup>1</sup>. Results are shown below and seem to be much more pertinent.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;Process: [1] extract references from text using sites as <a href="https://anystyle.io">anystyle</a> or <a href="https://rintze.zelle.me/ref-extractor/">rintze:elle</a>. [2]Using R package bib2df import the .bib file as a dataframe. [3] Plot the most frequent journals.</p></div></div><div class="cell">
+<div class="cell-output-display">
+<div>
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Results from cited sources in the article</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Var1</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Freq</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Mountain Research and Development</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Water Policy</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Annual Review of Environment and Resources</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Ecological Economics</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Environmental Earth Sciences</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Journal of Hydrology</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Water International</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Results of literature search narrowed to Cost-Benefit analysis</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">Var1</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">Freq</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Water</td>
+<td style="text-align: right;">7</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Annual Review of Environment and Resources</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Ecological Economics</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Journal of Benefit-Cost Analysis</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Sustainability</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Agricultural Water Management</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Water Resources and Economics</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{butte2024,
+  author = {Butte, Giacomo},
+  title = {Journal Finder},
+  date = {2024-09-04},
+  url = {https://www.giacomobutte.com/blog/find_journal},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-butte2024" class="csl-entry quarto-appendix-citeas">
+Butte, Giacomo. 2024. <span>“Journal Finder.”</span> September 4, 2024.
+<a href="https://www.giacomobutte.com/blog/find_journal">https://www.giacomobutte.com/blog/find_journal</a>.
+</div></div></section></div> ]]></description>
+  <category>tools</category>
+  <category>R</category>
+  <guid>https://www.giacomobutte.com/blog/find_journal/</guid>
+  <pubDate>Tue, 03 Sep 2024 18:00:00 GMT</pubDate>
+  <media:content url="https://www.giacomobutte.com/blog/find_journal/img.png" medium="image" type="image/png" height="49" width="144"/>
+</item>
+<item>
+  <title>Visualising complexity</title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/visuals/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.giacomobutte.com/blog/visuals/qmra.png" class="img-fluid"></p>
+<p><img src="https://www.giacomobutte.com/blog/visuals/qmra02.png" class="img-fluid"></p>
+<section id="semantic-network" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="semantic-network">Semantic network</h2>
+<p>In an article on Water Security(WS) <sup>1</sup> we tried to find a way to compare different definition for the concept and to break down these definitions in parts for comparison. The result is something fairly close to semantic network <sup>2</sup>. From the image below one can see for example how the basic meaning is defined differently. looking at L2 and L3 in the image below, it can be observed that the majority of definitions see WS as “access / availability of water in sufficient quantity and quality”. Other definitions frame it using risk concepts and define it as “acceptable risk level / protection from diseases and disasters”. L4 defines the systems that are supported by WS: most mentioned are a health life and ecosystems, followed by economic aspects (livelihood and production). Lastly L5 indicates other limits that should be considered such as sustainability, geographical limitations, costs.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.mdpi.com/2073-4441/14/18/2907" class="uri">https://www.mdpi.com/2073-4441/14/18/2907</a></p></div><div id="fn2"><p><sup>2</sup>&nbsp;A semantic network, or frame network is a knowledge base that represents semantic relations between concepts in a network. This is often used as a form of knowledge representation. It is a directed or undirected graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts,[1] mapping or connecting semantic fields. A semantic network may be instantiated as, for example, a graph database or a concept map. Typical standardized semantic networks are expressed as semantic triples.(Wikipedia)</p></div></div><p><img src="https://www.giacomobutte.com/blog/visuals/water_security.png" class="img-fluid"></p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{butte2024,
+  author = {Butte, Giacomo},
+  title = {Visualising Complexity},
+  date = {2024-09-04},
+  url = {https://www.giacomobutte.com/blog/visuals},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-butte2024" class="csl-entry quarto-appendix-citeas">
+Butte, Giacomo. 2024. <span>“Visualising Complexity.”</span> September
+4, 2024. <a href="https://www.giacomobutte.com/blog/visuals">https://www.giacomobutte.com/blog/visuals</a>.
+</div></div></section></div> ]]></description>
+  <category>visualisation</category>
+  <category>communication</category>
+  <guid>https://www.giacomobutte.com/blog/visuals/</guid>
+  <pubDate>Tue, 03 Sep 2024 18:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Water Security as a diagram</title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/water_security/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.</p>
+<p>This “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).</p>
+<p><img src="https://www.giacomobutte.com/blog/water_security/system_framework.jpg" class="img-fluid"></p>
+<p>What is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).</p>
+<p><img src="https://www.giacomobutte.com/blog/water_security/dimensions.jpg" class="img-fluid"></p>
+<p>To test the diagram, I associated the Sustainable Development Goals with each section of the diagram:</p>
+<p><img src="https://www.giacomobutte.com/blog/water_security/SDG_all.jpg" class="img-fluid"></p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{butte2024,
+  author = {Butte, Giacomo},
+  title = {Water {Security} as a Diagram},
+  date = {2024-04-11},
+  url = {https://www.giacomobutte.com/blog/water_security},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-butte2024" class="csl-entry quarto-appendix-citeas">
+Butte, Giacomo. 2024. <span>“Water Security as a Diagram.”</span> April
+11, 2024. <a href="https://www.giacomobutte.com/blog/water_security">https://www.giacomobutte.com/blog/water_security</a>.
+</div></div></section></div> ]]></description>
+  <category>tools</category>
+  <category>visualisation</category>
+  <guid>https://www.giacomobutte.com/blog/water_security/</guid>
+  <pubDate>Wed, 10 Apr 2024 18:00:00 GMT</pubDate>
+  <media:content url="https://www.giacomobutte.com/blog/water_security/dimensions.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
   <title>A time series analysis on precipitation in Phyang</title>
   <dc:creator>Giacomo Butte</dc:creator>
   <link>https://www.giacomobutte.com/blog/rain/</link>

@@ -49,6 +49,13 @@
     "text": "Resources\nA Zotero manual https://zotero-manual.github.io/tags/"
   },
   {
+    "objectID": "blog/visuals/index.html#semantic-network",
+    "href": "blog/visuals/index.html#semantic-network",
+    "title": "Visualising complexity",
+    "section": "Semantic network",
+    "text": "Semantic network\nIn an article on Water Security(WS) 1 we tried to find a way to compare different definition for the concept and to break down these definitions in parts for comparison. The result is something fairly close to semantic network 2. From the image below one can see for example how the basic meaning is defined differently. looking at L2 and L3 in the image below, it can be observed that the majority of definitions see WS as “access / availability of water in sufficient quantity and quality”. Other definitions frame it using risk concepts and define it as “acceptable risk level / protection from diseases and disasters”. L4 defines the systems that are supported by WS: most mentioned are a health life and ecosystems, followed by economic aspects (livelihood and production). Lastly L5 indicates other limits that should be considered such as sustainability, geographical limitations, costs.\n1 https://www.mdpi.com/2073-4441/14/18/29072 A semantic network, or frame network is a knowledge base that represents semantic relations between concepts in a network. This is often used as a form of knowledge representation. It is a directed or undirected graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts,[1] mapping or connecting semantic fields. A semantic network may be instantiated as, for example, a graph database or a concept map. Typical standardized semantic networks are expressed as semantic triples.(Wikipedia)"
+  },
+  {
     "objectID": "blog/qmra/qmra.html",
     "href": "blog/qmra/qmra.html",
     "title": "Article published on Water Research",
@@ -63,18 +70,25 @@
     "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
   },
   {
-    "objectID": "blog/dgs/dgsws.html",
-    "href": "blog/dgs/dgsws.html",
-    "title": "Article published on Water Journal",
+    "objectID": "blog/evidence/index.html",
+    "href": "blog/evidence/index.html",
+    "title": "Different workflows for rapid evidence gathering",
     "section": "",
-    "text": "With colleagues fro the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
+    "text": "Some notes on how to streamline a research on a specific topic on academic literature using few available free tools. Following a driagram of the process\n\n\n\n\n\nflowchart TB\n  A[Research topic] --&gt; B(Keywords)\n  B --&gt; C[Lit. search on databases]\n  C --&gt; D[Ranking and screening with AS Review]\n  D --&gt; E[Analysis]\n  E --&gt; F(Revised keyword)\n  F --&gt; C\n  E --&gt; G(Evidence synthesis)\n\n\n\n\n\n\n\n\n\nMy initial interest was on trying to understand the impact of healthcare design and nosocomial infections. I started with few quite general keywords: healthcare facility construction nosocomial. This is not the best choice of keywords but it is likely that at the beginning there is a lack of knowledge and terminology.\n\nhealthcare-associated epidemiology nosocomial Evidence Based Relationship Between Healthcare Infrastructure and Nosocomial Infections in Romania Enhancing appropriate environmental design in healthcare facilities for the inhibition of nosocomial infection Facility Design and Healthcare-Acquired Infections Surfaces and fomites as a source of healthcare-associated infections\n\n\n\n\nThe selected string for research shown above was searched in several databases using the Publish or Perish software1.In Scopus 23 articles were found, in crossreference 1000 articles,in semantic scholar 811 articles adn in PubMed 11.\nThe separate RIS files were imported in Zotero and a new file with all the results from different searches was exported\n\n1 https://harzing.com/resources/publish-or-perish/tutorial\n\n\n\nScreening was done using AS review2 in different steps. At first, article were manually screened. Using the terms “nosocomial AND design” 5 articles out of the 8 proposed were marked as relevant.\nThen ASReview started the active learn process on the 1825 papers3 using TF-IDF and Naive Bayes, clustering and dynamic resampling as options.\nThe model then proposed different papers to be reviewed for relevance. )0 articles were reviewed with 33 found to be relevant. As shown below, the model was suggesting papers with a 30% relevance ( around 3 paper over 10).\n\nThe relevant papers (33 then reduced to 30 due to duplication) were then exported.Since this is a manageable number we move to the analysis phase. Another option would be to use this bibliography and repeat from step 3.\n\n2 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work.3 see the website for more explanation\n\n\n\nA first analysis was done to create word-cloud from the titles of the relevant bibliography, see margin column.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNGRAM\n\n\n\nN-Grams\nVOS Viewer\n\n\n\n\nAfter this first round, and by inspecting the most relevant articles a new set of keywords can be proposed:\nFacility Design environmental contamination healthcare nosocomial\n\n\n\nhttps://estech.shinyapps.io/citationchaser/"
   },
   {
-    "objectID": "blog/airquality/airquality.html",
-    "href": "blog/airquality/airquality.html",
-    "title": "A short exploration on air quality monitoring",
+    "objectID": "blog/evidence/index.html#tools",
+    "href": "blog/evidence/index.html#tools",
+    "title": "Different workflows for rapid evidence gathering",
+    "section": "Tools",
+    "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
+  },
+  {
+    "objectID": "blog/2021-05-01-acled/index.html",
+    "href": "blog/2021-05-01-acled/index.html",
+    "title": "Interactive map of violent events",
     "section": "",
-    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
+    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
   },
   {
     "objectID": "about.html",
@@ -105,25 +119,39 @@
     "text": "Education"
   },
   {
-    "objectID": "blog/2021-05-01-acled/index.html",
-    "href": "blog/2021-05-01-acled/index.html",
-    "title": "Interactive map of violent events",
+    "objectID": "blog/airquality/airquality.html",
+    "href": "blog/airquality/airquality.html",
+    "title": "A short exploration on air quality monitoring",
     "section": "",
-    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
+    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
   },
   {
-    "objectID": "blog/evidence/index.html",
-    "href": "blog/evidence/index.html",
-    "title": "Different workflows for rapid evidence gathering",
+    "objectID": "blog/dgs/dgsws.html",
+    "href": "blog/dgs/dgsws.html",
+    "title": "Article published on Water Journal",
     "section": "",
-    "text": "Some notes on how to streamline a research on a specific topic on academic literature using few available free tools. Following a driagram of the process\n\n\n\n\n\nflowchart TB\n  A[Research topic] --&gt; B(Keywords)\n  B --&gt; C[Lit. search on databases]\n  C --&gt; D[Ranking and screening with AS Review]\n  D --&gt; E[Analysis]\n  E --&gt; F(Revised keyword)\n  F --&gt; C\n  E --&gt; G(Evidence synthesis)\n\n\n\n\n\n\n\n\n\nMy initial interest was on trying to understand the impact of healthcare design and nosocomial infections. I started with few quite general keywords: healthcare facility construction nosocomial. This is not the best choice of keywords but it is likely that at the beginning there is a lack of knowledge and terminology.\n\nhealthcare-associated epidemiology nosocomial Evidence Based Relationship Between Healthcare Infrastructure and Nosocomial Infections in Romania Enhancing appropriate environmental design in healthcare facilities for the inhibition of nosocomial infection Facility Design and Healthcare-Acquired Infections Surfaces and fomites as a source of healthcare-associated infections\n\n\n\n\nThe selected string for research shown above was searched in several databases using the Publish or Perish software1.In Scopus 23 articles were found, in crossreference 1000 articles,in semantic scholar 811 articles adn in PubMed 11.\nThe separate RIS files were imported in Zotero and a new file with all the results from different searches was exported\n\n1 https://harzing.com/resources/publish-or-perish/tutorial\n\n\n\nScreening was done using AS review2 in different steps. At first, article were manually screened. Using the terms “nosocomial AND design” 5 articles out of the 8 proposed were marked as relevant.\nThen ASReview started the active learn process on the 1825 papers3 using TF-IDF and Naive Bayes, clustering and dynamic resampling as options.\nThe model then proposed different papers to be reviewed for relevance. )0 articles were reviewed with 33 found to be relevant. As shown below, the model was suggesting papers with a 30% relevance ( around 3 paper over 10).\n\nThe relevant papers (33 then reduced to 30 due to duplication) were then exported.Since this is a manageable number we move to the analysis phase. Another option would be to use this bibliography and repeat from step 3.\n\n2 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work.3 see the website for more explanation\n\n\n\nA first analysis was done to create word-cloud from the titles of the relevant bibliography, see margin column.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNGRAM\n\n\n\nN-Grams\nVOS Viewer\n\n\n\n\nAfter this first round, and by inspecting the most relevant articles a new set of keywords can be proposed:\nFacility Design environmental contamination healthcare nosocomial\n\n\n\nhttps://estech.shinyapps.io/citationchaser/"
+    "text": "With colleagues fro the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
   },
   {
-    "objectID": "blog/evidence/index.html#tools",
-    "href": "blog/evidence/index.html#tools",
-    "title": "Different workflows for rapid evidence gathering",
-    "section": "Tools",
-    "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
+    "objectID": "blog/find_journal/index.html",
+    "href": "blog/find_journal/index.html",
+    "title": "Journal finder",
+    "section": "",
+    "text": "Finding an academic journal for publication it is not a linear process. Here some notes I have taken for different methods can be used. As an example I will use my search related to a recent research done at ICIMOD with the following abstract and keywords:"
+  },
+  {
+    "objectID": "blog/find_journal/index.html#using-search-engines",
+    "href": "blog/find_journal/index.html#using-search-engines",
+    "title": "Journal finder",
+    "section": "Using Search engines",
+    "text": "Using Search engines\nThe first method uses ELSEVIER journal finder and using the abstract as input. The matches were all marked as low matches. The second method used JANE semantic engine. results seemed very general and even using the keywords did not produce interesting results. CLARIVATE manuscript matcher (https://mjl.clarivate.com/manuscript-matcher). The reulsts were even less pertinent than in the previous 2 cases. See table below.\n\n\n\n\nResults of searches form 3 engines\n\n\nRank\nELSEVIER_abs\nJANE\nClarivate\n\n\n\n\n1\nForest Policy and Economics\nThe Science of the total environment \nSUSTAINABILITY\n\n\n2\nEcological Economics\nEnvironmental monitoring and assessment\nENVIRONMENTAL SCIENCE AND POLLUTION RESEARCH\n\n\n3\nLand Use Policy\nScientific reports\nAPPLIED SCIENCES-BASEL\n\n\n4\nWorld Development\nHeliyon \nPEERJ\n\n\n5\nEnvironmental Development\nEnvironmental science and pollution research international\nENERGIES\n\n\n6\nJournal of Rural Studies\nJournal of geophysical research\nENVIRONMENTAL MONITORING AND ASSESSMENT\n\n\n7\nGlobal Environmental Change\nPloS one\nBIOMED RESEARCH INTERNATIONAL\n\n\n8\nWorld Development Perspectives\nBMC microbiology\nENVIRONMENTAL EARTH SCIENCES\n\n\n9\nEcosystem Services\nInternational journal of environmental research and public health\nLAND\n\n\n10\nInternational Journal of Disaster Risk Reduction\nPeerJ\nNATURAL HAZARDS"
+  },
+  {
+    "objectID": "blog/find_journal/index.html#using-cited-bibliography",
+    "href": "blog/find_journal/index.html#using-cited-bibliography",
+    "title": "Journal finder",
+    "section": "Using cited bibliography",
+    "text": "Using cited bibliography\nIn the past I found a simpler and more effective way was also tried simply by looking at the cited bibliography in the text1. Results are shown below and seem to be much more pertinent.\n1 Process: [1] extract references from text using sites as anystyle or rintze:elle. [2]Using R package bib2df import the .bib file as a dataframe. [3] Plot the most frequent journals.\n\n\n\nResults from cited sources in the article\n\n\nVar1\nFreq\n\n\n\n\nMountain Research and Development\n7\n\n\nWater Policy\n7\n\n\nAnnual Review of Environment and Resources\n3\n\n\nEcological Economics\n3\n\n\nEnvironmental Earth Sciences\n3\n\n\nJournal of Hydrology\n3\n\n\nWater International\n3\n\n\n\n\n\n\n\n\n\n\nResults of literature search narrowed to Cost-Benefit analysis\n\n\nVar1\nFreq\n\n\n\n\nWater\n7\n\n\nAnnual Review of Environment and Resources\n5\n\n\nEcological Economics\n5\n\n\nNA\n5\n\n\nJournal of Benefit-Cost Analysis\n4\n\n\nSustainability\n4\n\n\nAgricultural Water Management\n3\n\n\nWater Resources and Economics\n3"
   },
   {
     "objectID": "blog/rain/index.html",
@@ -203,11 +231,18 @@
     "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot"
   },
   {
+    "objectID": "blog/water_security/index.html",
+    "href": "blog/water_security/index.html",
+    "title": "Water Security as a diagram",
+    "section": "",
+    "text": "When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.\nThis “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).\n\nWhat is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).\n\nTo test the diagram, I associated the Sustainable Development Goals with each section of the diagram:\n\n\n\n\nCitationBibTeX citation:@online{butte2024,\n  author = {Butte, Giacomo},\n  title = {Water {Security} as a Diagram},\n  date = {2024-04-11},\n  url = {https://www.giacomobutte.com/blog/water_security},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2024. “Water Security as a Diagram.” April\n11, 2024. https://www.giacomobutte.com/blog/water_security."
+  },
+  {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Using codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Using codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal finder\n\n\n\ntools\n\n\nR\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualising complexity\n\n\n\nvisualisation\n\n\ncommunication\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Security as a diagram\n\n\n\ntools\n\n\nvisualisation\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
