@@ -49,11 +49,60 @@
     "text": "Resources\nA Zotero manual https://zotero-manual.github.io/tags/"
   },
   {
+    "objectID": "blog/water_security/index.html",
+    "href": "blog/water_security/index.html",
+    "title": "Water Security as a diagram",
+    "section": "",
+    "text": "When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.\nThis “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).\n\nWhat is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).\n\nTo test the diagram, I associated the Sustainable Development Goals with each section of the diagram:\n\n\n\n\nCitationBibTeX citation:@online{butte2024,\n  author = {Butte, Giacomo},\n  title = {Water {Security} as a Diagram},\n  date = {2024-04-11},\n  url = {https://www.giacomobutte.com/blog/water_security},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2024. “Water Security as a Diagram.” April\n11, 2024. https://www.giacomobutte.com/blog/water_security."
+  },
+  {
     "objectID": "blog/visuals/index.html#semantic-network",
     "href": "blog/visuals/index.html#semantic-network",
     "title": "Visualising complexity",
     "section": "Semantic network",
     "text": "Semantic network\nIn an article on Water Security(WS) 1 we tried to find a way to compare different definition for the concept and to break down these definitions in parts for comparison. The result is something fairly close to semantic network 2. From the image below one can see for example how the basic meaning is defined differently. looking at L2 and L3 in the image below, it can be observed that the majority of definitions see WS as “access / availability of water in sufficient quantity and quality”. Other definitions frame it using risk concepts and define it as “acceptable risk level / protection from diseases and disasters”. L4 defines the systems that are supported by WS: most mentioned are a health life and ecosystems, followed by economic aspects (livelihood and production). Lastly L5 indicates other limits that should be considered such as sustainability, geographical limitations, costs.\n1 https://www.mdpi.com/2073-4441/14/18/29072 A semantic network, or frame network is a knowledge base that represents semantic relations between concepts in a network. This is often used as a form of knowledge representation. It is a directed or undirected graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts,[1] mapping or connecting semantic fields. A semantic network may be instantiated as, for example, a graph database or a concept map. Typical standardized semantic networks are expressed as semantic triples.(Wikipedia)"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html",
+    "href": "blog/rain_cox/index.html",
+    "title": "How rainy is the rainy season?",
+    "section": "",
+    "text": "When planning for construction work, rainfall become a very crucial factor. Data is easily available with month averages but more insights into historical data may be beneficial. I gathered data from Cox Bazaar weather station and did some analysis."
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#data-gathering",
+    "href": "blog/rain_cox/index.html#data-gathering",
+    "title": "How rainy is the rainy season?",
+    "section": "Data gathering",
+    "text": "Data gathering\nAnalysis of daily rainy precipitation recorded at Cox’s Bazar weather station, 1970 to 2016. Data source.\n\n\nCode\n#https://www.kaggle.com/datasets/redikod/historical-rainfall-data-in-bangladesh?resource=download\n#https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e\nlibrary(rbokeh)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(tidyverse)\nlibrary(dplyr)\nlibrary(astsa)\nlibrary(forecast)\nlibrary(readxl)\nlibrary(urca)\nlibrary(ggfortify)\nlibrary(tsutils)\nlibrary(reshape2)\nlibrary(xts)\nlibrary(tidyr)\n## Load data, select station and erase NA\nraw &lt;- read.csv(\"bgd_hist_precipitation.csv\")%&gt;%filter(Station==\"CoxsBazar\")\nraw$Date &lt;- as.Date(paste(raw$Year,raw$Month,raw$Day,sep=\"-\"))\nraw &lt;- filter(raw,!is.na(raw$Date))\n\n#Create day of the year\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\nraw$MonWord&lt;- format(raw$Date, \"%h\")\n\n# Create timeserie\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \n\n# Compute stats based on DoY\nrain_day &lt;- data.frame(rain=raw$Rainfall, day=raw$DayOfYear)\nrain_avg &lt;- rain_day %&gt;% group_by(day) %&gt;%\n  summarize(mean = mean(rain),\n            median= median(rain),\n            rain_perc=sum(rain &gt; 0)/length(rain),\n            rain_heavy=sum(rain &gt; 80)/length(rain))\n# Add months and day\nrain_avg$month &lt;- raw[1:366, \"Month\"]\nrain_avg$daymonth &lt;- raw[1:366, \"Day\"]\nrain_avg$monword &lt;- raw[1:366, \"MonWord\"]\n\n\n#raw$singleday &lt;- paste(raw$Month,raw$Day,sep=\"-\")\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\n\n##Filter data for Cox bazar\ndata_cox &lt;- filter(raw, raw$Station==\"CoxsBazar\")\ndata_cox &lt;- filter(data_cox,!is.na(data_cox$Date))\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \nrain_ts_df &lt;-data.frame(Y=as.matrix(data_ts), date=time(data_ts))\nwrite.csv(data_cox, \"data_cox.csv\")"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#basic-exploration",
+    "href": "blog/rain_cox/index.html#basic-exploration",
+    "title": "How rainy is the rainy season?",
+    "section": "Basic exploration",
+    "text": "Basic exploration\nPlot of rainfall timeseries for Cox Bazar. While this is interesting, it gives only information on max precipitation, an idea about seasonl cycle.\n\n\n\n\n\n\n\n\n\nMore interesting is to see precipitation across the same day of the year (numbered from 1-365)"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#decomposition",
+    "href": "blog/rain_cox/index.html#decomposition",
+    "title": "How rainy is the rainy season?",
+    "section": "Decomposition",
+    "text": "Decomposition\nDecomposition of the time series in seasonality remainer and trend\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1              0               0.2"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#above-a-given-threshold",
+    "href": "blog/rain_cox/index.html#above-a-given-threshold",
+    "title": "How rainy is the rainy season?",
+    "section": "Above a given threshold",
+    "text": "Above a given threshold\nAnother analysis could show the occurrence of a rainy day (expressed as fraction 0 to 1) based on the historical data.The plot below shows that in July around 85% of the days in the dataset reported rainy events. This could also be done with a specific threshold of rain (ex. 80mm/24h) indicating the occurance of heavy storms for a given day of the year."
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#anallysis-for-a-single-day",
+    "href": "blog/rain_cox/index.html#anallysis-for-a-single-day",
+    "title": "How rainy is the rainy season?",
+    "section": "Anallysis for a single day",
+    "text": "Anallysis for a single day\nLet’s imagine there is a construction work in the first week of June (day 153 to 160)"
   },
   {
     "objectID": "blog/qmra/qmra.html",
@@ -84,11 +133,11 @@
     "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
   },
   {
-    "objectID": "blog/2021-05-01-acled/index.html",
-    "href": "blog/2021-05-01-acled/index.html",
-    "title": "Interactive map of violent events",
+    "objectID": "blog/airquality/airquality.html",
+    "href": "blog/airquality/airquality.html",
+    "title": "A short exploration on air quality monitoring",
     "section": "",
-    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
+    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
   },
   {
     "objectID": "about.html",
@@ -119,11 +168,11 @@
     "text": "Education"
   },
   {
-    "objectID": "blog/airquality/airquality.html",
-    "href": "blog/airquality/airquality.html",
-    "title": "A short exploration on air quality monitoring",
+    "objectID": "blog/2021-05-01-acled/index.html",
+    "href": "blog/2021-05-01-acled/index.html",
+    "title": "Interactive map of violent events",
     "section": "",
-    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
+    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
   },
   {
     "objectID": "blog/dgs/dgsws.html",
@@ -231,52 +280,80 @@
     "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot"
   },
   {
-    "objectID": "blog/water_security/index.html",
-    "href": "blog/water_security/index.html",
-    "title": "Water Security as a diagram",
+    "objectID": "blog/sls/index.html",
+    "href": "blog/sls/index.html",
+    "title": "Street Life Studies",
     "section": "",
-    "text": "When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.\nThis “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).\n\nWhat is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).\n\nTo test the diagram, I associated the Sustainable Development Goals with each section of the diagram:\n\n\n\n\nCitationBibTeX citation:@online{butte2024,\n  author = {Butte, Giacomo},\n  title = {Water {Security} as a Diagram},\n  date = {2024-04-11},\n  url = {https://www.giacomobutte.com/blog/water_security},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2024. “Water Security as a Diagram.” April\n11, 2024. https://www.giacomobutte.com/blog/water_security."
+    "text": "Street Life Studies is a series of workshop run by UNSW Sydney in partnership with RUFA Phnom Penh. The idea was to challenge students to look at public spaces using direct observations.\n\n\n\n\n\nCitationBibTeX citation:@online{butte2020,\n  author = {Butte, Giacomo},\n  title = {Street {Life} {Studies}},\n  date = {2020-09-04},\n  url = {https://www.giacomobutte.com/blog/sls},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2020. “Street Life Studies.” September 4,\n2020. https://www.giacomobutte.com/blog/sls."
+  },
+  {
+    "objectID": "blog/whirlybirds/pdf.html",
+    "href": "blog/whirlybirds/pdf.html",
+    "title": "Small Projects: whirly birds",
+    "section": "",
+    "text": "Complying to thermal requirement in terms of temperature and relative humidity is a challenge in countries with tropical weather. In particular, warehouses with metal roof experience high temperature in the attic under the roof. This heat is then transmitted via the suspended ceiling to the space below that is artificially climatised. To reduce the work to be done by AC we installed two whirly birds in the warehouse in Jamtoli. We set up a small monitoring system by using temperature logs in 3 different location: outside, 20 cm below the roof overhang, in a shaded place, inside the corridor that exist between the entrance and the AC space, and above the suspended ceiling."
+  },
+  {
+    "objectID": "blog/whirlybirds/pdf.html#introduction",
+    "href": "blog/whirlybirds/pdf.html#introduction",
+    "title": "Small Projects: whirly birds",
+    "section": "",
+    "text": "Complying to thermal requirement in terms of temperature and relative humidity is a challenge in countries with tropical weather. In particular, warehouses with metal roof experience high temperature in the attic under the roof. This heat is then transmitted via the suspended ceiling to the space below that is artificially climatised. To reduce the work to be done by AC we installed two whirly birds in the warehouse in Jamtoli. We set up a small monitoring system by using temperature logs in 3 different location: outside, 20 cm below the roof overhang, in a shaded place, inside the corridor that exist between the entrance and the AC space, and above the suspended ceiling."
+  },
+  {
+    "objectID": "blog/whirlybirds/pdf.html#data",
+    "href": "blog/whirlybirds/pdf.html#data",
+    "title": "Small Projects: whirly birds",
+    "section": "Data",
+    "text": "Data\nData was collected during the months of April and May with the whirly birds open during that period with the exception of the week between 15 May 5pm to 21 May 5pm. A plot of the collected data in the a two month period. During this period the whirly birds where sealed for 6 days to see if they had any impact.\n\n\n\n\n\n\n\n\n\nA plot of the difference in temperature between ceiling and outside is shown below.\n\n\n\n\n\n\n\n\n\nThe following plot shows the relation of temperature difference versus outdoor temperature. We can observe two modes: with and without sunlight radiation. Up to sunrise, difference is negative while when sun radiation starts to heat the roof the relationship changes and temperature difference reaches positive values (attic warmer than outside). The data collected did not record the amount of haze and therefore the intensity of sun radiation that could be one of the factor (with Relative humidity) that generates variability. Adding a smooth curve shows another difference, above 34 C the whirly birds start to show a statistically significant difference in their impact on temperature difference but in the opposite direction as expected.\nWe should keep in mind that the closure of the whirly birds was done only for 1 week and that sun radiation, affected by cloudiness for example, was not recorded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs seen above, the effect of the whirly birds changes across the day and across temperatures. below a plot over the 24h and over working hours.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFour regression models were run: \\[M1: T_{diff} = \\alpha + \\beta T_{ext}\\] \\[M2: T_{diff} = \\alpha + \\beta T_{ext}+ WB\\] \\[M3: T_{diff} = \\alpha + \\beta T_{ext_{8-17h}}\\] \\[M4: T_{diff} = \\alpha + \\beta T_{ext_{8-17h}}+WB\\]\nTwo model only regressing the difference between ceiling and outdoor temperature on outdoor temperature (M1, M3) and two having whirly bird treatment (with values 1 and 0 for open and close) on models M2 and M4. Additionally model M3 and M4 have used only temperature between 7am and 5pm. Result show a negative impact on temperature difference (less difference) across the recorded values (-0.15) and even more in the 7am 5pm range (-0.34). In both case the result are not statistically significant.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n*M1\nM2\nM3\nM4\n\n\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\n\n\n\n\noutside\n0.71\n0.69, 0.73\n&lt;0.001\n0.71\n0.69, 0.73\n&lt;0.001\n0.72\n0.67, 0.76\n&lt;0.001\n0.71\n0.66, 0.75\n&lt;0.001\n\n\nwb\n\n\n\n\n\n\n0.16\n-0.07, 0.39\n0.2\n\n\n\n\n\n\n-0.34\n-0.70, 0.02\n0.063\n\n\n\n1 CI = Confidence Interval"
+  },
+  {
+    "objectID": "blog/whirlybirds/pdf.html#conclusion",
+    "href": "blog/whirlybirds/pdf.html#conclusion",
+    "title": "Small Projects: whirly birds",
+    "section": "Conclusion",
+    "text": "Conclusion\nthe data collected does not support the positive impact of whirly birds on the difference of temperature between the attic and outside. The data may not be capturing sigmificant other factors such as sun radiance, humidity, wind. interestingly up to 34 C the whirly birds have a positive impact but this reverses at 36. it hsould also be considered that maybe the wrapped whirly birds may act as heat collector and therefore contributing to the overl warming of the roof-attic.\nFurther data should be collected, perhaps adding more information on the sky condition, humidity, wind. Analysis should be run again with thenew gathered data."
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Using codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal finder\n\n\n\ntools\n\n\nR\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualising complexity\n\n\n\nvisualisation\n\n\ncommunication\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Security as a diagram\n\n\n\ntools\n\n\nvisualisation\n\n\n\n\n\n\n\nGiacomo Butte\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Small Projects: whirly birds\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal finder\n\n\n\ntools\n\n\nR\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualising complexity\n\n\n\nvisualisation\n\n\ncommunication\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow rainy is the rainy season?\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Cox’ Bazar\n\n\n\nGiacomo Butte\n\n\nApr 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Security as a diagram\n\n\n\ntools\n\n\nvisualisation\n\n\n\n\n\n\n\nGiacomo Butte\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStreet Life Studies\n\n\n\ntools\n\n\nR\n\n\n\na series of project on public space in Cambodia\n\n\n\nGiacomo Butte\n\n\nSep 4, 2020\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
     "href": "projects.html",
     "title": "Giacomo Butte",
     "section": "",
-    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies . Water 14, no. 18 (January 2022)\nHiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
+    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\nArticle - Butte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output .pdf\nPolicy brief - Faecal sludge as fertiliser, Are there Risks for Disease Transmission? .pdf\nConference paper - Acharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3]\nArticle - Butte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\nArticle - Butte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies. Water 14, no. 18 (January 2022). .pdf\nArticle - Hiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia.Science of The Total Environment 826 (20 June 2022). .pdf\nArticle - Pantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing. Npj Clean Water 4, no. 1 (18 February 2021): 1–10..pdf"
   },
   {
     "objectID": "projects.html#research",
     "href": "projects.html#research",
     "title": "Giacomo Butte",
     "section": "",
-    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\n\nButte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output \nAcharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\n\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3].\n\nButte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\n\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\n\nButte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies . Water 14, no. 18 (January 2022)\nHiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia . Science of The Total Environment 826 (20 June 2022)\nPantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing . Npj Clean Water 4, no. 1 (18 February 2021): 1–10."
+    "text": "Risk assessment - In the past I have carried work using probabilistic models to estimate risk of illness for a target population. This led to one publication estimating the risk of illness by wastewater sludge for agricultural practices in Uganda and another one on risk by vibrio cholera for Thai aquaculture workers.\nArticle - Butte, G., C. Niwagaba, and A. Nordin. Assessing the Microbial Risk of Faecal Sludge Use in Ugandan Agriculture by Comparing Field and Theoretical Model Output .pdf\nPolicy brief - Faecal sludge as fertiliser, Are there Risks for Disease Transmission? .pdf\nConference paper - Acharya, Kishor, Giacomo Butte, and David Werner. ‘Environmental DNA Sequencing for Sustainable Aquaculture and Other Technologies for Water Quality Management’. Conference at Kung Krabaen Bay Royal Development Study Center, 3-6 July 2023, 2023.\nCost-benefit analysis - at ICIMOD, using similar stochastic model i estimated the cost and benefits of spring water revival in mid-hill regions in Nepal[^3]\nArticle - Butte, Giacomo, Karishma Khadka, and Sanjeev Buchar. Cost-Benefit Analysis of Mountain Spring Water Revival: A Case from Nepal. (To Be Submitted), 2024\nWater Security While at Newcastle University I proposed a framework for data gathering for Water Security. I was also involved in different research done by colleagues in Ethiopia and in Nepal.\nArticle - Butte, Giacomo, et al. A Framework for Water Security Data Gathering Strategies. Water 14, no. 18 (January 2022). .pdf\nArticle - Hiruy et al.,Spatiotemporal Variation in Urban Wastewater Pollution Impacts on River Microbiomes and Associated Hazards in the Akaki Catchment, Addis Ababa, Ethiopia.Science of The Total Environment 826 (20 June 2022). .pdf\nArticle - Pantha et al.,Faecal Pollution Source Tracking in the Holy Bagmati River by Portable 16S rRNA Gene Sequencing. Npj Clean Water 4, no. 1 (18 February 2021): 1–10..pdf"
   },
   {
     "objectID": "projects.html#visualisation-and-knowledge-products",
     "href": "projects.html#visualisation-and-knowledge-products",
     "title": "Giacomo Butte",
     "section": "Visualisation and knowledge products",
-    "text": "Visualisation and knowledge products\nKandisky described the role of avantguarde as the point of a triangle that pushes ahead society as a whole. Today, between that avantgarde point and society there is a wider and wider gap. Within this gap there are opportunities for linking and explaining concepts and ideas using knowledge products.\n\nA 10 min explanation of quantitative microbial risk estimate \nDashboard on violent events in Sudan"
+    "text": "Visualisation and knowledge products\nKandisky described the role of avantguarde as the point of a triangle that pushes ahead society as a whole. Today, between that avantgarde point and society there is a wider and wider gap. Within this gap there are opportunities for linking and explaining concepts and ideas using knowledge products.\nA 10 min explanation of quantitative microbial risk estimate .html\nShiny R Dashboard on violent events in Sudan .html"
   },
   {
     "objectID": "projects.html#reporting",
     "href": "projects.html#reporting",
     "title": "Giacomo Butte",
     "section": "Reporting",
-    "text": "Reporting\n\nEngineering report / coursework\nPreliminary design for a 22 storey tower \nEngineering report / coursework\nFinancial appraisal for the construction of a temporary bridge .\nPolicy analysis / coursework\nAnalysis of migration patters in the italian Alps ,\nPolicy analysis / coursework\nWhat COVID recovery policies for Ladakh? A preliminary screening. \nPolicy analysis / coursework\nReport on basic characterisation of Ladakh"
+    "text": "Reporting\nEngineering report / coursework\nPreliminary design for a 22 storey tower .pdf\nFinancial appraisal for the construction of a temporary bridge .pdf.\nPolicy analysis / coursework\nAnalysis of migration patters in the italian Alps .pdf\nWhat COVID recovery policies for Ladakh? A preliminary screening .pdf\nContext analysis / coursework\nReport on basic characterisation of Ladakh .pdf"
   },
   {
     "objectID": "projects.html#architectural-design",
     "href": "projects.html#architectural-design",
     "title": "Giacomo Butte",
     "section": "Architectural design",
-    "text": "Architectural design\nWhile working in architectural firms I was part of teams quite diverse projects ranging from designing public space to factories to low cost housing to furniture.\n\nPDF portfolio of selected works"
+    "text": "Architectural design\nWhile working in architectural firms I was part of teams quite diverse projects ranging from designing public space to factories to low cost housing to furniture.\nPortfolio - Selected design and architecture projects .pdf"
   }
 ]
