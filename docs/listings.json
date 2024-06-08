@@ -2,16 +2,20 @@
   {
     "listing": "/blog.html",
     "items": [
+      "/blog/visual_cv/index.html",
+      "/blog/whirlybirds/pdf.html",
       "/blog/zotero/index.html",
       "/blog/evidence/index.html",
       "/blog/find_journal/index.html",
       "/blog/visuals/index.html",
+      "/blog/rain_cox/index.html",
       "/blog/water_security/index.html",
       "/blog/rain/index.html",
       "/blog/dgs/dgsws.html",
       "/blog/airquality/airquality.html",
       "/blog/idyll/idyll.html",
       "/blog/2021-05-01-acled/index.html",
+      "/blog/sls/index.html",
       "/blog/qmra/qmra.html"
     ]
   }
