@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Giacomo Butte">
+<meta name="dcterms.date" content="2024-05-11">
+<meta name="description" content="An exploration on technical and scientific publications versus other development indicators.">
+
+<title>Giacomo Butte - The Cambodian outlier</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/00_favicon/favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<meta name="twitter:title" content="Giacomo Butte - The Cambodian outlier">
+<meta name="twitter:description" content="An exploration on technical and scientific publications versus other development indicators.">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Giacomo Butte</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">Profile</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects.html"> 
+<span class="menu-text">Work sample</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html"> 
+<span class="menu-text">Notebook</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#publication-per-country" id="toc-publication-per-country" class="nav-link active" data-scroll-target="#publication-per-country">Publication per country</a></li>
+  <li><a href="#correlation-with-other-development-indicators" id="toc-correlation-with-other-development-indicators" class="nav-link" data-scroll-target="#correlation-with-other-development-indicators">Correlation with other development indicators</a></li>
+  <li><a href="#publication-over-time" id="toc-publication-over-time" class="nav-link" data-scroll-target="#publication-over-time">Publication over time</a></li>
+  <li><a href="#publications-and-governance" id="toc-publications-and-governance" class="nav-link" data-scroll-target="#publications-and-governance">Publications and governance</a></li>
+  <li><a href="#pisa" id="toc-pisa" class="nav-link" data-scroll-target="#pisa">PISA</a></li>
+  <li><a href="#comparison-with-different-indicators" id="toc-comparison-with-different-indicators" class="nav-link" data-scroll-target="#comparison-with-different-indicators">Comparison with different indicators</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<div class="quarto-title-block"><div><h1 class="title">The Cambodian outlier</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+  <div class="quarto-categories">
+    <div class="quarto-category">visualisation</div>
+    <div class="quarto-category">academia</div>
+    <div class="quarto-category">R</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <p>An exploration on technical and scientific publications versus other development indicators.</p>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p><a href="https://giacomobutte.com">Giacomo Butte</a> </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 11, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>I have been living and working in Cambodia also in tertiary education. Sometimes when discussing with colleagues on academic partnerships, availability of data, academic publications there is often the impression that Cambodia is an outlier with economic development increasing much faster than academic production. But is that so?</p>
+<section id="publication-per-country" class="level2">
+<h2 class="anchored" data-anchor-id="publication-per-country">Publication per country</h2>
+<p>I started to look into datasets that could provide some evidence and I found one by World Bank <a href="https://databank.worldbank.org/reports.aspx?dsid=2&amp;series=IP.JRN.ARTC.SC">record of technical and academic publications</a>, one by <a href="https://www.scimagojr.com/countryrank.php?order=itp&amp;ord=desc&amp;year=2020">SCIMAGO</a> and one by <a href="https://www.nature.com/nature-index/country-outputs/generate/all/global">Nature</a>.Below how the 3 dataset report data from a set of chosen countries (note publication are in Log-scale).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="correlation-with-other-development-indicators" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="correlation-with-other-development-indicators">Correlation with other development indicators</h2>
+<p>Using a UNDP dataset <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, we can see publications per million how it correlates with other development indices. Positive correlation is found highest in Gross national Income (GNI), particularly in the GNI pro-capita for woman. Sollowing, material footprint (MF) and Human Development Indicator (HDI) with different variants,with the most correlated being the Inequality-adjusted Human Development Index. The first ten parameters by positive correlation end with expectancy at birth. Referring to parameters with negative correlation, only one parameters has a correlation over 0.75 (since negative correlation this means &lt; 0.75): gender inequality index. interesting to notice that both the most positive and negative correlated have a gender component.</p>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;UNDP (United Nations Development Programme). 2022. Human Development Report 2021/2022: Uncertain Times, Unsettled Lives: Shaping our Future in a Transforming World. New York.</p></div></div><div class="cell page-columns page-full">
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'kableExtra'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:dplyr':
+
+    group_rows</code></pre>
+</div>
+
+<div class="no-row-height column-margin column-container"><div class="cell-output-display">
+<div>
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Correlation between publication pro capita (WBpp) and other development indicators above 0.75</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">IND</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">WBpp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">WBpp</td>
+<td style="text-align: right;">1.0000000</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gni_pc_f_2020</td>
+<td style="text-align: right;">0.9211858</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">gnipc_2020</td>
+<td style="text-align: right;">0.9192612</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">gni_pc_m_2020</td>
+<td style="text-align: right;">0.9109096</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">mf_2020</td>
+<td style="text-align: right;">0.8011785</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">ihdi_2020</td>
+<td style="text-align: right;">0.7857304</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">hdi_m_2020</td>
+<td style="text-align: right;">0.7853601</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">diff_hdi_phdi_2020</td>
+<td style="text-align: right;">0.7815142</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">le_m_2020</td>
+<td style="text-align: right;">0.7773687</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">hdi_2020</td>
+<td style="text-align: right;">0.7718881</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div></div><div class="cell-output cell-output-stdout">
+<pre><code>     IND                 WBpp              pop               hdi_2020      
+ Length:37          Min.   :-0.7961   Min.   :-0.117971   Min.   :-0.9286  
+ Class :character   1st Qu.:-0.1881   1st Qu.:-0.051610   1st Qu.:-0.2801  
+ Mode  :character   Median : 0.6717   Median :-0.020688   Median : 0.8239  
+                    Mean   : 0.3400   Mean   : 0.009199   Mean   : 0.3810  
+                    3rd Qu.: 0.7719   3rd Qu.: 0.027066   3rd Qu.: 0.9247  
+                    Max.   : 1.0000   Max.   : 1.000000   Max.   : 1.0000  
+    le_2020           eys_2020          mys_2020         gnipc_2020     
+ Min.   :-0.9398   Min.   :-0.8574   Min.   :-0.9205   Min.   :-0.8401  
+ 1st Qu.:-0.1897   1st Qu.:-0.2313   1st Qu.:-0.2580   1st Qu.:-0.1890  
+ Median : 0.7462   Median : 0.7464   Median : 0.7379   Median : 0.7547  
+ Mean   : 0.3484   Mean   : 0.3620   Mean   : 0.3553   Mean   : 0.3672  
+ 3rd Qu.: 0.8512   3rd Qu.: 0.8409   3rd Qu.: 0.8558   3rd Qu.: 0.8392  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+    gdi_2020          hdi_f_2020        le_f_2020         eys_f_2020     
+ Min.   :-0.71280   Min.   :-0.9361   Min.   :-0.9584   Min.   :-0.8654  
+ 1st Qu.:-0.08408   1st Qu.:-0.2643   1st Qu.:-0.1882   1st Qu.:-0.2308  
+ Median : 0.45120   Median : 0.8216   Median : 0.7177   Median : 0.7392  
+ Mean   : 0.25399   Mean   : 0.3816   Mean   : 0.3437   Mean   : 0.3612  
+ 3rd Qu.: 0.60666   3rd Qu.: 0.9187   3rd Qu.: 0.8494   3rd Qu.: 0.8493  
+ Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+   mys_f_2020      gni_pc_f_2020       hdi_m_2020        le_m_2020      
+ Min.   :-0.9313   Min.   :-0.8303   Min.   :-0.9180   Min.   :-0.9048  
+ 1st Qu.:-0.2611   1st Qu.:-0.1867   1st Qu.:-0.2907   1st Qu.:-0.1880  
+ Median : 0.7319   Median : 0.7319   Median : 0.8277   Median : 0.7369  
+ Mean   : 0.3546   Mean   : 0.3619   Mean   : 0.3796   Mean   : 0.3468  
+ 3rd Qu.: 0.8595   3rd Qu.: 0.8216   3rd Qu.: 0.9206   3rd Qu.: 0.8268  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+   eys_m_2020        mys_m_2020      gni_pc_m_2020       ihdi_2020      
+ Min.   :-0.8334   Min.   :-0.8936   Min.   :-0.8420   Min.   :-0.9575  
+ 1st Qu.:-0.2294   1st Qu.:-0.2404   1st Qu.:-0.1957   1st Qu.:-0.2685  
+ Median : 0.7367   Median : 0.7385   Median : 0.7617   Median : 0.8290  
+ Mean   : 0.3560   Mean   : 0.3508   Mean   : 0.3676   Mean   : 0.3737  
+ 3rd Qu.: 0.8105   3rd Qu.: 0.8399   3rd Qu.: 0.8458   3rd Qu.: 0.9113  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+ coef_ineq_2020      loss_2020        ineq_le_2020     ineq_edu_2020    
+ Min.   :-0.9575   Min.   :-0.9538   Min.   :-0.9584   Min.   :-0.9313  
+ 1st Qu.:-0.8619   1st Qu.:-0.8543   1st Qu.:-0.8604   1st Qu.:-0.8068  
+ Median :-0.7134   Median :-0.7104   Median :-0.6811   Median :-0.6725  
+ Mean   :-0.3272   Mean   :-0.3249   Mean   :-0.3305   Mean   :-0.3244  
+ 3rd Qu.: 0.2283   3rd Qu.: 0.2207   3rd Qu.: 0.2140   3rd Qu.: 0.2001  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+ ineq_inc_2020         gii_2020          mmr_2020          abr_2020      
+ Min.   :-0.52455   Min.   :-0.9461   Min.   :-0.8424   Min.   :-0.8568  
+ 1st Qu.:-0.41225   1st Qu.:-0.8625   1st Qu.:-0.7222   1st Qu.:-0.7780  
+ Median :-0.38185   Median :-0.8133   Median :-0.5339   Median :-0.6771  
+ Mean   :-0.13473   Mean   :-0.3585   Mean   :-0.2616   Mean   :-0.2995  
+ 3rd Qu.: 0.08794   3rd Qu.: 0.2659   3rd Qu.: 0.2500   3rd Qu.: 0.2602  
+ Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.0000  
+   se_f_2020         se_m_2020         pr_f_2020          pr_m_2020       
+ Min.   :-0.9100   Min.   :-0.8696   Min.   :-1.00000   Min.   :-1.00000  
+ 1st Qu.:-0.2046   1st Qu.:-0.1756   1st Qu.:-0.08794   1st Qu.:-0.32265  
+ Median : 0.6899   Median : 0.6656   Median : 0.26549   Median :-0.26549  
+ Mean   : 0.3326   Mean   : 0.3242   Mean   : 0.13984   Mean   :-0.13984  
+ 3rd Qu.: 0.8201   3rd Qu.: 0.7956   3rd Qu.: 0.32265   3rd Qu.: 0.08794  
+ Max.   : 1.0000   Max.   : 1.0000   Max.   : 1.00000   Max.   : 1.00000  
+  lfpr_f_2020        lfpr_m_2020         phdi_2020       diff_hdi_phdi_2020
+ Min.   :-0.26549   Min.   :-0.36608   Min.   :-0.8926   Min.   :-0.7811   
+ 1st Qu.:-0.11122   1st Qu.:-0.26432   1st Qu.:-0.2822   1st Qu.:-0.1587   
+ Median :-0.01958   Median :-0.18799   Median : 0.6338   Median : 0.7179   
+ Mean   : 0.03821   Mean   :-0.06021   Mean   : 0.3149   Mean   : 0.3473   
+ 3rd Qu.: 0.09195   3rd Qu.: 0.15429   3rd Qu.: 0.8493   3rd Qu.: 0.7857   
+ Max.   : 1.00000   Max.   : 1.00000   Max.   : 1.0000   Max.   : 1.0000   
+ co2_prod_2020        mf_2020       
+ Min.   :-0.6304   Min.   :-0.7472  
+ 1st Qu.:-0.1295   1st Qu.:-0.1292  
+ Median : 0.5606   Median : 0.6642  
+ Mean   : 0.2722   Mean   : 0.3368  
+ 3rd Qu.: 0.6306   3rd Qu.: 0.7533  
+ Max.   : 1.0000   Max.   : 1.0000  </code></pre>
+</div>
+<div class="cell-output-display">
+<div>
+<table data-quarto-postprocess="true" class="table table-sm table-striped small">
+<caption>Correlation between publication pro-capita (WBpp) and other development indicators below -0.75</caption>
+<thead>
+<tr class="header">
+<th style="text-align: left;" data-quarto-table-cell-role="th">IND</th>
+<th style="text-align: right;" data-quarto-table-cell-role="th">WBpp</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">gii_2020</td>
+<td style="text-align: right;">-0.7960766</td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+</div>
+</div>
+<p>Visualising the previous correlation results, show the following</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Let’s look at publication versus HDI and GII:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-5-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="publication-over-time" class="level2">
+<h2 class="anchored" data-anchor-id="publication-over-time">Publication over time</h2>
+<p>First let’s look at overall publication over time (x axis). Different trends can be seen: growing for Indonesia, Malaysia, Thailand, Vietnam while other remain rather steady (Laos, Cambodia, Myanmar).</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>After adjusting to population, this is what it looks like for a selection of countries in Asia in 2020.</p>
+<p>It can be observed that 4 countries (Lao, Cambodia, Timor Lest, Myanmar) are forming a group at the bottom. Below</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="publications-and-governance" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="publications-and-governance">Publications and governance</h2>
+<p>Using the <a href="https://ourworldindata.org/grapher/rigorous-and-impartial-public-administration-index?tab=table">Rigorous and impartial public administration index, 1789 to 2023</a>, the <a href="https://ourworldindata.org/grapher/state-capacity-index?tab=table">State Capacity Index</a> and the <a href="https://ourworldindata.org/grapher/basic-state-functions-score-bti">Bertelsmann Transformation Index</a>.</p>
+<p>The first plot shows relation between Bertelsmann Transformation Index <a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> and publication pro-capita.</p>
+<div class="no-row-height column-margin column-container"><div id="fn2"><p><sup>2</sup>&nbsp;The Status Index ranks the countries according to the state of their democracy and market economy, while the Governance Index ranks them according to their respective leadership’s performance. Distributed among the dimensions of democracy, market economy and governance, a total of 17 criteria are subdivided into 49 questions.</p></div><div id="fn3"><p><sup>3</sup>&nbsp;Question: Are public officials rigorous and impartial in the performance of their duties? Responses: 0: The law is not respected by public officials. Arbitrary or biased administration of the law is rampant. 1: The law is weakly respected by public officials. Arbitrary or biased administration of the law is widespread. 2: The law is modestly respected by public officials. Arbitrary or biased administration of the law is moderate. 3: The law is mostly respected by public officials. Arbitrary or biased administration of the law is limited. 4: The law is generally fully respected by the public officials. Arbitrary or biased administration of the law is very limited.</p></div></div><p>Rigorous and impartial public administration<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-8-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-8-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="pisa" class="level2">
+<h2 class="anchored" data-anchor-id="pisa">PISA</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="index2_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="comparison-with-different-indicators" class="level2">
+<h2 class="anchored" data-anchor-id="comparison-with-different-indicators">Comparison with different indicators</h2>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code>      CC            Series.Name        AG.LND.FRST.K2    AG.SRF.TOTL.K2    
+ Length:1415        Length:1415        Min.   :   3695   Min.   :   41291  
+ Class :character   Class :character   1st Qu.:  87463   1st Qu.:  343710  
+ Mode  :character   Mode  :character   Median : 235777   Median : 1351128  
+                                       Mean   :1175163   Mean   : 3407659  
+                                       3rd Qu.:1026012   3rd Qu.: 4400750  
+                                       Max.   :8153116   Max.   :17098250  
+                                       NA's   :1395      NA's   :1395      
+ BX.KLT.DINV.CD.WD    BX.TRF.PWKR.CD.DT   DT.DOD.DECT.CD     
+ Min.   :-2.422e+11   Min.   :3.023e+08   Min.   :2.556e+11  
+ 1st Qu.: 6.996e+09   1st Qu.:2.650e+09   1st Qu.:4.264e+11  
+ Median : 1.927e+10   Median :5.857e+09   Median :5.051e+11  
+ Mean   : 2.847e+10   Mean   :1.297e+10   Mean   :7.008e+11  
+ 3rd Qu.: 6.303e+10   3rd Qu.:1.216e+10   3rd Qu.:5.744e+11  
+ Max.   : 2.531e+11   Max.   :8.315e+10   Max.   :2.326e+12  
+ NA's   :1395         NA's   :1395        NA's   :1407       
+ DT.ODA.ALLD.CD       DT.TDS.DECT.EX.ZS EG.USE.ELEC.KH.PC EG.USE.PCAP.KG.OE
+ Min.   :-572500000   Min.   : 9.195    Min.   : NA       Min.   : NA      
+ 1st Qu.: 322014996   1st Qu.:15.625    1st Qu.: NA       1st Qu.: NA      
+ Median : 612539978   Median :31.326    Median : NA       Median : NA      
+ Mean   : 640372858   Mean   :29.580    Mean   :NaN       Mean   :NaN      
+ 3rd Qu.:1002005005   3rd Qu.:41.135    3rd Qu.: NA       3rd Qu.: NA      
+ Max.   :1794530029   Max.   :50.350    Max.   : NA       Max.   : NA      
+ NA's   :1408         NA's   :1407      NA's   :1415      NA's   :1415     
+ EN.ATM.CO2E.PC    EN.POP.DNST      ER.H2O.FWTL.ZS    ER.PTD.TOTL.ZS   
+ Min.   : 1.576   Min.   :  3.334   Min.   :  1.187   Min.   : 0.1907  
+ 1st Qu.: 3.817   1st Qu.: 33.558   1st Qu.:  9.723   1st Qu.: 7.1645  
+ Median : 4.809   Median :134.101   Median : 18.334   Median :14.3496  
+ Mean   : 6.667   Mean   :179.690   Mean   : 68.081   Mean   :17.3985  
+ 3rd Qu.: 8.771   3rd Qu.:247.832   3rd Qu.: 26.350   3rd Qu.:26.2925  
+ Max.   :14.776   Max.   :531.109   Max.   :974.167   Max.   :40.2872  
+ NA's   :1395     NA's   :1395      NA's   :1395      NA's   :1395     
+ FS.AST.DOMS.GD.ZS GC.REV.XGRT.GD.ZS GC.TAX.TOTL.GD.ZS  IC.REG.DURS  
+ Min.   : 53.69    Min.   :10.54     Min.   : 8.091    Min.   : NA   
+ 1st Qu.: 67.76    1st Qu.:18.16     1st Qu.:10.396    1st Qu.: NA   
+ Median : 92.25    Median :27.79     Median :13.144    Median : NA   
+ Mean   :161.76    Mean   :26.48     Mean   :15.022    Mean   :NaN   
+ 3rd Qu.:234.72    3rd Qu.:29.62     3rd Qu.:21.334    3rd Qu.: NA   
+ Max.   :390.56    Max.   :42.81     Max.   :24.800    Max.   : NA   
+ NA's   :1409      NA's   :1397      NA's   :1397      NA's   :1415  
+  IQ.SCI.OVRL    IT.CEL.SETS.P2   MS.MIL.XPND.GD.ZS NE.EXP.GNFS.ZS 
+ Min.   :76.67   Min.   : 82.62   Min.   :0.7345    Min.   :10.21  
+ 1st Qu.:79.72   1st Qu.:105.16   1st Qu.:1.2495    1st Qu.:18.27  
+ Median :80.56   Median :120.32   Median :1.7482    Median :26.43  
+ Mean   :80.69   Mean   :119.53   Mean   :2.2255    Mean   :29.78  
+ 3rd Qu.:81.39   3rd Qu.:129.26   3rd Qu.:2.5245    3rd Qu.:32.17  
+ Max.   :85.56   Max.   :163.59   Max.   :9.1785    Max.   :78.27  
+ NA's   :1407    NA's   :1395     NA's   :1395      NA's   :1395   
+ NE.GDI.TOTL.ZS  NE.IMP.GNFS.ZS  NV.AGR.TOTL.ZS    NV.IND.TOTL.ZS 
+ Min.   :14.42   Min.   :13.18   Min.   : 0.6601   Min.   :16.79  
+ 1st Qu.:20.40   1st Qu.:16.09   1st Qu.: 1.4512   1st Qu.:19.98  
+ Median :22.86   Median :25.32   Median : 2.4104   Median :25.20  
+ Mean   :24.59   Mean   :27.73   Mean   : 4.2671   Mean   :26.05  
+ 3rd Qu.:28.96   3rd Qu.:32.34   3rd Qu.: 5.8729   3rd Qu.:30.02  
+ Max.   :43.37   Max.   :68.20   Max.   :18.6355   Max.   :39.62  
+ NA's   :1395    NA's   :1395    NA's   :1395      NA's   :1395   
+ NY.GDP.DEFL.KD.ZG NY.GDP.MKTP.CD      NY.GDP.MKTP.KD.ZG NY.GNP.ATLS.CD     
+ Min.   :-8.4632   Min.   :3.857e+11   Min.   :-11.167   Min.   :4.086e+11  
+ 1st Qu.: 0.9306   1st Qu.:1.022e+12   1st Qu.: -7.818   1st Qu.:1.013e+12  
+ Median : 1.7259   Median :1.485e+12   Median : -3.856   Median :1.631e+12  
+ Mean   : 4.1562   Mean   :3.375e+12   Mean   : -4.424   Mean   :3.433e+12  
+ 3rd Qu.: 4.7702   3rd Qu.:2.678e+12   3rd Qu.: -2.123   3rd Qu.:2.654e+12  
+ Max.   :40.0831   Max.   :2.106e+13   Max.   :  2.239   Max.   :2.144e+13  
+ NA's   :1395      NA's   :1395        NA's   :1395      NA's   :1395       
+ NY.GNP.MKTP.PP.CD   NY.GNP.PCAP.CD  NY.GNP.PCAP.PP.CD SE.ENR.PRSC.FM.ZS
+ Min.   :6.091e+11   Min.   : 1900   Min.   : 6430     Min.   :0.9685   
+ 1st Qu.:1.821e+12   1st Qu.: 9122   1st Qu.:19893     1st Qu.:0.9793   
+ Median :2.886e+12   Median :29810   Median :44345     Median :0.9970   
+ Mean   :4.972e+12   Mean   :29716   Mean   :38588     Mean   :0.9992   
+ 3rd Qu.:4.458e+12   3rd Qu.:42698   3rd Qu.:50620     3rd Qu.:1.0124   
+ Max.   :2.409e+13   Max.   :81740   Max.   :70510     Max.   :1.0541   
+ NA's   :1395        NA's   :1395    NA's   :1395      NA's   :1398     
+ SE.PRM.CMPT.ZS    SE.PRM.ENRR      SE.SEC.ENRR     SH.DYN.AIDS.ZS  
+ Min.   : 94.28   Min.   : 97.97   Min.   : 75.11   Min.   :0.1000  
+ 1st Qu.: 98.04   1st Qu.:100.00   1st Qu.:101.31   1st Qu.:0.2000  
+ Median :100.58   Median :102.54   Median :104.13   Median :0.2500  
+ Mean   : 99.76   Mean   :102.28   Mean   :105.97   Mean   :0.2833  
+ 3rd Qu.:101.90   3rd Qu.:103.38   3rd Qu.:112.53   3rd Qu.:0.4000  
+ Max.   :103.84   Max.   :110.62   Max.   :137.49   Max.   :0.6000  
+ NA's   :1404     NA's   :1397     NA's   :1398     NA's   :1403    
+  SH.DYN.MORT      SH.IMM.MEAS    SH.STA.BRTC.ZS  SH.STA.MALN.ZS  
+ Min.   : 2.400   Min.   :76.00   Min.   :98.80   Min.   : 0.300  
+ 1st Qu.: 3.675   1st Qu.:91.00   1st Qu.:99.40   1st Qu.: 2.700  
+ Median : 4.900   Median :94.00   Median :99.75   Median : 4.050  
+ Mean   : 8.115   Mean   :92.05   Mean   :99.55   Mean   : 9.975  
+ 3rd Qu.: 8.150   3rd Qu.:97.00   3rd Qu.:99.90   3rd Qu.:11.325  
+ Max.   :32.400   Max.   :99.00   Max.   :99.90   Max.   :31.500  
+ NA's   :1395     NA's   :1395    NA's   :1411    NA's   :1411    
+ SI.DST.FRST.20   SI.POV.DDAY      SI.POV.NAHC     SM.POP.NETM      
+ Min.   :4.500   Min.   : 0.000   Min.   : 0.00   Min.   :-1025295  
+ 1st Qu.:5.450   1st Qu.: 0.100   1st Qu.:13.25   1st Qu.:  -13712  
+ Median :7.100   Median : 0.500   Median :14.70   Median :   40904  
+ Mean   :6.633   Mean   : 1.847   Mean   :19.01   Mean   :   49213  
+ 3rd Qu.:7.550   3rd Qu.: 1.600   3rd Qu.:20.90   3rd Qu.:  140645  
+ Max.   :9.200   Max.   :15.500   Max.   :43.90   Max.   :  675560  
+ NA's   :1400    NA's   :1400     NA's   :1404    NA's   :1395      
+  SP.ADO.TFRT     SP.DYN.CONU.ZS  SP.DYN.LE00.IN  SP.DYN.TFRT.IN 
+ Min.   : 2.194   Min.   :66.70   Min.   :68.81   Min.   :0.837  
+ 1st Qu.: 5.455   1st Qu.:67.55   1st Qu.:75.39   1st Qu.:1.427  
+ Median :11.188   Median :68.40   Median :79.21   Median :1.571  
+ Mean   :16.172   Mean   :68.40   Mean   :78.06   Mean   :1.631  
+ 3rd Qu.:17.393   3rd Qu.:69.25   3rd Qu.:82.23   3rd Qu.:1.907  
+ Max.   :57.865   Max.   :70.10   Max.   :84.56   Max.   :2.465  
+ NA's   :1395     NA's   :1413    NA's   :1395    NA's   :1395   
+  SP.POP.GROW       SP.POP.TOTL         SP.URB.GROW      TG.VAL.TOTL.GD.ZS
+ Min.   :-0.4871   Min.   :8.638e+06   Min.   :-0.2026   Min.   : 18.19   
+ 1st Qu.: 0.2130   1st Qu.:4.687e+07   1st Qu.: 0.4956   1st Qu.: 27.95   
+ Median : 0.5220   Median :7.537e+07   Median : 0.8833   Median : 39.44   
+ Mean   : 0.4828   Mean   :2.307e+08   Mean   : 0.9126   Mean   : 47.28   
+ 3rd Qu.: 0.8691   3rd Qu.:1.614e+08   3rd Qu.: 1.2518   3rd Qu.: 55.42   
+ Max.   : 1.2334   Max.   :1.411e+09   Max.   : 2.2636   Max.   :139.56   
+ NA's   :1395      NA's   :1395        NA's   :1395      NA's   :1395     
+ TT.PRI.MRCH.XD.WD TX.VAL.TECH.MF.ZS Country.Name             WB           
+ Min.   : 83.23    Min.   : 0.6083   Length:1415        Min.   :      0.4  
+ 1st Qu.: 98.23    1st Qu.: 8.5453   Class :character   1st Qu.:  20074.2  
+ Median :100.00    Median :14.1718   Mode  :character   Median :  65638.4  
+ Mean   :101.58    Mean   :15.6322                      Mean   : 112360.9  
+ 3rd Qu.:104.35    3rd Qu.:21.8782                      3rd Qu.: 101014.3  
+ Max.   :131.20    Max.   :35.7230                      Max.   :2933010.7  
+ NA's   :1396      NA's   :1395                         NA's   :90         
+     nature         scimago      
+ Min.   :    1   Min.   :     1  
+ 1st Qu.:  438   1st Qu.: 31739  
+ Median : 2334   Median :116831  
+ Mean   : 3922   Mean   :152585  
+ 3rd Qu.: 3694   3rd Qu.:149386  
+ Max.   :29165   Max.   :790577  
+ NA's   :410     NA's   :209     </code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code>             IND SP.POP.GROW SP.DYN.CONU.ZS SP.ADO.TFRT SM.POP.NETM SI.POV.NAHC
+1    SP.POP.GROW          NA             NA          NA          NA          NA
+2 SP.DYN.CONU.ZS          NA             NA          NA          NA          NA
+3    SP.ADO.TFRT          NA             NA          NA          NA          NA
+4    SM.POP.NETM          NA             NA          NA          NA          NA
+5    SI.POV.NAHC          NA             NA          NA          NA          NA
+6   Country.Name          NA             NA          NA          NA          NA
+7             WB          NA             NA          NA          NA          NA
+8         nature          NA             NA          NA          NA          NA
+  Country.Name WB nature
+1           NA NA     NA
+2           NA NA     NA
+3           NA NA     NA
+4           NA NA     NA
+5           NA NA     NA
+6           NA NA     NA
+7           NA NA     NA
+8           NA NA     NA</code></pre>
+</div>
+</div>
+
+
+<!-- -->
+
+</section>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/www\.giacomobutte\.com");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "The Cambodian outlier"</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co">  - name: Giacomo Butte</span></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="co">    url: https://giacomobutte.com</span></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co">    orcid_id: 0000-0002-8823-5300</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="an">description:</span><span class="co"> |</span></span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="co">    An exploration on technical and scientific publications versus other development indicators. </span></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="an">date:</span><span class="co"> 05-11-2024</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a><span class="an">categories:</span></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co">  - visualisation</span></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co">  - academia</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="co">  - R</span></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="an">citation:</span><span class="co"> false</span></span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a><span class="co">    code-fold: true</span></span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools: true</span></span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a><span class="co">    code-block-bg: true</span></span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a><span class="co">    code-block-border-left: "#31BAE9"</span></span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a><span class="co">    highlight-style: github</span></span>
+<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a><span class="an">draft:</span><span class="co"> true</span></span>
+<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>I have been living and working in Cambodia also in tertiary education. Sometimes when discussing with colleagues on academic partnerships, availability of data, academic publications there is often the impression that Cambodia is an outlier with economic development increasing much faster than academic production.</span>
+<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>But is that so?</span>
+<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publication per country</span></span>
+<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a> I started to look into datasets that could provide some evidence and I found one by World Bank <span class="co">[</span><span class="ot">record of technical and academic publications</span><span class="co">](https://databank.worldbank.org/reports.aspx?dsid=2&amp;series=IP.JRN.ARTC.SC)</span>, one by <span class="co">[</span><span class="ot">SCIMAGO</span><span class="co">](https://www.scimagojr.com/countryrank.php?order=itp&amp;ord=desc&amp;year=2020)</span> and one by <span class="co">[</span><span class="ot">Nature</span><span class="co">](https://www.nature.com/nature-index/country-outputs/generate/all/global)</span>.Below how the 3 dataset report data from a set of chosen countries (note publication are in Log-scale).</span>
+<span id="cb6-29"><a href="#cb6-29" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, warning=FALSE, message=FALSE}</span></span>
+<span id="cb6-30"><a href="#cb6-30" aria-hidden="true" tabindex="-1"></a><span class="in">library(readxl)</span></span>
+<span id="cb6-31"><a href="#cb6-31" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyverse)</span></span>
+<span id="cb6-32"><a href="#cb6-32" aria-hidden="true" tabindex="-1"></a><span class="in">library(dplyr)</span></span>
+<span id="cb6-33"><a href="#cb6-33" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyr)</span></span>
+<span id="cb6-34"><a href="#cb6-34" aria-hidden="true" tabindex="-1"></a><span class="in">#Population data</span></span>
+<span id="cb6-35"><a href="#cb6-35" aria-hidden="true" tabindex="-1"></a><span class="in">pop &lt;- read.csv("population.csv")%&gt;%select("Country.Code", "X2020")</span></span>
+<span id="cb6-36"><a href="#cb6-36" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(pop)[colnames(pop) == 'X2020'] &lt;- 'pop'</span></span>
+<span id="cb6-37"><a href="#cb6-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-38"><a href="#cb6-38" aria-hidden="true" tabindex="-1"></a><span class="in">#Publication data</span></span>
+<span id="cb6-39"><a href="#cb6-39" aria-hidden="true" tabindex="-1"></a><span class="in">art &lt;- read.csv("articles.csv")</span></span>
+<span id="cb6-40"><a href="#cb6-40" aria-hidden="true" tabindex="-1"></a><span class="in">scimago &lt;- read_xlsx("scimago.xlsx")</span></span>
+<span id="cb6-41"><a href="#cb6-41" aria-hidden="true" tabindex="-1"></a><span class="in">scimago$Country.Name&lt;- scimago$Country</span></span>
+<span id="cb6-42"><a href="#cb6-42" aria-hidden="true" tabindex="-1"></a><span class="in">nature&lt;-read.csv("nature.csv")</span></span>
+<span id="cb6-43"><a href="#cb6-43" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(nature)[colnames(nature) == 'Country.territory'] &lt;- 'Country.Name'</span></span>
+<span id="cb6-44"><a href="#cb6-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-45"><a href="#cb6-45" aria-hidden="true" tabindex="-1"></a><span class="in">#Join data in one DF</span></span>
+<span id="cb6-46"><a href="#cb6-46" aria-hidden="true" tabindex="-1"></a><span class="in">df &lt;- full_join(art,nature, by="Country.Name")%&gt;%full_join(scimago, by="Country.Name")%&gt;%full_join(pop, by="Country.Code")</span></span>
+<span id="cb6-47"><a href="#cb6-47" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(df)[colnames(df) == 'Count'] &lt;- 'nature'</span></span>
+<span id="cb6-48"><a href="#cb6-48" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(df)[colnames(df) == 'X2020'] &lt;- 'WB'</span></span>
+<span id="cb6-49"><a href="#cb6-49" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(df)[colnames(df) == 'Documents'] &lt;- 'scimago'</span></span>
+<span id="cb6-50"><a href="#cb6-50" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(df)[colnames(df) == 'Country.Code'] &lt;- 'CC'</span></span>
+<span id="cb6-51"><a href="#cb6-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-52"><a href="#cb6-52" aria-hidden="true" tabindex="-1"></a><span class="in">#calculate publication per capita</span></span>
+<span id="cb6-53"><a href="#cb6-53" aria-hidden="true" tabindex="-1"></a><span class="in">df$WB&lt;- as.numeric(df$WB)</span></span>
+<span id="cb6-54"><a href="#cb6-54" aria-hidden="true" tabindex="-1"></a><span class="in">df$WBpp &lt;- df$WB/df$pop*10^6</span></span>
+<span id="cb6-55"><a href="#cb6-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-56"><a href="#cb6-56" aria-hidden="true" tabindex="-1"></a><span class="in">#Select only relevant columns</span></span>
+<span id="cb6-57"><a href="#cb6-57" aria-hidden="true" tabindex="-1"></a><span class="in">df&lt;- df%&gt;%select("Country.Name","CC","WB","nature","scimago","WBpp","Region","pop")</span></span>
+<span id="cb6-58"><a href="#cb6-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-59"><a href="#cb6-59" aria-hidden="true" tabindex="-1"></a><span class="in">df.tot&lt;- df%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))%&gt;%select("Country.Name","CC","WB","nature","scimago")</span></span>
+<span id="cb6-60"><a href="#cb6-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-61"><a href="#cb6-61" aria-hidden="true" tabindex="-1"></a><span class="in">df.tot%&gt;%gather(key = "var", value = "value", -CC,-Country.Name) %&gt;%</span></span>
+<span id="cb6-62"><a href="#cb6-62" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(var)%&gt;%ggplot(aes(fill=var, y=log10(value), x=CC)) +</span></span>
+<span id="cb6-63"><a href="#cb6-63" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_bar(position='dodge', stat='identity')+scale_color_viridis_d()+theme_bw()+ggtitle("Publications reported in datasets: World bank, Scimago and Nature")</span></span>
+<span id="cb6-64"><a href="#cb6-64" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-65"><a href="#cb6-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-66"><a href="#cb6-66" aria-hidden="true" tabindex="-1"></a><span class="fu">## Correlation with other development indicators</span></span>
+<span id="cb6-67"><a href="#cb6-67" aria-hidden="true" tabindex="-1"></a>Using a UNDP dataset <span class="ot">[^1]</span>, we can see publications per million how it correlates with other development indices. Positive correlation is found highest in Gross national Income (GNI), particularly in the GNI pro-capita for woman. Sollowing, material footprint (MF) and Human Development Indicator (HDI) with different variants,with the most correlated being the Inequality-adjusted Human Development Index. The first ten parameters by positive correlation end with expectancy at birth.</span>
+<span id="cb6-68"><a href="#cb6-68" aria-hidden="true" tabindex="-1"></a>Referring to parameters with negative correlation, only one parameters has a correlation over 0.75 (since negative correlation this means &lt; 0.75): gender inequality index.</span>
+<span id="cb6-69"><a href="#cb6-69" aria-hidden="true" tabindex="-1"></a>interesting to notice that both the most positive and negative correlated have a gender component.</span>
+<span id="cb6-70"><a href="#cb6-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-71"><a href="#cb6-71" aria-hidden="true" tabindex="-1"></a><span class="ot">[^1]</span>:UNDP (United Nations Development Programme). 2022. Human Development Report 2021/2022: Uncertain Times, Unsettled Lives: Shaping our Future in a Transforming World. New York.</span>
+<span id="cb6-72"><a href="#cb6-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-73"><a href="#cb6-73" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, warning=FALSE, fig.height=15}</span></span>
+<span id="cb6-74"><a href="#cb6-74" aria-hidden="true" tabindex="-1"></a><span class="in">library(dplyr)</span></span>
+<span id="cb6-75"><a href="#cb6-75" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyr)</span></span>
+<span id="cb6-76"><a href="#cb6-76" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyverse)</span></span>
+<span id="cb6-77"><a href="#cb6-77" aria-hidden="true" tabindex="-1"></a><span class="in">library(ggrepel)</span></span>
+<span id="cb6-78"><a href="#cb6-78" aria-hidden="true" tabindex="-1"></a><span class="in">hdi&lt;-read.csv("HDR.csv")</span></span>
+<span id="cb6-79"><a href="#cb6-79" aria-hidden="true" tabindex="-1"></a><span class="in">hdr&lt;- hdi[, grep("2020", names(hdi))]%&gt;%cbind(CC=hdi$iso3)%&gt;%cbind(code=hdi$hdicode)%&gt;%cbind(name=hdi$country)</span></span>
+<span id="cb6-80"><a href="#cb6-80" aria-hidden="true" tabindex="-1"></a><span class="in">tot &lt;- full_join(df,hdr, by="CC")</span></span>
+<span id="cb6-81"><a href="#cb6-81" aria-hidden="true" tabindex="-1"></a><span class="in">#asia &lt;- tot%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))</span></span>
+<span id="cb6-82"><a href="#cb6-82" aria-hidden="true" tabindex="-1"></a><span class="in">#revise following line if necessary</span></span>
+<span id="cb6-83"><a href="#cb6-83" aria-hidden="true" tabindex="-1"></a><span class="in">df.cor &lt;- tot[,c(3,4,6:14)]%&gt;% mutate_if(is.character, as.numeric)</span></span>
+<span id="cb6-84"><a href="#cb6-84" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df &lt;- data.frame(cor(na.omit(df.cor[,c(3,6:11)])))%&gt;%tibble::rownames_to_column( "IND")</span></span>
+<span id="cb6-85"><a href="#cb6-85" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df &lt;- data.frame(cor(na.omit(tot[,c(6,8:43)])))%&gt;%tibble::rownames_to_column( "IND")</span></span>
+<span id="cb6-86"><a href="#cb6-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-87"><a href="#cb6-87" aria-hidden="true" tabindex="-1"></a><span class="in">#Governance indices</span></span>
+<span id="cb6-88"><a href="#cb6-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-89"><a href="#cb6-89" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-90"><a href="#cb6-90" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, warning=FALSE, fig.height=15}</span></span>
+<span id="cb6-91"><a href="#cb6-91" aria-hidden="true" tabindex="-1"></a><span class="in">#| column: margin</span></span>
+<span id="cb6-92"><a href="#cb6-92" aria-hidden="true" tabindex="-1"></a><span class="in">library(kableExtra)</span></span>
+<span id="cb6-93"><a href="#cb6-93" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df[,1:2]%&gt;%subset(cor.df$WBpp&gt;0.75)%&gt;%arrange(-WBpp)%&gt;%head(10)%&gt;%kable(format = "html",caption = "Correlation between publication pro capita (WBpp) and other development indicators above 0.75")</span></span>
+<span id="cb6-94"><a href="#cb6-94" aria-hidden="true" tabindex="-1"></a><span class="in">summary(cor.df)</span></span>
+<span id="cb6-95"><a href="#cb6-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-96"><a href="#cb6-96" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df[,1:2]%&gt;%subset(cor.df$WBpp&lt; -0.75)%&gt;%arrange(WBpp)%&gt;%head(10)%&gt;%kable(format = "html",caption = "Correlation between publication pro-capita (WBpp) and other development indicators below -0.75")</span></span>
+<span id="cb6-97"><a href="#cb6-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-98"><a href="#cb6-98" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-99"><a href="#cb6-99" aria-hidden="true" tabindex="-1"></a>Visualising the previous correlation results, show the following</span>
+<span id="cb6-100"><a href="#cb6-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-101"><a href="#cb6-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-102"><a href="#cb6-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-103"><a href="#cb6-103" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, warning=FALSE, message=FALSE}</span></span>
+<span id="cb6-104"><a href="#cb6-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-105"><a href="#cb6-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-106"><a href="#cb6-106" aria-hidden="true" tabindex="-1"></a><span class="in">theme_set(</span></span>
+<span id="cb6-107"><a href="#cb6-107" aria-hidden="true" tabindex="-1"></a><span class="in">  theme_bw() +</span></span>
+<span id="cb6-108"><a href="#cb6-108" aria-hidden="true" tabindex="-1"></a><span class="in">    theme(legend.position = "bottom"))</span></span>
+<span id="cb6-109"><a href="#cb6-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-110"><a href="#cb6-110" aria-hidden="true" tabindex="-1"></a><span class="in">tot.sel &lt;- tot%&gt;%select("CC","WBpp","gni_pc_f_2020","mf_2020","ihdi_2020","hdi_2020","diff_hdi_phdi_2020","le_m_2020","gii_2020")</span></span>
+<span id="cb6-111"><a href="#cb6-111" aria-hidden="true" tabindex="-1"></a><span class="in">mtlong = gather(tot.sel, key = "var", value = "value", -WBpp,-CC) %&gt;%</span></span>
+<span id="cb6-112"><a href="#cb6-112" aria-hidden="true" tabindex="-1"></a><span class="in">  group_by(var) </span></span>
+<span id="cb6-113"><a href="#cb6-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-114"><a href="#cb6-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-115"><a href="#cb6-115" aria-hidden="true" tabindex="-1"></a><span class="in">ggplot(mtlong, aes(x = value, y = log10(WBpp))) +</span></span>
+<span id="cb6-116"><a href="#cb6-116" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-117"><a href="#cb6-117" aria-hidden="true" tabindex="-1"></a><span class="in">  facet_wrap(~var,scales="free", ncol=3)+</span></span>
+<span id="cb6-118"><a href="#cb6-118" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ggtitle("log10 of publication per million people vs different indicators")</span></span>
+<span id="cb6-119"><a href="#cb6-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-120"><a href="#cb6-120" aria-hidden="true" tabindex="-1"></a><span class="in">ggplot(mtlong, aes(x = value, y = WBpp)) +</span></span>
+<span id="cb6-121"><a href="#cb6-121" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-122"><a href="#cb6-122" aria-hidden="true" tabindex="-1"></a><span class="in">  facet_wrap(~var,scales="free", ncol=3)+</span></span>
+<span id="cb6-123"><a href="#cb6-123" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()</span></span>
+<span id="cb6-124"><a href="#cb6-124" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-125"><a href="#cb6-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-126"><a href="#cb6-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-127"><a href="#cb6-127" aria-hidden="true" tabindex="-1"></a>Let's look at publication versus HDI and GII:</span>
+<span id="cb6-128"><a href="#cb6-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-129"><a href="#cb6-129" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE, warning=FALSE, fig.height=8}</span></span>
+<span id="cb6-130"><a href="#cb6-130" aria-hidden="true" tabindex="-1"></a><span class="in">asia &lt;- tot%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))</span></span>
+<span id="cb6-131"><a href="#cb6-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-132"><a href="#cb6-132" aria-hidden="true" tabindex="-1"></a><span class="in">tot.sel%&gt;%ggplot(aes(x = hdi_2020, y = log10(WBpp))) +</span></span>
+<span id="cb6-133"><a href="#cb6-133" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-134"><a href="#cb6-134" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("log10 Publication per million ppl")+</span></span>
+<span id="cb6-135"><a href="#cb6-135" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(data=asia,aes(x = hdi_2020, y = log10(WBpp),color="blue",size=4))+</span></span>
+<span id="cb6-136"><a href="#cb6-136" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("Publication (WB, log10) over HDI")</span></span>
+<span id="cb6-137"><a href="#cb6-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-138"><a href="#cb6-138" aria-hidden="true" tabindex="-1"></a><span class="in">tot.sel%&gt;%ggplot(aes(x = log10(mf_2020), y = log10(WBpp))) +</span></span>
+<span id="cb6-139"><a href="#cb6-139" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-140"><a href="#cb6-140" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("log10 Publication per million ppl")+</span></span>
+<span id="cb6-141"><a href="#cb6-141" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(data=asia,aes(x = log10(mf_2020), y = log10(WBpp),color="blue",size=4))+</span></span>
+<span id="cb6-142"><a href="#cb6-142" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("Publication (WB, log10) over GII")</span></span>
+<span id="cb6-143"><a href="#cb6-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-144"><a href="#cb6-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-145"><a href="#cb6-145" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-146"><a href="#cb6-146" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publication over time</span></span>
+<span id="cb6-147"><a href="#cb6-147" aria-hidden="true" tabindex="-1"></a>First let's look at overall publication over time (x axis). Different trends can be seen: growing for Indonesia, Malaysia, Thailand, Vietnam while other remain rather steady (Laos, Cambodia, Myanmar).</span>
+<span id="cb6-148"><a href="#cb6-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-149"><a href="#cb6-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-150"><a href="#cb6-150" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE,fig.height=6, message=FALSE,warning=FALSE}</span></span>
+<span id="cb6-151"><a href="#cb6-151" aria-hidden="true" tabindex="-1"></a><span class="in">library(dplyr)</span></span>
+<span id="cb6-152"><a href="#cb6-152" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyr)</span></span>
+<span id="cb6-153"><a href="#cb6-153" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyverse)</span></span>
+<span id="cb6-154"><a href="#cb6-154" aria-hidden="true" tabindex="-1"></a><span class="in">library(ggrepel)</span></span>
+<span id="cb6-155"><a href="#cb6-155" aria-hidden="true" tabindex="-1"></a><span class="in">library(ggplot2)</span></span>
+<span id="cb6-156"><a href="#cb6-156" aria-hidden="true" tabindex="-1"></a><span class="in">pop &lt;- read.csv("population.csv")</span></span>
+<span id="cb6-157"><a href="#cb6-157" aria-hidden="true" tabindex="-1"></a><span class="in">art &lt;- read.csv("articles.csv")</span></span>
+<span id="cb6-158"><a href="#cb6-158" aria-hidden="true" tabindex="-1"></a><span class="in">dfts &lt;- full_join(pop,art, by="Country.Name")</span></span>
+<span id="cb6-159"><a href="#cb6-159" aria-hidden="true" tabindex="-1"></a><span class="in">df.sel &lt;- dfts%&gt;% select("Country.Code.x","Country.Name", "X2020.x","X2020.y")</span></span>
+<span id="cb6-160"><a href="#cb6-160" aria-hidden="true" tabindex="-1"></a><span class="in">df.sel$X2020.y&lt;- as.numeric(df.sel$X2020.y)</span></span>
+<span id="cb6-161"><a href="#cb6-161" aria-hidden="true" tabindex="-1"></a><span class="in">df.sel$WBpp&lt;- df.sel$X2020.y/df.sel$X2020.x*10^6</span></span>
+<span id="cb6-162"><a href="#cb6-162" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(df.sel)[colnames(df.sel) == 'Country.Code'] &lt;- 'CC'</span></span>
+<span id="cb6-163"><a href="#cb6-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-164"><a href="#cb6-164" aria-hidden="true" tabindex="-1"></a><span class="in">ts&lt;-art[,3:13]%&gt;%gather(key = "var", value = "value", -Country.Code,-Country.Name)</span></span>
+<span id="cb6-165"><a href="#cb6-165" aria-hidden="true" tabindex="-1"></a><span class="in">ts$Country.Name&lt;-factor(ts$Country.Name)</span></span>
+<span id="cb6-166"><a href="#cb6-166" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-167"><a href="#cb6-167" aria-hidden="true" tabindex="-1"></a><span class="in">ts$value&lt;- as.numeric(ts$value)</span></span>
+<span id="cb6-168"><a href="#cb6-168" aria-hidden="true" tabindex="-1"></a><span class="in">ts%&gt;% subset(Country.Code%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))%&gt;%ggplot(aes( y=value, x=var))+</span></span>
+<span id="cb6-169"><a href="#cb6-169" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(aes(color=Country.Name, shape=Country.Name, size=5))+scale_color_viridis_d()+theme_bw()+ scale_shape_manual(values = 0:10)</span></span>
+<span id="cb6-170"><a href="#cb6-170" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-171"><a href="#cb6-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-172"><a href="#cb6-172" aria-hidden="true" tabindex="-1"></a>After adjusting to population, this is what it looks like for a selection of countries in Asia in 2020.</span>
+<span id="cb6-173"><a href="#cb6-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-174"><a href="#cb6-174" aria-hidden="true" tabindex="-1"></a>It can be observed that 4 countries (Lao, Cambodia, Timor Lest, Myanmar) are forming a group at the bottom. Below </span>
+<span id="cb6-175"><a href="#cb6-175" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE,fig.height=6, message=FALSE,warning=FALSE}</span></span>
+<span id="cb6-176"><a href="#cb6-176" aria-hidden="true" tabindex="-1"></a><span class="in">df.sel%&gt;% subset(Country.Code.x%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))%&gt;%arrange(desc(WBpp))%&gt;%ggplot(aes(reorder(Country.Name,WBpp,sum),WBpp)) +</span></span>
+<span id="cb6-177"><a href="#cb6-177" aria-hidden="true" tabindex="-1"></a><span class="in"> geom_col() +</span></span>
+<span id="cb6-178"><a href="#cb6-178" aria-hidden="true" tabindex="-1"></a><span class="in"> theme(legend.position = "top")+theme_bw()+coord_flip()+ggtitle("Technical Publications in year 2020")+xlab("Publication per million ppl")</span></span>
+<span id="cb6-179"><a href="#cb6-179" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-180"><a href="#cb6-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-181"><a href="#cb6-181" aria-hidden="true" tabindex="-1"></a><span class="fu">## Publications and governance</span></span>
+<span id="cb6-182"><a href="#cb6-182" aria-hidden="true" tabindex="-1"></a>Using the <span class="co">[</span><span class="ot">Rigorous and impartial public administration index, 1789 to 2023</span><span class="co">](https://ourworldindata.org/grapher/rigorous-and-impartial-public-administration-index?tab=table)</span>, the <span class="co">[</span><span class="ot">State Capacity Index</span><span class="co">](https://ourworldindata.org/grapher/state-capacity-index?tab=table)</span> and the  <span class="co">[</span><span class="ot">Bertelsmann Transformation Index</span><span class="co">](https://ourworldindata.org/grapher/basic-state-functions-score-bti)</span>.</span>
+<span id="cb6-183"><a href="#cb6-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-184"><a href="#cb6-184" aria-hidden="true" tabindex="-1"></a>The first plot shows relation between Bertelsmann Transformation Index <span class="ot">[^2]</span> and publication pro-capita.</span>
+<span id="cb6-185"><a href="#cb6-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-186"><a href="#cb6-186" aria-hidden="true" tabindex="-1"></a>Rigorous and impartial public administration<span class="ot">[^3]</span></span>
+<span id="cb6-187"><a href="#cb6-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-188"><a href="#cb6-188" aria-hidden="true" tabindex="-1"></a><span class="ot">[^3]</span>:Question: Are public officials rigorous and impartial in the performance of their duties? Responses: 0: The law is not respected by public officials. Arbitrary or biased administration of the law is rampant. 1: The law is weakly respected by public officials. Arbitrary or biased administration of the law is widespread. 2: The law is modestly respected by public officials. Arbitrary or biased administration of the law is moderate. 3: The law is mostly respected by public officials. Arbitrary or biased administration of the law is limited. 4: The law is generally fully respected by the public officials. Arbitrary or biased administration of the law is very limited.</span>
+<span id="cb6-189"><a href="#cb6-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-190"><a href="#cb6-190" aria-hidden="true" tabindex="-1"></a><span class="ot">[^2]</span>:The Status Index ranks the countries according to the state of their democracy and market economy, while the Governance Index ranks them according to their respective leadership’s performance. Distributed among the dimensions of democracy, market economy and governance, a total of 17 criteria are subdivided into 49 questions.</span>
+<span id="cb6-191"><a href="#cb6-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-192"><a href="#cb6-192" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE,fig.height=6, message=FALSE,warning=FALSE}</span></span>
+<span id="cb6-193"><a href="#cb6-193" aria-hidden="true" tabindex="-1"></a><span class="in">pubadm &lt;- read.csv("pub_adm.csv")</span></span>
+<span id="cb6-194"><a href="#cb6-194" aria-hidden="true" tabindex="-1"></a><span class="in">pubadm$RIPA&lt;- pubadm$Rigorous.and.impartial.public.administration..best.estimate..aggregate..average.</span></span>
+<span id="cb6-195"><a href="#cb6-195" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(pubadm)[colnames(pubadm) == 'Code'] &lt;- 'CC'</span></span>
+<span id="cb6-196"><a href="#cb6-196" aria-hidden="true" tabindex="-1"></a><span class="in">pubadm&lt;- pubadm%&gt;%select("CC","Year","RIPA")</span></span>
+<span id="cb6-197"><a href="#cb6-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-198"><a href="#cb6-198" aria-hidden="true" tabindex="-1"></a><span class="in">bti &lt;- read.csv("bti.csv")</span></span>
+<span id="cb6-199"><a href="#cb6-199" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(bti)[colnames(bti) == 'Code'] &lt;- 'CC'</span></span>
+<span id="cb6-200"><a href="#cb6-200" aria-hidden="true" tabindex="-1"></a><span class="in">bti$bti &lt;- bti$Basic.state.functions</span></span>
+<span id="cb6-201"><a href="#cb6-201" aria-hidden="true" tabindex="-1"></a><span class="in">bti&lt;-bti%&gt;%select("CC","bti","Year")</span></span>
+<span id="cb6-202"><a href="#cb6-202" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-203"><a href="#cb6-203" aria-hidden="true" tabindex="-1"></a><span class="in">stcap &lt;- read.csv("st_cap.csv")</span></span>
+<span id="cb6-204"><a href="#cb6-204" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(stcap)[colnames(stcap) == 'Code'] &lt;- 'CC'</span></span>
+<span id="cb6-205"><a href="#cb6-205" aria-hidden="true" tabindex="-1"></a><span class="in">stcap$stcap &lt;- stcap$State.capacity.estimate</span></span>
+<span id="cb6-206"><a href="#cb6-206" aria-hidden="true" tabindex="-1"></a><span class="in">stcap&lt;-stcap%&gt;%select("CC","stcap","Year")</span></span>
+<span id="cb6-207"><a href="#cb6-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-208"><a href="#cb6-208" aria-hidden="true" tabindex="-1"></a><span class="in">gov &lt;- full_join(bti,pubadm, by=c("CC","Year"))%&gt;%full_join(stcap, by=c("CC","Year"))</span></span>
+<span id="cb6-209"><a href="#cb6-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-210"><a href="#cb6-210" aria-hidden="true" tabindex="-1"></a><span class="in">govbti &lt;-gov%&gt;%filter(Year=="2021")%&gt;%full_join(df, by=c("CC"))</span></span>
+<span id="cb6-211"><a href="#cb6-211" aria-hidden="true" tabindex="-1"></a><span class="in">asia &lt;- govbti%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))</span></span>
+<span id="cb6-212"><a href="#cb6-212" aria-hidden="true" tabindex="-1"></a><span class="in">govbti%&gt;%ggplot(aes(x = bti, y = log10(WBpp))) +</span></span>
+<span id="cb6-213"><a href="#cb6-213" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-214"><a href="#cb6-214" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("log10 Publication per million ppl")+</span></span>
+<span id="cb6-215"><a href="#cb6-215" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(data=asia,aes(x = bti, y = log10(WBpp),color="blue",size=4))+</span></span>
+<span id="cb6-216"><a href="#cb6-216" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("Publication (WB, log10) over Basic state functions score")</span></span>
+<span id="cb6-217"><a href="#cb6-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-218"><a href="#cb6-218" aria-hidden="true" tabindex="-1"></a><span class="in">govstcap &lt;-gov%&gt;%filter(Year=="2021")%&gt;%full_join(df, by=c("CC"))</span></span>
+<span id="cb6-219"><a href="#cb6-219" aria-hidden="true" tabindex="-1"></a><span class="in">asia &lt;- govbti%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))</span></span>
+<span id="cb6-220"><a href="#cb6-220" aria-hidden="true" tabindex="-1"></a><span class="in">govbti%&gt;%ggplot(aes(x = RIPA, y = log10(WBpp))) +</span></span>
+<span id="cb6-221"><a href="#cb6-221" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size=2,color="red") +</span></span>
+<span id="cb6-222"><a href="#cb6-222" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("log10 Publication per million ppl")+</span></span>
+<span id="cb6-223"><a href="#cb6-223" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(data=asia,aes(x = RIPA, y = log10(WBpp),color="blue",size=4))+</span></span>
+<span id="cb6-224"><a href="#cb6-224" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("Publication (WB, log10) over Basic state functions score")</span></span>
+<span id="cb6-225"><a href="#cb6-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-226"><a href="#cb6-226" aria-hidden="true" tabindex="-1"></a><span class="in">govbti%&gt;%ggplot(aes(x = RIPA, y = bti)) +</span></span>
+<span id="cb6-227"><a href="#cb6-227" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size= log10(govbti$WBpp),color="red") +</span></span>
+<span id="cb6-228"><a href="#cb6-228" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("BTI")+</span></span>
+<span id="cb6-229"><a href="#cb6-229" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(data=asia,aes(x = RIPA, y = bti,color="blue",size= log10(asia$WBpp)))+</span></span>
+<span id="cb6-230"><a href="#cb6-230" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("RIPA vs BTI")</span></span>
+<span id="cb6-231"><a href="#cb6-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-232"><a href="#cb6-232" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-233"><a href="#cb6-233" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-234"><a href="#cb6-234" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-235"><a href="#cb6-235" aria-hidden="true" tabindex="-1"></a><span class="fu">## PISA</span></span>
+<span id="cb6-236"><a href="#cb6-236" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE,fig.height=6, message=FALSE,warning=FALSE}</span></span>
+<span id="cb6-237"><a href="#cb6-237" aria-hidden="true" tabindex="-1"></a><span class="in">pisa &lt;- read.csv("pisa.csv")</span></span>
+<span id="cb6-238"><a href="#cb6-238" aria-hidden="true" tabindex="-1"></a><span class="in">pisa$CC&lt;- pisa$Code</span></span>
+<span id="cb6-239"><a href="#cb6-239" aria-hidden="true" tabindex="-1"></a><span class="in">pisa$pisa&lt;-pisa$Avg</span></span>
+<span id="cb6-240"><a href="#cb6-240" aria-hidden="true" tabindex="-1"></a><span class="in">pisa&lt;-pisa%&gt;%filter(Year=="2022")%&gt;%select("CC","pisa")</span></span>
+<span id="cb6-241"><a href="#cb6-241" aria-hidden="true" tabindex="-1"></a><span class="in">df &lt;- full_join(df,pisa,by="CC")</span></span>
+<span id="cb6-242"><a href="#cb6-242" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-243"><a href="#cb6-243" aria-hidden="true" tabindex="-1"></a><span class="in">asia &lt;- df%&gt;%subset(CC%in%c("TLS","KHM","PHL","IDN","LAO","MMR","THA","NPL","BGD","VNM","MYS"))</span></span>
+<span id="cb6-244"><a href="#cb6-244" aria-hidden="true" tabindex="-1"></a><span class="in">df%&gt;%ggplot(aes(x = pisa, y = WBpp)) +</span></span>
+<span id="cb6-245"><a href="#cb6-245" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_point(size= 2,color="red") +</span></span>
+<span id="cb6-246"><a href="#cb6-246" aria-hidden="true" tabindex="-1"></a><span class="in">  scale_color_viridis_d()+ylab("Publication per capita")+ geom_point(data=asia,aes(x = pisa, y = WBpp,color="blue",size=4))+</span></span>
+<span id="cb6-247"><a href="#cb6-247" aria-hidden="true" tabindex="-1"></a><span class="in">  geom_label_repel(data=asia,aes(label = CC))+ggtitle("Publication vs PISA score (math)")</span></span>
+<span id="cb6-248"><a href="#cb6-248" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-249"><a href="#cb6-249" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb6-250"><a href="#cb6-250" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-251"><a href="#cb6-251" aria-hidden="true" tabindex="-1"></a><span class="fu">## Comparison with different indicators</span></span>
+<span id="cb6-252"><a href="#cb6-252" aria-hidden="true" tabindex="-1"></a><span class="in">```{r, echo=FALSE,fig.height=6, message=FALSE,warning=FALSE}</span></span>
+<span id="cb6-253"><a href="#cb6-253" aria-hidden="true" tabindex="-1"></a><span class="in">#dataframe with too many NAs</span></span>
+<span id="cb6-254"><a href="#cb6-254" aria-hidden="true" tabindex="-1"></a><span class="in">library(tidyr)</span></span>
+<span id="cb6-255"><a href="#cb6-255" aria-hidden="true" tabindex="-1"></a><span class="in">library(dplyr)</span></span>
+<span id="cb6-256"><a href="#cb6-256" aria-hidden="true" tabindex="-1"></a><span class="in">dev &lt;- read.csv("dev.csv")</span></span>
+<span id="cb6-257"><a href="#cb6-257" aria-hidden="true" tabindex="-1"></a><span class="in">dev &lt;- dev[,c(1:4,11)]</span></span>
+<span id="cb6-258"><a href="#cb6-258" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(dev)[colnames(dev) == 'X2020..YR2020.'] &lt;- 'Y2020'</span></span>
+<span id="cb6-259"><a href="#cb6-259" aria-hidden="true" tabindex="-1"></a><span class="in">dev$Y2020&lt;- as.numeric(dev$Y2020)</span></span>
+<span id="cb6-260"><a href="#cb6-260" aria-hidden="true" tabindex="-1"></a><span class="in">dev.wide &lt;- dev[,c(2,3,4,5)]%&gt;%spread(Series.Code,Y2020)</span></span>
+<span id="cb6-261"><a href="#cb6-261" aria-hidden="true" tabindex="-1"></a><span class="in">colnames(dev.wide)[colnames(dev.wide) == 'Country.Code'] &lt;- 'CC'</span></span>
+<span id="cb6-262"><a href="#cb6-262" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-263"><a href="#cb6-263" aria-hidden="true" tabindex="-1"></a><span class="in">pub&lt;-df%&gt;%select("Country.Name","CC","WB","nature","scimago")</span></span>
+<span id="cb6-264"><a href="#cb6-264" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-265"><a href="#cb6-265" aria-hidden="true" tabindex="-1"></a><span class="in">all &lt;- full_join(dev.wide,pub,by="CC")</span></span>
+<span id="cb6-266"><a href="#cb6-266" aria-hidden="true" tabindex="-1"></a><span class="in">#df %&gt;% mutate_if(is.character, as.numeric)</span></span>
+<span id="cb6-267"><a href="#cb6-267" aria-hidden="true" tabindex="-1"></a><span class="in">#df$Series.Name%&gt;% mutate_if(is.numeric, as.character)</span></span>
+<span id="cb6-268"><a href="#cb6-268" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-269"><a href="#cb6-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-270"><a href="#cb6-270" aria-hidden="true" tabindex="-1"></a><span class="in">summary(all)</span></span>
+<span id="cb6-271"><a href="#cb6-271" aria-hidden="true" tabindex="-1"></a><span class="in">#Correlation with WB data</span></span>
+<span id="cb6-272"><a href="#cb6-272" aria-hidden="true" tabindex="-1"></a><span class="in">df.cor4 &lt;- all[,c(52,49,48,47,46,58,59,60)]#revise this</span></span>
+<span id="cb6-273"><a href="#cb6-273" aria-hidden="true" tabindex="-1"></a><span class="in">df.cor3 &lt;- all[,2:20]#revise this</span></span>
+<span id="cb6-274"><a href="#cb6-274" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df &lt;- data.frame(cor(na.omit(df.cor4)))%&gt;%tibble::rownames_to_column( "IND")</span></span>
+<span id="cb6-275"><a href="#cb6-275" aria-hidden="true" tabindex="-1"></a><span class="in">cor.df%&gt;%arrange(-WB)</span></span>
+<span id="cb6-276"><a href="#cb6-276" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-277"><a href="#cb6-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-278"><a href="#cb6-278" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-279"><a href="#cb6-279" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2024, Giacomo Butte</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
