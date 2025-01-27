@@ -10,7 +10,7 @@
 <atom:link href="https://www.giacomobutte.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 02 Jun 2026 18:15:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 02 Jun 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Using codes for notetaking in Zotero</title>
   <link>https://www.giacomobutte.com/blog/zotero/</link>
@@ -60,7 +60,7 @@
  ]]></description>
   <category>tools</category>
   <guid>https://www.giacomobutte.com/blog/zotero/</guid>
-  <pubDate>Tue, 02 Jun 2026 18:15:00 GMT</pubDate>
+  <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Different workflows for rapid evidence gathering</title>
@@ -175,7 +175,7 @@
  ]]></description>
   <category>tools</category>
   <guid>https://www.giacomobutte.com/blog/evidence/</guid>
-  <pubDate>Thu, 02 Apr 2026 18:15:00 GMT</pubDate>
+  <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Journal finder</title>
@@ -395,7 +395,7 @@ Butte, Giacomo. 2024. <span>“Journal Finder.”</span> September 4, 2024.
   <category>tools</category>
   <category>R</category>
   <guid>https://www.giacomobutte.com/blog/find_journal/</guid>
-  <pubDate>Tue, 03 Sep 2024 18:15:00 GMT</pubDate>
+  <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
   <media:content url="https://www.giacomobutte.com/blog/find_journal/img.png" medium="image" type="image/png" height="49" width="144"/>
 </item>
 <item>
@@ -432,7 +432,18 @@ Butte, Giacomo. 2024. <span>“Visualising Complexity.”</span> September
   <category>visualisation</category>
   <category>communication</category>
   <guid>https://www.giacomobutte.com/blog/visuals/</guid>
-  <pubDate>Tue, 03 Sep 2024 18:15:00 GMT</pubDate>
+  <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/whirlybirds/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>visualisation</category>
+  <category>building</category>
+  <category>R</category>
+  <guid>https://www.giacomobutte.com/blog/whirlybirds/</guid>
+  <pubDate>Tue, 11 Jun 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Climate data</title>
@@ -785,7 +796,7 @@ Butte, Giacomo. 2024. <span>“Visualising Complexity.”</span> September
   <category>humanitarian</category>
   <category>R</category>
   <guid>https://www.giacomobutte.com/blog/climate/</guid>
-  <pubDate>Mon, 10 Jun 2024 18:15:00 GMT</pubDate>
+  <pubDate>Mon, 10 Jun 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How rainy is the rainy season?</title>
@@ -1217,7 +1228,7 @@ font-style: inherit;">"data_cox.csv"</span>)</span></code></pre></div>
   <category>humanitarian</category>
   <category>R</category>
   <guid>https://www.giacomobutte.com/blog/rain_cox/</guid>
-  <pubDate>Wed, 17 Apr 2024 18:15:00 GMT</pubDate>
+  <pubDate>Wed, 17 Apr 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Water Security as a diagram</title>
@@ -1252,7 +1263,7 @@ Butte, Giacomo. 2024. <span>“Water Security as a Diagram.”</span> April
   <category>tools</category>
   <category>visualisation</category>
   <guid>https://www.giacomobutte.com/blog/water_security/</guid>
-  <pubDate>Wed, 10 Apr 2024 18:15:00 GMT</pubDate>
+  <pubDate>Wed, 10 Apr 2024 22:00:00 GMT</pubDate>
   <media:content url="https://www.giacomobutte.com/blog/water_security/dimensions.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1553,7 +1564,7 @@ Test set     0.7923204</code></pre>
   <category>humanitarian</category>
   <category>R</category>
   <guid>https://www.giacomobutte.com/blog/rain/</guid>
-  <pubDate>Wed, 31 Aug 2022 18:15:00 GMT</pubDate>
+  <pubDate>Wed, 31 Aug 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Article published on Water Journal</title>
@@ -1572,7 +1583,7 @@ Test set     0.7923204</code></pre>
 
  ]]></description>
   <guid>https://www.giacomobutte.com/blog/dgs/dgsws.html</guid>
-  <pubDate>Tue, 08 Mar 2022 18:15:00 GMT</pubDate>
+  <pubDate>Tue, 08 Mar 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>A short exploration on air quality monitoring</title>
@@ -1592,7 +1603,7 @@ Test set     0.7923204</code></pre>
   <category>environmental monitoring</category>
   <category>interactive visualization</category>
   <guid>https://www.giacomobutte.com/blog/airquality/airquality.html</guid>
-  <pubDate>Fri, 04 Mar 2022 18:15:00 GMT</pubDate>
+  <pubDate>Fri, 04 Mar 2022 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Explaining QMRA</title>
@@ -1616,7 +1627,7 @@ Test set     0.7923204</code></pre>
   <category>visualisation</category>
   <category>explanations</category>
   <guid>https://www.giacomobutte.com/blog/idyll/idyll.html</guid>
-  <pubDate>Wed, 09 Jun 2021 18:15:00 GMT</pubDate>
+  <pubDate>Wed, 09 Jun 2021 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Interactive map of violent events</title>
@@ -1636,7 +1647,7 @@ Test set     0.7923204</code></pre>
   <category>visualisation</category>
   <category>humanitarian</category>
   <guid>https://www.giacomobutte.com/blog/2021-05-01-acled/</guid>
-  <pubDate>Fri, 30 Apr 2021 18:15:00 GMT</pubDate>
+  <pubDate>Fri, 30 Apr 2021 22:00:00 GMT</pubDate>
   <media:content url="https://www.giacomobutte.com/blog/2021-05-01-acled/acled02.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -1655,7 +1666,7 @@ Test set     0.7923204</code></pre>
 
  ]]></description>
   <guid>https://www.giacomobutte.com/blog/qmra/</guid>
-  <pubDate>Wed, 04 Mar 2020 18:15:00 GMT</pubDate>
+  <pubDate>Wed, 04 Mar 2020 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Small Projects: whirly birds</title>
@@ -2269,7 +2280,7 @@ Test set     0.7923204</code></pre>
 
  ]]></description>
   <guid>https://www.giacomobutte.com/blog/whirlybirds/pdf.html</guid>
-  <pubDate>Sat, 04 Jan 2025 09:02:55 GMT</pubDate>
+  <pubDate>Tue, 14 Jan 2025 15:32:13 GMT</pubDate>
 </item>
 </channel>
 </rss>
