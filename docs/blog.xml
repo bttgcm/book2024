@@ -10,58 +10,7 @@
 <atom:link href="https://www.giacomobutte.com/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Tue, 02 Jun 2026 22:00:00 GMT</lastBuildDate>
-<item>
-  <title>Using codes for notetaking in Zotero</title>
-  <link>https://www.giacomobutte.com/blog/zotero/</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>When doing a literature review on a given topic, I would find very useful to create codes for a specific sub-topic and then tag the relevant notes or quotes from the articles with the specific code. In this way it is very fast and precise to pinpoint all the relevant information.This is a very similar process as coding in qualitative analysis. At the end I would ideally have a list of notes with links to the articles, as well with tags associated. I have not found a way to do it but this wordkflow gets rather close to it.</p>
-<section id="changing-zotero-configuration-for-annotation-httpswww.zotero.orgsupportnote_templates" class="level3">
-<h3 class="anchored" data-anchor-id="changing-zotero-configuration-for-annotation-httpswww.zotero.orgsupportnote_templates">1. Changing Zotero configuration for annotation: https://www.zotero.org/support/note_templates</h3>
-</section>
-<section id="adding-better-notes-add-on-to-zotero-link" class="level3">
-<h3 class="anchored" data-anchor-id="adding-better-notes-add-on-to-zotero-link">2. Adding “Better notes” add-on to Zotero <a href="https://github.com/windingwind/zotero-better-notes">link</a></h3>
-</section>
-<section id="choose-the-coding-used-1." class="level3">
-<h3 class="anchored" data-anchor-id="choose-the-coding-used-1.">3. Choose the coding used <sup>1</sup>.</h3>
-</section>
-<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;at the moment I am using something as: NS001 for notes on the general level of knowledge on the topic, NS002 Highlighting text in article PDF</p></div></div><section id="adding-relevant-notes-to-the-note-workspace-using-better-notes-icon." class="level3">
-<h3 class="anchored" data-anchor-id="adding-relevant-notes-to-the-note-workspace-using-better-notes-icon.">4. Adding relevant notes to the note workspace using better notes icon.</h3>
-<p><img src="https://www.giacomobutte.com/blog/zotero/img01.png" class="img-fluid"></p>
-</section>
-<section id="create-a-note-from-annotations-for-each-file" class="level3">
-<h3 class="anchored" data-anchor-id="create-a-note-from-annotations-for-each-file">5. Create a note from annotations for each file</h3>
-<p><img src="https://www.giacomobutte.com/blog/zotero/img04.png" class="img-fluid"></p>
-</section>
-<section id="export-the-article-note-to-note-workspace" class="level3">
-<h3 class="anchored" data-anchor-id="export-the-article-note-to-note-workspace">6. Export the article note to Note Workspace</h3>
-<p><img src="https://www.giacomobutte.com/blog/zotero/img05.png" class="img-fluid"></p>
-</section>
-<section id="repeat-with-different-notes-from-different-articles.-i-then-manually-re-organise-the-notes-grouping-them-by-code.-this-is-a-part-that-i-believe-could-be-automated." class="level3">
-<h3 class="anchored" data-anchor-id="repeat-with-different-notes-from-different-articles.-i-then-manually-re-organise-the-notes-grouping-them-by-code.-this-is-a-part-that-i-believe-could-be-automated.">7. Repeat with different notes from different articles. I then manually re-organise the notes grouping them by code. This is a part that I believe could be automated.</h3>
-<p><img src="https://www.giacomobutte.com/blog/zotero/img06.png" class="img-fluid"></p>
-</section>
-<section id="export-the-note-to-word-of-markdown.-one-big-advantage-of-having-them-in-markdown-is-that-each-note-is-then-linked-to-the-article-and-can-be-easily-found." class="level3">
-<h3 class="anchored" data-anchor-id="export-the-note-to-word-of-markdown.-one-big-advantage-of-having-them-in-markdown-is-that-each-note-is-then-linked-to-the-article-and-can-be-easily-found.">8. Export the note to word of markdown. One big advantage of having them in markdown is that each note is then linked to the article and can be easily found.</h3>
-<p><img src="https://www.giacomobutte.com/blog/zotero/img07.png" class="img-fluid"></p>
-</section>
-<section id="resources" class="level2">
-<h2 class="anchored" data-anchor-id="resources">Resources</h2>
-<p>A Zotero manual https://zotero-manual.github.io/tags/</p>
-
-
-</section>
-
-
- ]]></description>
-  <category>tools</category>
-  <guid>https://www.giacomobutte.com/blog/zotero/</guid>
-  <pubDate>Tue, 02 Jun 2026 22:00:00 GMT</pubDate>
-</item>
+<lastBuildDate>Thu, 02 Apr 2026 22:00:00 GMT</lastBuildDate>
 <item>
   <title>Different workflows for rapid evidence gathering</title>
   <link>https://www.giacomobutte.com/blog/evidence/</link>
@@ -176,6 +125,133 @@
   <category>tools</category>
   <guid>https://www.giacomobutte.com/blog/evidence/</guid>
   <pubDate>Thu, 02 Apr 2026 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Research workflow with rabbit research</title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/journal_rabbit/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/img.png" class="img-fluid" width="349"></p>
+<p>Here is another workflow to quickly find and sort out papers related to a single one. I started by selecting an article <a href="https://doi.org/10.1186/s41018-020-00068-2">Decision-making at the sharp end: a survey of literature related to decision-making in humanitarian contexts</a>. I chose this article becasue explores the topic of sensemaking, something that gets overlooked since it is omnipresent in our daily actions.</p>
+<ol type="1">
+<li><p>Using <a href="https://researchrabbitapp.com">Research Rabbit</a> i could download a set of related papers (546). See details on <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10403115/">this publication</a>.</p></li>
+<li><p>From this step I used a similar process expalained in <a href="https://bttgcm.github.io/book2024/blog/evidence/index.html">this post</a> using <a href="https://asreview.nl/blog/active-learning-explained/">ASReview</a></p></li>
+</ol>
+<p>3.I have uploaded the dataset of 546 entries and have given an initial input on 20 papers by tagging them relevant or not. My focus in on sensemaking and decision making in humanitarian context. Papers on social media are discarded as well as those on using technologies unless there is a focus on decision making.</p>
+<ol start="4" type="1">
+<li>I went through 120 papers of the 546 and stopped when the relevant papers proposed where areound 20-30% as seen below. Then I downloaded the new list of 63 papers.</li>
+</ol>
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/asr01.png" class="img-fluid"></p>
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/asr02.png" class="img-fluid"></p>
+<ol start="5" type="1">
+<li><p>Here brief text analysis of the exported file based on abstracts.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/index_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/index_files/figure-html/unnamed-chunk-1-2.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/index_files/figure-html/unnamed-chunk-1-3.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/index_files/figure-html/unnamed-chunk-1-4.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div></li>
+<li><p>The chosen files where imported in research rabbit to be explored again. The same process as from step 2 could be repeated focusing on another article(s). Items could be imported in Zotero if one connects it with Rabbit Research.</p>
+<p><img src="https://www.giacomobutte.com/blog/journal_rabbit/rabbit02.png" class="img-fluid" width="350"></p></li>
+<li><p>I finally asked Perplexity to write a 3 sentences summary of each study. Results below.</p></li>
+</ol>
+<p><strong>Moody experts : How mood and expertise influence judgmental anchoring</strong></p>
+<p>This study examines how mood and expertise jointly moderate anchoring effects in decision-making. Results suggest that sad judges show stronger anchoring effects than happy judges, while experts’ information processing may be relatively independent of mood. These findings indicate that positive mood may eliminate the otherwise robust anchoring effect, at least for non-experts.</p>
+<p><strong>Challenges in humanitarian information management and exchange: evidence from Haiti</strong></p>
+<p>This study analyzes challenges to information flow in the 2010 Haiti earthquake response and their implications for effective humanitarian action. The fragmented nature of the response and use of hierarchical information management models led some observers to label the Haiti response a failure. The paper concludes by offering possible paths for overcoming such challenges and restoring the value of humanitarian information management in relief settings.</p>
+<p>https://doi.org/10.1111/disa.12052</p>
+<p><strong>Hygiene programming during outbreaks: a qualitative case study of the humanitarian response during the Ebola outbreak in Liberia</strong></p>
+<p>This study describes humanitarian perspectives on changing hygiene behaviors during the 2014-2016 Liberian Ebola outbreak. Humanitarians faced challenges in defining which hygiene behaviors to promote and assumed fear and disease awareness would be the most powerful motivators for behavior change. The experiences of humanitarians allowed researchers to identify areas that could be strengthened when designing hygiene programs in future outbreaks.</p>
+<p>https://doi.org/10.1186/s12889-020-8240-9</p>
+<p><strong>Crisis Management in Hindsight: Cognition, Communication, Coordination, and Control</strong></p>
+<p>This article argues that cognition is central to performance in emergency management, defined as the capacity to recognize emerging risk and act on that information. The author reframes intergovernmental crisis management as a complex, adaptive system that needs to adjust its performance to fit changing environments. A reframed crisis management system is conceived as a dynamic interorganizational system characterized by four primary decision points: risk detection, interpretation, communication, and collective response mobilization.</p>
+<p>https://doi.org/10.1111/j.1540-6210.2007.00827.x</p>
+<p><strong>Grounded Theory and Sensitizing Concepts</strong></p>
+<p>This article examines the relationship between sensitizing concepts and grounded theory in qualitative research. The author illustrates the application of sensitizing concepts in a study of community-based antipoverty projects in Jamaica. The article contains commentary on trustworthiness techniques, the coding process, and the constant comparative method of analysis, as well as a synopsis of study findings.</p>
+<p><strong>Optimizing Decision-Making Processes in Times of COVID-19: Using Reflexivity to Counteract Information-Processing Failures</strong></p>
+<p>This review outlines how groupthink, narrow focus, and escalation of commitment may pose risks to decision-making processes in handling the COVID-19 crisis. The authors propose group reflexivity as an antidote to these biases and errors in decision-making. They recommend several evidence-based reflexivity tools that could be implemented to counter information-processing errors and improve decision-making processes in uncertain times.</p>
+<p>https://doi.org/10.3389/fpsyg.2021.650525</p>
+<p><strong>Cognitive biases in humanitarian sensemaking and decision-making lessons from field research</strong></p>
+<p>This article identifies biases that matter for humanitarian decision support, reflecting on the role of field-based decision-makers and digital responders. The most important biases are reviewed to provide an assessment of their role in disaster response. Areas particularly sensitive to reinforced biases are identified, as well as areas where digital volunteers can likely help, concluding with an agenda for future research.</p>
+<p>https://doi.org/10.1109/cogsima.2016.7497786</p>
+<p><strong>Codifying a crisis: progressing from information sharing to distributed decisionâ€making</strong></p>
+<p>This paper explains why it is difficult to move from information sharing towards support for distributed decision-making in crisis management. The authors argue that two key processes need to be considered: supporting both the translation of meaning and the transformation of interests between those on the front line and those in the remote response network. Results from analyzing three large-scale emergency response operations in the Netherlands indicate that collaborative decision-making was often hampered by actors limiting themselves to factual information exchange.</p>
+<p>https://doi.org/10.1111/1468-5973.12323</p>
+<p><strong>Evaluating COVID-19 decision-making in a humanitarian setting: The case study of Somalia</strong></p>
+<p>This study evaluated the process of policy and operational decision-making in relation to the COVID-19 response in Somalia, focusing on the use of information and the role of transparency. The researchers found that nearly all actors struggled to make sense of the epidemic’s scale and form an appropriate response. Important aspects of the response suffered from a transparency deficit and would have benefitted from more inclusive decision-making.</p>
+<p>https://doi.org/10.1371/journal.pgph.0000192</p>
+<p><strong>The Influence of Decision, Environmental and Firm Characteristics on the Rationality of Strategic Decisionâ€Making</strong></p>
+<p>This paper develops an integrated model of strategic decision-making rationality, informed by three perspectives that identify decision, environmental, and firm characteristics as influences. Results from a study in Egypt indicate that the rationality of strategic decision-making processes is shaped by variables identified by all three perspectives. The study suggests that the three perspectives do not contribute equally to explaining strategic decision making, and that the national setting is relevant for how decision-makers consider environmental characteristics.</p>
+<p>https://doi.org/10.1111/j.1467-6486.2006.00670.x</p>
+<p><strong>The Reality of Evidence-based Decision Making in Humanitarian Programming: An Exploratory Study of WASH Programs in Uganda</strong></p>
+<p>This research examined factors influencing the use of evidence in decision-making processes for humanitarian WASH interventions in Uganda. Interviewees reported several factors that impede the implementation of evidence-based decision making, including contradictory and non-repeatable evidence, and information not being in an actionable format. The study shows the importance of considering human aspects and organizational settings that limit access to and use of supporting data, information, and evidence.</p>
+<p>https://doi.org/10.1109/ghtc46280.2020.9342885</p>
+<p><strong>Knowledge creation and reliable decision-making in complex emergencies</strong></p>
+<p>This paper examines how knowledge creation and decision-making authority location within relief organizations influence coordination. The study found that relief organizations rely on quality information dissemination between field and headquarters, but reporting from the field is often overloaded with misplaced precision. The creation of ‘collective-meaning structures’ based on reliable information at all decision-making levels is suggested to open the way to decentralization of decision-making to field officers engaged with inter-organizational coordination structures.</p>
+<p>https://doi.org/10.1111/j.1467-7717.2011.01255.x</p>
+<p><strong>Managing cognitive biases during disaster response: the development of an aide memoire</strong></p>
+<p>This research sought to improve decision-making quality by developing an aide memoire for managing cognitive biases in emergency management. Based on literature and expert input, nine cognitive biases were identified and translated into a series of questions. The aide memoire can be used to assess available information, intelligence, and decisions, and then determine their meaning in emergency management contexts.</p>
+<p>https://doi.org/10.1007/s10111-019-00564-5</p>
+<p><strong>An Emergency Decision Making Method Based on Prospect Theory for Different Emergency Situations</strong></p>
+<p>This study proposes a novel approach based on prospect theory for emergency decision making (EDM) that considers both decision makers’ psychological behavior and different emergency situations. The approach addresses limitations in existing EDM methods by incorporating these factors into the decision-making process. Two examples and related comparisons are provided to illustrate the feasibility and validity of this approach.</p>
+<p>https://doi.org/10.1007/s13753-018-0173-x</p>
+<p><strong>Making better decisions in groups</strong></p>
+<p>This review identifies common problems of decision-making in individuals and groups, guided by a Bayesian framework. The authors highlight the advantages of group decision-making in overcoming biases and searching for good solutions, while also noting that diverse groups face their own challenges. The paper discusses means of managing these pitfalls and makes recommendations on how to make better group decisions.</p>
+<p>https://doi.org/10.1098/rsos.170193</p>
+<p><strong>Risk, uncertainty, and heuristics</strong></p>
+<p>This paper distinguishes between risk and uncertainty in business decision-making, associating economic profit with entrepreneurial decisions under fundamental uncertainties. The authors argue that fast-and-frugal heuristics provide robust strategies for performing well under uncertainty, often deliberately ignoring information and using fewer resources. The paper concludes that in an uncertain world, less information often proves to be more effective for decision-making.</p>
+<p>https://doi.org/10.1016/j.jbusres.2014.02.013</p>
+<p><strong>How emergency managers (mis?)interpret forecasts</strong></p>
+<p>This study examined how emergency managers interpret forecast information using hypothetical climate, flood, and weather scenarios. The research revealed that even experienced emergency managers take decision shortcuts and make biased choices, similar to the general population. Their choices vary depending on factors such as the format of probabilistic forecasts and whether outcomes are represented as gains or losses.</p>
+<p>https://doi.org/10.1111/disa.12293</p>
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{butte2025,
+  author = {Butte, Giacomo},
+  title = {Research Workflow with Rabbit Research},
+  date = {2025-02-12},
+  url = {https://www.giacomobutte.com/blog/journal_rabbit/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-butte2025" class="csl-entry quarto-appendix-citeas">
+Butte, Giacomo. 2025. <span>“Research Workflow with Rabbit
+Research.”</span> February 12, 2025. <a href="https://www.giacomobutte.com/blog/journal_rabbit/">https://www.giacomobutte.com/blog/journal_rabbit/</a>.
+</div></div></section></div> ]]></description>
+  <category>tools</category>
+  <category>R</category>
+  <category>academic</category>
+  <guid>https://www.giacomobutte.com/blog/journal_rabbit/</guid>
+  <pubDate>Tue, 11 Feb 2025 22:00:00 GMT</pubDate>
+  <media:content url="https://www.giacomobutte.com/blog/journal_rabbit/img.png" medium="image" type="image/png" height="111" width="144"/>
 </item>
 <item>
   <title>Journal finder</title>
@@ -433,17 +509,6 @@ Butte, Giacomo. 2024. <span>“Visualising Complexity.”</span> September
   <category>communication</category>
   <guid>https://www.giacomobutte.com/blog/visuals/</guid>
   <pubDate>Tue, 03 Sep 2024 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <dc:creator>Giacomo Butte</dc:creator>
-  <link>https://www.giacomobutte.com/blog/whirlybirds/</link>
-  <description><![CDATA[ undefined ]]></description>
-  <category>visualisation</category>
-  <category>building</category>
-  <category>R</category>
-  <guid>https://www.giacomobutte.com/blog/whirlybirds/</guid>
-  <pubDate>Tue, 11 Jun 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>Climate data</title>
@@ -797,6 +862,68 @@ Butte, Giacomo. 2024. <span>“Visualising Complexity.”</span> September
   <category>R</category>
   <guid>https://www.giacomobutte.com/blog/climate/</guid>
   <pubDate>Mon, 10 Jun 2024 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Giacomo Butte</dc:creator>
+  <link>https://www.giacomobutte.com/blog/whirlybirds/</link>
+  <description><![CDATA[ undefined ]]></description>
+  <category>visualisation</category>
+  <category>building</category>
+  <category>R</category>
+  <guid>https://www.giacomobutte.com/blog/whirlybirds/</guid>
+  <pubDate>Mon, 10 Jun 2024 22:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Using codes for notetaking in Zotero</title>
+  <link>https://www.giacomobutte.com/blog/zotero/</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>When doing a literature review on a given topic, I would find very useful to create codes for a specific sub-topic and then tag the relevant notes or quotes from the articles with the specific code. In this way it is very fast and precise to pinpoint all the relevant information.This is a very similar process as coding in qualitative analysis. At the end I would ideally have a list of notes with links to the articles, as well with tags associated. I have not found a way to do it but this wordkflow gets rather close to it.</p>
+<section id="changing-zotero-configuration-for-annotation-httpswww.zotero.orgsupportnote_templates" class="level3">
+<h3 class="anchored" data-anchor-id="changing-zotero-configuration-for-annotation-httpswww.zotero.orgsupportnote_templates">1. Changing Zotero configuration for annotation: https://www.zotero.org/support/note_templates</h3>
+</section>
+<section id="adding-better-notes-add-on-to-zotero-link" class="level3">
+<h3 class="anchored" data-anchor-id="adding-better-notes-add-on-to-zotero-link">2. Adding “Better notes” add-on to Zotero <a href="https://github.com/windingwind/zotero-better-notes">link</a></h3>
+</section>
+<section id="choose-the-coding-used-1." class="level3">
+<h3 class="anchored" data-anchor-id="choose-the-coding-used-1.">3. Choose the coding used <sup>1</sup>.</h3>
+</section>
+<div class="no-row-height column-margin column-container"><div id="fn1"><p><sup>1</sup>&nbsp;at the moment I am using something as: NS001 for notes on the general level of knowledge on the topic, NS002 Highlighting text in article PDF</p></div></div><section id="adding-relevant-notes-to-the-note-workspace-using-better-notes-icon." class="level3">
+<h3 class="anchored" data-anchor-id="adding-relevant-notes-to-the-note-workspace-using-better-notes-icon.">4. Adding relevant notes to the note workspace using better notes icon.</h3>
+<p><img src="https://www.giacomobutte.com/blog/zotero/img01.png" class="img-fluid"></p>
+</section>
+<section id="create-a-note-from-annotations-for-each-file" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-note-from-annotations-for-each-file">5. Create a note from annotations for each file</h3>
+<p><img src="https://www.giacomobutte.com/blog/zotero/img04.png" class="img-fluid"></p>
+</section>
+<section id="export-the-article-note-to-note-workspace" class="level3">
+<h3 class="anchored" data-anchor-id="export-the-article-note-to-note-workspace">6. Export the article note to Note Workspace</h3>
+<p><img src="https://www.giacomobutte.com/blog/zotero/img05.png" class="img-fluid"></p>
+</section>
+<section id="repeat-with-different-notes-from-different-articles.-i-then-manually-re-organise-the-notes-grouping-them-by-code.-this-is-a-part-that-i-believe-could-be-automated." class="level3">
+<h3 class="anchored" data-anchor-id="repeat-with-different-notes-from-different-articles.-i-then-manually-re-organise-the-notes-grouping-them-by-code.-this-is-a-part-that-i-believe-could-be-automated.">7. Repeat with different notes from different articles. I then manually re-organise the notes grouping them by code. This is a part that I believe could be automated.</h3>
+<p><img src="https://www.giacomobutte.com/blog/zotero/img06.png" class="img-fluid"></p>
+</section>
+<section id="export-the-note-to-word-of-markdown.-one-big-advantage-of-having-them-in-markdown-is-that-each-note-is-then-linked-to-the-article-and-can-be-easily-found." class="level3">
+<h3 class="anchored" data-anchor-id="export-the-note-to-word-of-markdown.-one-big-advantage-of-having-them-in-markdown-is-that-each-note-is-then-linked-to-the-article-and-can-be-easily-found.">8. Export the note to word of markdown. One big advantage of having them in markdown is that each note is then linked to the article and can be easily found.</h3>
+<p><img src="https://www.giacomobutte.com/blog/zotero/img07.png" class="img-fluid"></p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>A Zotero manual https://zotero-manual.github.io/tags/</p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>tools</category>
+  <guid>https://www.giacomobutte.com/blog/zotero/</guid>
+  <pubDate>Mon, 29 Apr 2024 22:00:00 GMT</pubDate>
 </item>
 <item>
   <title>How rainy is the rainy season?</title>
@@ -1667,620 +1794,6 @@ Test set     0.7923204</code></pre>
  ]]></description>
   <guid>https://www.giacomobutte.com/blog/qmra/</guid>
   <pubDate>Wed, 04 Mar 2020 22:00:00 GMT</pubDate>
-</item>
-<item>
-  <title>Small Projects: whirly birds</title>
-  <link>https://www.giacomobutte.com/blog/whirlybirds/pdf.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Complying to thermal requirement in terms of temperature and relative humidity is a challenge in countries with tropical weather. In particular, warehouses with metal roof experience high temperature in the attic under the roof. This heat is then transmitted via the suspended ceiling to the space below that is artificially climatised. To reduce the work to be done by AC we installed two whirly birds in the warehouse in Jamtoli. We set up a small monitoring system by using temperature logs in 3 different location: outside, 20 cm below the roof overhang, in a shaded place, inside the corridor that exist between the entrance and the AC space, and above the suspended ceiling.</p>
-</section>
-<section id="data" class="level2">
-<h2 class="anchored" data-anchor-id="data">Data</h2>
-<p>Data was collected during the months of April and May with the whirly birds open during that period with the exception of the week between 15 May 5pm to 21 May 5pm. A plot of the collected data in the a two month period. During this period the whirly birds where sealed for 6 days to see if they had any impact.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>A plot of the difference in temperature between ceiling and outside is shown below.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>The following plot shows the relation of temperature difference versus outdoor temperature. We can observe two modes: with and without sunlight radiation. Up to sunrise, difference is negative while when sun radiation starts to heat the roof the relationship changes and temperature difference reaches positive values (attic warmer than outside). The data collected did not record the amount of haze and therefore the intensity of sun radiation that could be one of the factor (with Relative humidity) that generates variability. Adding a smooth curve shows another difference, above 34 C the whirly birds start to show a statistically significant difference in their impact on temperature difference but in the opposite direction as expected.</p>
-<p>We should keep in mind that the closure of the whirly birds was done only for 1 week and that sun radiation, affected by cloudiness for example, was not recorded.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-3-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>As seen above, the effect of the whirly birds changes across the day and across temperatures. below a plot over the 24h and over working hours.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="https://www.giacomobutte.com/blog/whirlybirds/pdf_files/figure-html/unnamed-chunk-4-2.png" class="img-fluid figure-img" width="672"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Four regression models were run: <img src="https://latex.codecogs.com/png.latex?M1:%20T_%7Bdiff%7D%20=%20%5Calpha%20+%20%5Cbeta%20T_%7Bext%7D"> <img src="https://latex.codecogs.com/png.latex?M2:%20T_%7Bdiff%7D%20=%20%5Calpha%20+%20%5Cbeta%20T_%7Bext%7D+%20WB"> <img src="https://latex.codecogs.com/png.latex?M3:%20T_%7Bdiff%7D%20=%20%5Calpha%20+%20%5Cbeta%20T_%7Bext_%7B8-17h%7D%7D"> <img src="https://latex.codecogs.com/png.latex?M4:%20T_%7Bdiff%7D%20=%20%5Calpha%20+%20%5Cbeta%20T_%7Bext_%7B8-17h%7D%7D+WB"></p>
-<p>Two model only regressing the difference between ceiling and outdoor temperature on outdoor temperature (M1, M3) and two having whirly bird treatment (with values 1 and 0 for open and close) on models M2 and M4. Additionally model M3 and M4 have used only temperature between 7am and 5pm. Result show a negative impact on temperature difference (less difference) across the recorded values (-0.15) and even more in the 7am 5pm range (-0.34). In both case the result are not statistically significant.</p>
-<div class="cell">
-<div class="cell-output-display">
-<div id="zpcmpoeyxu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#zpcmpoeyxu table {
-  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-#zpcmpoeyxu thead, #zpcmpoeyxu tbody, #zpcmpoeyxu tfoot, #zpcmpoeyxu tr, #zpcmpoeyxu td, #zpcmpoeyxu th {
-  border-style: none;
-}
-
-#zpcmpoeyxu p {
-  margin: 0;
-  padding: 0;
-}
-
-#zpcmpoeyxu .gt_table {
-  display: table;
-  border-collapse: collapse;
-  line-height: normal;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_caption {
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-#zpcmpoeyxu .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#zpcmpoeyxu .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 3px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#zpcmpoeyxu .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#zpcmpoeyxu .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#zpcmpoeyxu .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#zpcmpoeyxu .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#zpcmpoeyxu .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#zpcmpoeyxu .gt_spanner_row {
-  border-bottom-style: hidden;
-}
-
-#zpcmpoeyxu .gt_group_heading {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  text-align: left;
-}
-
-#zpcmpoeyxu .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#zpcmpoeyxu .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#zpcmpoeyxu .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#zpcmpoeyxu .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#zpcmpoeyxu .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#zpcmpoeyxu .gt_stub_row_group {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 5px;
-  padding-right: 5px;
-  vertical-align: top;
-}
-
-#zpcmpoeyxu .gt_row_group_first td {
-  border-top-width: 2px;
-}
-
-#zpcmpoeyxu .gt_row_group_first th {
-  border-top-width: 2px;
-}
-
-#zpcmpoeyxu .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#zpcmpoeyxu .gt_first_summary_row {
-  border-top-style: solid;
-  border-top-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_first_summary_row.thick {
-  border-top-width: 2px;
-}
-
-#zpcmpoeyxu .gt_last_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#zpcmpoeyxu .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_last_grand_summary_row_top {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-bottom-style: double;
-  border-bottom-width: 6px;
-  border-bottom-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#zpcmpoeyxu .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#zpcmpoeyxu .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#zpcmpoeyxu .gt_sourcenote {
-  font-size: 90%;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#zpcmpoeyxu .gt_left {
-  text-align: left;
-}
-
-#zpcmpoeyxu .gt_center {
-  text-align: center;
-}
-
-#zpcmpoeyxu .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#zpcmpoeyxu .gt_font_normal {
-  font-weight: normal;
-}
-
-#zpcmpoeyxu .gt_font_bold {
-  font-weight: bold;
-}
-
-#zpcmpoeyxu .gt_font_italic {
-  font-style: italic;
-}
-
-#zpcmpoeyxu .gt_super {
-  font-size: 65%;
-}
-
-#zpcmpoeyxu .gt_footnote_marks {
-  font-size: 75%;
-  vertical-align: 0.4em;
-  position: initial;
-}
-
-#zpcmpoeyxu .gt_asterisk {
-  font-size: 100%;
-  vertical-align: 0;
-}
-
-#zpcmpoeyxu .gt_indent_1 {
-  text-indent: 5px;
-}
-
-#zpcmpoeyxu .gt_indent_2 {
-  text-indent: 10px;
-}
-
-#zpcmpoeyxu .gt_indent_3 {
-  text-indent: 15px;
-}
-
-#zpcmpoeyxu .gt_indent_4 {
-  text-indent: 20px;
-}
-
-#zpcmpoeyxu .gt_indent_5 {
-  text-indent: 25px;
-}
-</style>
-
-<table class="gt_table caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<colgroup>
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-<col style="width: 7%">
-</colgroup>
-<thead>
-<tr class="header gt_col_headings gt_spanner_row">
-<th rowspan="2" id="<strong>Characteristic</strong>" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col"><strong>Characteristic</strong></th>
-<th colspan="3" id="*M1" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">*M1</span></th>
-<th colspan="3" id="M2" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">M2</span></th>
-<th colspan="3" id="M3" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">M3</span></th>
-<th colspan="3" id="M4" class="gt_center gt_columns_top_border gt_column_spanner_outer" data-quarto-table-cell-role="th" scope="colgroup"><span class="gt_column_spanner">M4</span></th>
-</tr>
-<tr class="odd gt_col_headings">
-<th id="<strong>Beta</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Beta</strong></th>
-<th id="<strong>95% CI</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>95% CI</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
-<th id="<strong>p-value</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>p-value</strong></th>
-<th id="<strong>Beta</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Beta</strong></th>
-<th id="<strong>95% CI</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>95% CI</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
-<th id="<strong>p-value</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>p-value</strong></th>
-<th id="<strong>Beta</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Beta</strong></th>
-<th id="<strong>95% CI</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>95% CI</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
-<th id="<strong>p-value</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>p-value</strong></th>
-<th id="<strong>Beta</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>Beta</strong></th>
-<th id="<strong>95% CI</strong><span class=&quot;gt_footnote_marks&quot; style=&quot;white-space:nowrap;font-style:italic;font-weight:normal;&quot;><sup>1</sup></span>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>95% CI</strong><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span></th>
-<th id="<strong>p-value</strong>" class="gt_col_heading gt_columns_bottom_border gt_center" data-quarto-table-cell-role="th" scope="col"><strong>p-value</strong></th>
-</tr>
-</thead>
-<tbody class="gt_table_body">
-<tr class="odd">
-<td class="gt_row gt_left" headers="label">outside</td>
-<td class="gt_row gt_center" headers="estimate_1">0.71</td>
-<td class="gt_row gt_center" headers="ci_1">0.69, 0.73</td>
-<td class="gt_row gt_center" headers="p.value_1">&lt;0.001</td>
-<td class="gt_row gt_center" headers="estimate_2">0.71</td>
-<td class="gt_row gt_center" headers="ci_2">0.69, 0.73</td>
-<td class="gt_row gt_center" headers="p.value_2">&lt;0.001</td>
-<td class="gt_row gt_center" headers="estimate_3">0.72</td>
-<td class="gt_row gt_center" headers="ci_3">0.67, 0.76</td>
-<td class="gt_row gt_center" headers="p.value_3">&lt;0.001</td>
-<td class="gt_row gt_center" headers="estimate_4">0.71</td>
-<td class="gt_row gt_center" headers="ci_4">0.66, 0.75</td>
-<td class="gt_row gt_center" headers="p.value_4">&lt;0.001</td>
-</tr>
-<tr class="even">
-<td class="gt_row gt_left" headers="label">wb</td>
-<td class="gt_row gt_center" headers="estimate_1"><br>
-</td>
-<td class="gt_row gt_center" headers="ci_1"><br>
-</td>
-<td class="gt_row gt_center" headers="p.value_1"><br>
-</td>
-<td class="gt_row gt_center" headers="estimate_2">0.16</td>
-<td class="gt_row gt_center" headers="ci_2">-0.07, 0.39</td>
-<td class="gt_row gt_center" headers="p.value_2">0.2</td>
-<td class="gt_row gt_center" headers="estimate_3"><br>
-</td>
-<td class="gt_row gt_center" headers="ci_3"><br>
-</td>
-<td class="gt_row gt_center" headers="p.value_3"><br>
-</td>
-<td class="gt_row gt_center" headers="estimate_4">-0.34</td>
-<td class="gt_row gt_center" headers="ci_4">-0.70, 0.02</td>
-<td class="gt_row gt_center" headers="p.value_4">0.063</td>
-</tr>
-</tbody><tfoot class="gt_footnotes">
-<tr class="even">
-<td colspan="13" class="gt_footnote"><span class="gt_footnote_marks" style="white-space:nowrap;font-style:italic;font-weight:normal;"><sup>1</sup></span> CI = Confidence Interval</td>
-</tr>
-</tfoot>
-
-</table>
-
-</div>
-</div>
-</div>
-</section>
-<section id="conclusion" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
-<p>the data collected does not support the positive impact of whirly birds on the difference of temperature between the attic and outside. The data may not be capturing sigmificant other factors such as sun radiance, humidity, wind. interestingly up to 34 C the whirly birds have a positive impact but this reverses at 36. it hsould also be considered that maybe the wrapped whirly birds may act as heat collector and therefore contributing to the overl warming of the roof-attic.</p>
-<p>Further data should be collected, perhaps adding more information on the sky condition, humidity, wind. Analysis should be run again with thenew gathered data.</p>
-
-
-</section>
-
- ]]></description>
-  <guid>https://www.giacomobutte.com/blog/whirlybirds/pdf.html</guid>
-  <pubDate>Tue, 14 Jan 2025 15:32:13 GMT</pubDate>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,66 @@
+﻿from,to
+me,interest
+me,skills
+me,places
+interest,visualisation
+interest,waste management
+interest,music
+interest,risk assessment
+interest,construction
+interest,mountain development
+skills,project management
+skills,risk assessment
+skills,cost-benefit analysis
+skills,architectural design
+skills,water supply rehabilitation
+skills,graphic design
+skills,academic writing
+skills,feasibility studies
+skills,capacity building
+capacity building,construction workers training
+capacity building,university courses
+project management,emergency response
+project management,construction
+project management,research project
+places,nepal
+places,cambodia
+places,china
+places,japan
+places,india
+places,sudan
+places,malawi
+places,liberia
+places,bangladesh
+places,uk
+academic writing,peer reviewed article
+architectural design,china
+university courses,cambodia
+emergency response,earthquake reponse
+earthquake reponse,nepal
+emergency response,cyclone response
+cyclone response,malawi
+emergency response,cholera outbreak
+cholera outbreak,malawi
+research project,microbial risk of wastewater sludge reuse
+research project,spring revival
+spring revival,cost-benefit analysis
+construction,healthcare
+construction,commercial space
+construction,community centers
+visualisation,R
+visualisation,Shiny
+moutain development,spring revival
+waste management,microbial risk of wastewater sludge reuse
+waste management,volunteering
+cambodia,architectural design
+cambodia,contractor for INGO/NGO
+sudan,WASH PM
+uk,assistant researcher
+assistant researcher,Newcastle Uni
+me,education
+WASH PM,liberia
+WASH PM,malawi
+bangladesh,construction manager
+nepal,construction manager
+india,construction manager
+japan,architectural design

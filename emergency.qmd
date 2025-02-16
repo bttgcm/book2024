@@ -1,0 +1,29 @@
+---
+format:
+  html:
+    grid:
+      margin-width: 500px
+      body-width: 650px
+    toc: true
+lightbox:
+  match: auto
+  effect: fade
+  desc-position: right
+  loop: true
+  css-class: "my-gallery"
+---
+
+# Emergency response Project Management
+
+I have worked in different organisations managing infrastructural interventions, community training and need assessment. Some of the project I have completed included: design and tendering for healthcare facility, rehabilitation of rural water supply line, rehabilitation of afridev pump and boreholes, design and supervision of waste management facilities, supervision of wastewater onsite treatment facility construction.
+
+## Work experience
+
+| Organisation                      | Role                       | Year             |
+|-----------------------------------|----------------------------|------------------|
+| [Medécins Sans Frontières]{.high} | Construction manager:      | Bangladesh, 2023 |
+|                                   | Water Sanitation Manager   | Malawi, 2023     |
+|                                   | Water Sanitation Manager   | Liberia, 2022    |
+| [ICRC]{.high}                     | Water and Habitat delegate | Sudan, 2021      |
+| [Kam for Sud]{.high}              | Reconstruction Manager     | Nepal 2016, 2017 |
+| [Abari]{.high}                    | Field Supervisor           | Nepal, 2015      |

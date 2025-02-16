@@ -63,48 +63,6 @@
     "text": "Organisation\nRole\nYear\n\n\n\n\nMedécins Sans Frontières\nConstruction manager:\nBangladesh, 2023\n\n\n\nWater Sanitation Manager\nMalawi, 2023\n\n\n\nWater Sanitation Manager\nLiberia, 2022\n\n\nICRC\nWater and Habitat delegate\nSudan, 2021\n\n\nKam for Sud\nReconstruction Manager\nNepal 2016, 2017\n\n\nAbari\nField Supervisor\nNepal, 2015"
   },
   {
-    "objectID": "blog_draft/spatial_R/pop_qgis.html",
-    "href": "blog_draft/spatial_R/pop_qgis.html",
-    "title": "Giacomo Butte",
-    "section": "",
-    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n       GEOGCRS[“WGS 84”,ENSEMBLE[“World Geodetic System 1984 ensemble”,MEMBER[“World Geodetic System 1984 (Transit)”],MEMBER[“World Geodetic System 1984 (G730)”],MEMBER[“World Geodetic System 1984 (G873)”],MEMBER[“World Geodetic System 1984 (G1150)”],MEMBER[“World Geodetic System 1984 (G1674)”],MEMBER[“World Geodetic System 1984 (G1762)”],MEMBER[“World Geodetic System 1984 (G2139)”],ELLIPSOID[“WGS 84”,6378137,298.257223563,LENGTHUNIT[“metre”,1]],ENSEMBLEACCURACY[2.0]],PRIMEM[“Greenwich”,0,ANGLEUNIT[“degree”,0.0174532925199433]],CS[ellipsoidal,2],AXIS[“geodetic latitude (Lat)”,north,ORDER[1],ANGLEUNIT[“degree”,0.0174532925199433]],AXIS[“geodetic longitude (Lon)”,east,ORDER[2],ANGLEUNIT[“degree”,0.0174532925199433]],USAGE[SCOPE[“Horizontal component of 3D system.”],AREA[“World.”],BBOX[-90,-180,90,180]],ID[“EPSG”,4326]] +proj=longlat +datum=WGS84 +no_defs 3452 4326 EPSG:4326 WGS 84 longlat EPSG:7030 true"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/density_v2.html",
-    "href": "blog_draft/spatial_R/density_v2.html",
-    "title": "Giacomo Butte",
-    "section": "",
-    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n                GEOGCRS[“WGS 84”,ENSEMBLE[“World Geodetic System 1984 ensemble”,MEMBER[“World Geodetic System 1984 (Transit)”],MEMBER[“World Geodetic System 1984 (G730)”],MEMBER[“World Geodetic System 1984 (G873)”],MEMBER[“World Geodetic System 1984 (G1150)”],MEMBER[“World Geodetic System 1984 (G1674)”],MEMBER[“World Geodetic System 1984 (G1762)”],MEMBER[“World Geodetic System 1984 (G2139)”],ELLIPSOID[“WGS 84”,6378137,298.257223563,LENGTHUNIT[“metre”,1]],ENSEMBLEACCURACY[2.0]],PRIMEM[“Greenwich”,0,ANGLEUNIT[“degree”,0.0174532925199433]],CS[ellipsoidal,2],AXIS[“geodetic latitude (Lat)”,north,ORDER[1],ANGLEUNIT[“degree”,0.0174532925199433]],AXIS[“geodetic longitude (Lon)”,east,ORDER[2],ANGLEUNIT[“degree”,0.0174532925199433]],USAGE[SCOPE[“Horizontal component of 3D system.”],AREA[“World.”],BBOX[-90,-180,90,180]],ID[“EPSG”,4326]] +proj=longlat +datum=WGS84 +no_defs 3452 4326 EPSG:4326 WGS 84 longlat EPSG:7030 true"
-  },
-  {
-    "objectID": "blog_draft/sls/index.html",
-    "href": "blog_draft/sls/index.html",
-    "title": "Street Life Studies",
-    "section": "",
-    "text": "Street Life Studies is a series of workshop run by UNSW Sydney in partnership with RUFA Phnom Penh. The idea was to challenge students to look at public spaces using direct observations.\n\n\n\n\n\nCitationBibTeX citation:@online{butte2020,\n  author = {Butte, Giacomo},\n  title = {Street {Life} {Studies}},\n  date = {2020-09-04},\n  url = {https://www.giacomobutte.com/blog_draft/sls/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2020. “Street Life Studies.” September 4,\n2020. https://www.giacomobutte.com/blog_draft/sls/."
-  },
-  {
-    "objectID": "blog_draft/eduwar/index.html",
-    "href": "blog_draft/eduwar/index.html",
-    "title": "Untitled",
-    "section": "",
-    "text": "Summary of search result by research string used. Searches were exported as .ris file.\n\n\n\n\n\n\n\n\nID\nString\nResults\n\n\n\n\nsearch01\ntitle:education AND title:war AND publication_type:(“journal article”) AND reference_count:([3 TO *])\n515\n\n\nsearch02\ntitle:education AND title:war AND title:maintain AND publication_type:(“journal article”)\n4\n\n\nsearch03\ntitle:education AND title:war AND title:during AND publication_type:(“journal article”)\n310\n\n\nsearch04\ntitle:(“education in emergencies”) AND publication_type:(“journal article”)\n373\n\n\nsearch05\ntitle:education AND title:gaza AND publication_type:(“journal article”)\n78\n\n\n\nThe 1000+ papers were then uploaded in ASreview and screened for relevance1. At this moment 126 papers out of 1280 were screened.\n1 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work. After installation, open Command prompt in Windows and run asreview lab."
-  },
-  {
-    "objectID": "blog_draft/eduwar/index.html#lens.org",
-    "href": "blog_draft/eduwar/index.html#lens.org",
-    "title": "Untitled",
-    "section": "",
-    "text": "Summary of search result by research string used. Searches were exported as .ris file.\n\n\n\n\n\n\n\n\nID\nString\nResults\n\n\n\n\nsearch01\ntitle:education AND title:war AND publication_type:(“journal article”) AND reference_count:([3 TO *])\n515\n\n\nsearch02\ntitle:education AND title:war AND title:maintain AND publication_type:(“journal article”)\n4\n\n\nsearch03\ntitle:education AND title:war AND title:during AND publication_type:(“journal article”)\n310\n\n\nsearch04\ntitle:(“education in emergencies”) AND publication_type:(“journal article”)\n373\n\n\nsearch05\ntitle:education AND title:gaza AND publication_type:(“journal article”)\n78\n\n\n\nThe 1000+ papers were then uploaded in ASreview and screened for relevance1. At this moment 126 papers out of 1280 were screened.\n1 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work. After installation, open Command prompt in Windows and run asreview lab."
-  },
-  {
-    "objectID": "blog_draft/eduwar/index.html#perplexity",
-    "href": "blog_draft/eduwar/index.html#perplexity",
-    "title": "Untitled",
-    "section": "Perplexity",
-    "text": "Perplexity\nThe following prompt was used: “Find 20 sources from academic journal and reports from reputable organisation on how to run education programs during conflict. List all the sources with bibliographic information” and gave the following results:\n\nPherali, T. (2019). Education and conflict: Emergence, growth and diversification of the field. Education and Conflict Review, 2, 7-14. [1]\nShields, R., & Paulson, J. (2015). ‘Development in reverse’? A longitudinal analysis of armed conflict, fragility and school enrolment. Comparative Education, 51(2), 212-230. [3]\nBurde, D., Guven, O., Kelcey, J., Lahmann, H., & Al-Abbadi, K. (2015). What works to promote children’s educational access, quality of learning, and wellbeing in crisis-affected contexts. Education Rigorous Literature Review. Department for International Development. [3]\nBurde, D., Kapit, A., Wahl, R. L., Guven, O., & Skarpeteig, M. I. (2017). Education in emergencies: A review of theory and research. Review of Educational Research, 87(3), 619-658. [3]\nNicolai, S., & Triplehorn, C. (2003). The role of education in protecting children in conflict. Humanitarian Practice Network Paper, 42. [2]\nWinthrop, R., & Kirk, J. (2008). Learning for a bright future: Schooling, armed conflict, and children’s well-being. Comparative Education Review, 52(4), 639-661. [3]\nMachel, G. (2001). The impact of war on children. Hurst & Company. [3]\nJustino, P. (2016). Supply and demand restrictions to education in conflict-affected countries: New research and future agendas. International Journal of Educational Development, 47, 76-85. [3]\nØstby, G., & Urdal, H. (2010). Education and civil conflict: A review of the quantitative, empirical literature. Background paper prepared for the Education for All Global Monitoring Report 2011. [3]\nBuckland, P. (2005). Reshaping the future: Education and post-conflict reconstruction. World Bank Publications. [3]\nNovelli, M., & Lopes Cardozo, M. T. (2008). Conflict, education and the global south: New critical directions. International Journal of Educational Development, 28(4), 473-488. [3]\nPaulson, J. (2011). Education and reconciliation: Exploring conflict and post-conflict situations. A&C Black. [3]\nPherali, T. J. (2013). Schooling in violent situations: The politicization of education in Nepal, before and after the 2006 peace agreement. Prospects, 43(1), 49-67. [3]\nBurde, D. (2014). Schools for conflict or for peace in Afghanistan. Columbia University Press. [3]\nLopes Cardozo, M. T. A. (2008). Sri Lanka: In peace or in pieces? A critical approach to peace education in Sri Lanka. Research in Comparative and International Education, 3(1), 19-35. [3]\nLopes Cardozo, M. T. A., & Hoeks, C. C. (2015). Losing ground: A critical analysis of teachers’ agency for peacebuilding education in Sri Lanka. Journal of Peace Education, 12(1), 56-73. [3]\nLopes Cardozo, M. T. A., & Shah, R. (2016). A conceptual framework to analyse the multiscalar politics of education for sustainable peacebuilding. Comparative Education, 52(4), 516-537. [3]\nNovelli, M., Lopes Cardozo, M. T. A., & Smith, A. (2017). The 4Rs framework: Analyzing education’s contribution to sustainable peacebuilding with social justice in conflict-affected contexts. Journal on Education in Emergencies, 3(1), 14-43. [3]\nPherali, T., & Sahar, A. (2018). Learning in the chaos: A political economy analysis of education in Afghanistan. Research in Comparative and International Education, 13(1), 239-258. [3]\nPherali, T., & Lewis, A. (2019). Developing global partnerships in higher education for peacebuilding: A strategy for pathways to impact. Higher Education, 78(4), 729-744. [3]\n\nCitations: [1] https://discovery.ucl.ac.uk/id/eprint/10081477/1/Education%20and%20Conflict%20Review_2019_2_final.pdf [2] https://www.nfer.ac.uk/media/zptdrqhu/eco01.pdf [3] https://www.redalyc.org/journal/1941/194146862012/html/ [4] https://www.creducation.net/resources/Jones_Article.pdf [5] https://www.researchgate.net/publication/44834164_Education_and_conflict_Research_and_research_possibilities"
-  },
-  {
     "objectID": "blog/zotero/index.html",
     "href": "blog/zotero/index.html",
     "title": "Using codes for notetaking in Zotero",
@@ -119,11 +77,186 @@
     "text": "Resources\nA Zotero manual https://zotero-manual.github.io/tags/"
   },
   {
-    "objectID": "blog/visuals/index.html#semantic-network",
-    "href": "blog/visuals/index.html#semantic-network",
-    "title": "Visualising complexity",
-    "section": "Semantic network",
-    "text": "Semantic network\nIn an article on Water Security(WS) 1 we tried to find a way to compare different definition for the concept and to break down these definitions in parts for comparison. The result is something fairly close to semantic network 2. From the image below one can see for example how the basic meaning is defined differently. looking at L2 and L3 in the image below, it can be observed that the majority of definitions see WS as “access / availability of water in sufficient quantity and quality”. Other definitions frame it using risk concepts and define it as “acceptable risk level / protection from diseases and disasters”. L4 defines the systems that are supported by WS: most mentioned are a health life and ecosystems, followed by economic aspects (livelihood and production). Lastly L5 indicates other limits that should be considered such as sustainability, geographical limitations, costs.\n1 https://www.mdpi.com/2073-4441/14/18/29072 A semantic network, or frame network is a knowledge base that represents semantic relations between concepts in a network. This is often used as a form of knowledge representation. It is a directed or undirected graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts,[1] mapping or connecting semantic fields. A semantic network may be instantiated as, for example, a graph database or a concept map. Typical standardized semantic networks are expressed as semantic triples.(Wikipedia)"
+    "objectID": "blog/water_security/index.html",
+    "href": "blog/water_security/index.html",
+    "title": "Water Security as a diagram",
+    "section": "",
+    "text": "When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.\nThis “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).\n\nWhat is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).\n\nTo test the diagram, I associated the Sustainable Development Goals with each section of the diagram:\n\n\n\n\nCitationBibTeX citation:@online{butte2024,\n  author = {Butte, Giacomo},\n  title = {Water {Security} as a Diagram},\n  date = {2024-04-11},\n  url = {https://www.giacomobutte.com/blog/water_security/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2024. “Water Security as a Diagram.” April\n11, 2024. https://www.giacomobutte.com/blog/water_security/."
+  },
+  {
+    "objectID": "blog/rain_cox/index.html",
+    "href": "blog/rain_cox/index.html",
+    "title": "How rainy is the rainy season?",
+    "section": "",
+    "text": "When planning for construction work, rainfall become a very crucial factor. Data is easily available with month averages but more insights into historical data may be beneficial. I gathered data from Cox Bazaar weather station and did some analysis."
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#data-gathering",
+    "href": "blog/rain_cox/index.html#data-gathering",
+    "title": "How rainy is the rainy season?",
+    "section": "Data gathering",
+    "text": "Data gathering\nAnalysis of daily rainy precipitation recorded at Cox’s Bazar weather station, 1970 to 2016. Data source.\n\n\nCode\n#https://www.kaggle.com/datasets/redikod/historical-rainfall-data-in-bangladesh?resource=download\n#https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e\nlibrary(rbokeh)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(tidyverse)\nlibrary(dplyr)\nlibrary(astsa)\nlibrary(forecast)\nlibrary(readxl)\nlibrary(urca)\nlibrary(ggfortify)\nlibrary(tsutils)\nlibrary(reshape2)\nlibrary(xts)\nlibrary(tidyr)\n## Load data, select station and erase NA\nraw &lt;- read.csv(\"bgd_hist_precipitation.csv\")%&gt;%filter(Station==\"CoxsBazar\")\nraw$Date &lt;- as.Date(paste(raw$Year,raw$Month,raw$Day,sep=\"-\"))\nraw &lt;- filter(raw,!is.na(raw$Date))\n\n#Create day of the year\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\nraw$MonWord&lt;- format(raw$Date, \"%h\")\n\n# Create timeserie\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \n\n# Compute stats based on DoY\nrain_day &lt;- data.frame(rain=raw$Rainfall, day=raw$DayOfYear)\nrain_avg &lt;- rain_day %&gt;% group_by(day) %&gt;%\n  summarize(mean = mean(rain),\n            median= median(rain),\n            rain_perc=sum(rain &gt; 0)/length(rain),\n            rain_heavy=sum(rain &gt; 80)/length(rain))\n# Add months and day\nrain_avg$month &lt;- raw[1:366, \"Month\"]\nrain_avg$daymonth &lt;- raw[1:366, \"Day\"]\nrain_avg$monword &lt;- raw[1:366, \"MonWord\"]\n\n\n#raw$singleday &lt;- paste(raw$Month,raw$Day,sep=\"-\")\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\n\n##Filter data for Cox bazar\ndata_cox &lt;- filter(raw, raw$Station==\"CoxsBazar\")\ndata_cox &lt;- filter(data_cox,!is.na(data_cox$Date))\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \nrain_ts_df &lt;-data.frame(Y=as.matrix(data_ts), date=time(data_ts))\nwrite.csv(data_cox, \"data_cox.csv\")"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#basic-exploration",
+    "href": "blog/rain_cox/index.html#basic-exploration",
+    "title": "How rainy is the rainy season?",
+    "section": "Basic exploration",
+    "text": "Basic exploration\nPlot of rainfall time series for Cox Bazar. While this is interesting, it gives only information on max precipitation, an idea about seasonal cycle.\n\n\n\n\n\n\n\n\n\nMore interesting is to see precipitation across the same day of the year (numbered from 1-365)"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#decomposition",
+    "href": "blog/rain_cox/index.html#decomposition",
+    "title": "How rainy is the rainy season?",
+    "section": "Decomposition",
+    "text": "Decomposition\nDecomposition of the time series in seasonality remainer and trend\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1              0               0.2"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#above-a-given-threshold",
+    "href": "blog/rain_cox/index.html#above-a-given-threshold",
+    "title": "How rainy is the rainy season?",
+    "section": "Above a given threshold",
+    "text": "Above a given threshold\nAnother analysis could show the occurrence of a rainy day (expressed as fraction 0 to 1) based on the historical data.The plot below shows that in July around 85% of the days in the dataset reported rainy events. This could also be done with a specific threshold of rain (ex. 80mm/24h) indicating the occurance of heavy storms for a given day of the year."
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#analysis-for-a-single-day",
+    "href": "blog/rain_cox/index.html#analysis-for-a-single-day",
+    "title": "How rainy is the rainy season?",
+    "section": "Analysis for a single day",
+    "text": "Analysis for a single day\nLet’s imagine there is a construction work in the first week of June (day 153 to 160)"
+  },
+  {
+    "objectID": "blog/rain_cox/index.html#calendar-with-rain-average-based-on-historical-data",
+    "href": "blog/rain_cox/index.html#calendar-with-rain-average-based-on-historical-data",
+    "title": "How rainy is the rainy season?",
+    "section": "Calendar with rain average based on historical data",
+    "text": "Calendar with rain average based on historical data"
+  },
+  {
+    "objectID": "blog/qmra/index.html",
+    "href": "blog/qmra/index.html",
+    "title": "Article published on Water Research",
+    "section": "",
+    "text": "Very happy to have published with Charles Niwagaba and Annika Nordin an article on the risk assessment of wastewater sludge reuse. What we tried to quantify is the risk that consumer and workers would face while using wastewater sludge as a fertiliser. The numercial models that we built suggest that there is significant risk for both categories but also that other source of microbial contamination exist. We are now working on a policy briefing that will give suggestions on how to better address this issue in Uganda.\nRead the full article or listen to an episode of Paper to Practice."
+  },
+  {
+    "objectID": "blog/idyll/idyll.html",
+    "href": "blog/idyll/idyll.html",
+    "title": "Explaining QMRA",
+    "section": "",
+    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
+  },
+  {
+    "objectID": "blog/evidence/index.html",
+    "href": "blog/evidence/index.html",
+    "title": "Different workflows for rapid evidence gathering",
+    "section": "",
+    "text": "Some notes on how to streamline a research on a specific topic on academic literature using few available free tools. Following a driagram of the process\n\n\n\n\n\nflowchart TB\n  A[Research topic] --&gt; B(Keywords)\n  B --&gt; C[Lit. search on databases]\n  C --&gt; D[Ranking and screening with AS Review]\n  D --&gt; E[Analysis]\n  E --&gt; F(Revised keyword)\n  F --&gt; C\n  E --&gt; G(Evidence synthesis)\n\n\n\n\n\n\n\n\n\nMy initial interest was on trying to understand the impact of healthcare design and nosocomial infections. I started with few quite general keywords: healthcare facility construction nosocomial. This is not the best choice of keywords but it is likely that at the beginning there is a lack of knowledge and terminology.\n\nhealthcare-associated epidemiology nosocomial Evidence Based Relationship Between Healthcare Infrastructure and Nosocomial Infections in Romania Enhancing appropriate environmental design in healthcare facilities for the inhibition of nosocomial infection Facility Design and Healthcare-Acquired Infections Surfaces and fomites as a source of healthcare-associated infections\n\n\n\n\nThe selected string for research shown above was searched in several databases using the Publish or Perish software1.In Scopus 23 articles were found, in crossreference 1000 articles,in semantic scholar 811 articles adn in PubMed 11.\nThe separate RIS files were imported in Zotero and a new file with all the results from different searches was exported\n\n1 https://harzing.com/resources/publish-or-perish/tutorial\n\n\n\nScreening was done using AS review2 in different steps. At first, article were manually screened. Using the terms “nosocomial AND design” 5 articles out of the 8 proposed were marked as relevant.\nThen ASReview started the active learn process on the 1825 papers3 using TF-IDF and Naive Bayes, clustering and dynamic resampling as options.\nThe model then proposed different papers to be reviewed for relevance. )0 articles were reviewed with 33 found to be relevant. As shown below, the model was suggesting papers with a 30% relevance ( around 3 paper over 10).\n\nThe relevant papers (33 then reduced to 30 due to duplication) were then exported.Since this is a manageable number we move to the analysis phase. Another option would be to use this bibliography and repeat from step 3.\n\n2 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work.3 see the website for more explanation\n\n\n\nA first analysis was done to create word-cloud from the titles of the relevant bibliography, see margin column.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNGRAM\n\n\n\nN-Grams\nVOS Viewer\n\n\n\n\nAfter this first round, and by inspecting the most relevant articles a new set of keywords can be proposed:\nFacility Design environmental contamination healthcare nosocomial\n\n\n\nhttps://estech.shinyapps.io/citationchaser/"
+  },
+  {
+    "objectID": "blog/evidence/index.html#tools",
+    "href": "blog/evidence/index.html#tools",
+    "title": "Different workflows for rapid evidence gathering",
+    "section": "Tools",
+    "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
+  },
+  {
+    "objectID": "blog/climate/index.html",
+    "href": "blog/climate/index.html",
+    "title": "Climate data",
+    "section": "",
+    "text": "Following a few notes on where to get weather datasets. As an example, I am using Cox Bazar"
+  },
+  {
+    "objectID": "blog/climate/index.html#nasa-power",
+    "href": "blog/climate/index.html#nasa-power",
+    "title": "Climate data",
+    "section": "NASA Power",
+    "text": "NASA Power\nData downloaded from NASA Data Power Access Viewer. There are few possibilities in terms of parameters, time frequency. In this case I have downloaded hourly data from 2014 to 2024 for precipitation, temperature and relative humidity.\n\n\n\n\n\nYEAR\nMO\nDY\nHR\nPRECTOTCORR\nT2M\nRH2M\nPS\nWSC\n\n\n\n\n2012\n6\n1\n0\n1.14\n29.42\n84.50\n99.89\n2.64\n\n\n2012\n6\n1\n1\n1.62\n29.33\n84.69\n99.85\n2.67\n\n\n2012\n6\n1\n2\n1.96\n29.26\n84.88\n99.84\n2.73\n\n\n2012\n6\n1\n3\n2.36\n29.19\n85.12\n99.84\n2.76\n\n\n2012\n6\n1\n4\n2.77\n29.12\n85.31\n99.87\n2.77\n\n\n2012\n6\n1\n5\n2.97\n29.08\n85.38\n99.91\n2.75"
+  },
+  {
+    "objectID": "blog/climate/index.html#basic-exploration",
+    "href": "blog/climate/index.html#basic-exploration",
+    "title": "Climate data",
+    "section": "Basic exploration",
+    "text": "Basic exploration\nPlot of rainfall time series for Cox Bazar. While this is interesting, it gives only information on max precipitation, an idea about seasonal cycle. Following the downloaded dataset with the following codes: PRECTOTCORR MERRA-2 Precipitation Corrected (mm/hour) T2M MERRA-2 Temperature at 2 Meters (C) RH2M MERRA-2 Relative Humidity at 2 Meters (%) PS MERRA-2 Surface Pressure (kPa) WSC MERRA-2 Corrected Wind Speed (Adjusted For Elevation) (m/s)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvars\nn\nmean\nsd\nmedian\ntrimmed\nmad\nmin\nmax\nrange\nskew\nkurtosis\nse\n\n\n\n\nPRECTOTCORR\n1\n105216\n0.7567704\n2.4105843\n0.05\n0.3094081\n0.074130\n0.00\n120.68\n120.68\n13.8753095\n346.0304721\n0.0074316\n\n\nT2M\n2\n105216\n26.2893547\n3.1030949\n27.49\n26.6360528\n2.164596\n15.47\n34.37\n18.90\n-0.9123497\n-0.1179653\n0.0095665\n\n\nRH2M\n3\n105216\n79.2283531\n9.9493103\n81.50\n80.2362743\n9.458988\n34.69\n100.00\n65.31\n-0.9286104\n0.6240939\n0.0306727\n\n\nPS\n4\n105216\n100.6772603\n0.4952691\n100.71\n100.6895272\n0.578214\n98.44\n101.99\n3.55\n-0.2163267\n-0.6503885\n0.0015269\n\n\nWSC\n5\n105216\n2.1160690\n0.9993779\n2.02\n2.0582518\n0.948864\n0.01\n11.71\n11.70\n0.8426524\n2.1072580\n0.0030810\n\n\n\n\n\nTime-series plot of hourly precipitation.\n\n\n\n\n\n\n\n\n\nAggregating results on a daily basis shows the most rainy days with\n\n\n\n\n\nDate\nDayOfYear\nPRECTOTCORR\n\n\n\n\n2019-07-07\n188\n521.24\n\n\n2023-08-07\n219\n470.05\n\n\n2016-07-03\n185\n453.01\n\n\n2017-07-24\n205\n432.32\n\n\n2019-07-11\n192\n421.04\n\n\n2019-09-11\n254\n388.34\n\n\n\n\n\n\n\n\n\n\n\n\nMore interesting is to see precipitation across the same day of the year (numbered from 1-365)"
+  },
+  {
+    "objectID": "blog/climate/index.html#decomposition-of-rainfall",
+    "href": "blog/climate/index.html#decomposition-of-rainfall",
+    "title": "Climate data",
+    "section": "Decomposition of rainfall",
+    "text": "Decomposition of rainfall\nDecomposition of the time series in seasonality remainder and trend for precipitation.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1              0               0.2"
+  },
+  {
+    "objectID": "blog/climate/index.html#decomposition-of-temperature",
+    "href": "blog/climate/index.html#decomposition-of-temperature",
+    "title": "Climate data",
+    "section": "Decomposition of temperature",
+    "text": "Decomposition of temperature\nDecomposition of the time series in seasonality remainder and trend for temperature.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1            0.1               0.9"
+  },
+  {
+    "objectID": "blog/climate/index.html#decomposition-of-relative-humidity",
+    "href": "blog/climate/index.html#decomposition-of-relative-humidity",
+    "title": "Climate data",
+    "section": "Decomposition of relative humidity",
+    "text": "Decomposition of relative humidity\nDecomposition of the time series in seasonality remainder and trend for relative humidity"
+  },
+  {
+    "objectID": "blog/2021-05-01-acled/index.html",
+    "href": "blog/2021-05-01-acled/index.html",
+    "title": "Interactive map of violent events",
+    "section": "",
+    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Giacomo Butte",
+    "section": "",
+    "text": "For detailed experience description see this .\nLinkedin page . See the visual summary below."
+  },
+  {
+    "objectID": "blog/airquality/airquality.html",
+    "href": "blog/airquality/airquality.html",
+    "title": "A short exploration on air quality monitoring",
+    "section": "",
+    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
+  },
+  {
+    "objectID": "blog/dgs/dgsws.html",
+    "href": "blog/dgs/dgsws.html",
+    "title": "Article published on Water Journal",
+    "section": "",
+    "text": "With colleagues from the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
+  },
+  {
+    "objectID": "blog/find_journal/index.html",
+    "href": "blog/find_journal/index.html",
+    "title": "Journal finder",
+    "section": "",
+    "text": "Finding an academic journal for publication it is not a linear process. Here some notes I have taken for different methods can be used. As an example I will use my search related to a recent research done at ICIMOD with the following abstract and keywords:"
+  },
+  {
+    "objectID": "blog/find_journal/index.html#using-search-engines",
+    "href": "blog/find_journal/index.html#using-search-engines",
+    "title": "Journal finder",
+    "section": "Using Search engines",
+    "text": "Using Search engines\nThe first method uses ELSEVIER journal finder and using the abstract as input. The matches were all marked as low matches. The second method used JANE semantic engine. results seemed very general and even using the keywords did not produce interesting results. CLARIVATE manuscript matcher (https://mjl.clarivate.com/manuscript-matcher). The reulsts were even less pertinent than in the previous 2 cases. See table below.\n\n\n\nResults of searches form 3 engines\n\n\nRank\nELSEVIER_abs\nJANE\nClarivate\n\n\n\n\n1\nForest Policy and Economics\nThe Science of the total environment \nSUSTAINABILITY\n\n\n2\nEcological Economics\nEnvironmental monitoring and assessment\nENVIRONMENTAL SCIENCE AND POLLUTION RESEARCH\n\n\n3\nLand Use Policy\nScientific reports\nAPPLIED SCIENCES-BASEL\n\n\n4\nWorld Development\nHeliyon \nPEERJ\n\n\n5\nEnvironmental Development\nEnvironmental science and pollution research international\nENERGIES\n\n\n6\nJournal of Rural Studies\nJournal of geophysical research\nENVIRONMENTAL MONITORING AND ASSESSMENT\n\n\n7\nGlobal Environmental Change\nPloS one\nBIOMED RESEARCH INTERNATIONAL\n\n\n8\nWorld Development Perspectives\nBMC microbiology\nENVIRONMENTAL EARTH SCIENCES\n\n\n9\nEcosystem Services\nInternational journal of environmental research and public health\nLAND\n\n\n10\nInternational Journal of Disaster Risk Reduction\nPeerJ\nNATURAL HAZARDS"
+  },
+  {
+    "objectID": "blog/find_journal/index.html#using-cited-bibliography",
+    "href": "blog/find_journal/index.html#using-cited-bibliography",
+    "title": "Journal finder",
+    "section": "Using cited bibliography",
+    "text": "Using cited bibliography\nIn the past I found a simpler and more effective way was also tried simply by looking at the cited bibliography in the text1. Results are shown below and seem to be much more pertinent.\n1 Process: [1] extract references from text using sites as anystyle or rintze:elle. [2]Using R package bib2df import the .bib file as a dataframe. [3] Plot the most frequent journals.\n\n\nResults from cited sources in the article\n\n\nVar1\nFreq\n\n\n\n\nMountain Research and Development\n7\n\n\nWater Policy\n7\n\n\nAnnual Review of Environment and Resources\n3\n\n\nEcological Economics\n3\n\n\nEnvironmental Earth Sciences\n3\n\n\nJournal of Hydrology\n3\n\n\nWater International\n3\n\n\n\n\n\n\n\n\nResults of literature search narrowed to Cost-Benefit analysis\n\n\nVar1\nFreq\n\n\n\n\nWater\n7\n\n\nAnnual Review of Environment and Resources\n5\n\n\nEcological Economics\n5\n\n\nNA\n5\n\n\nJournal of Benefit-Cost Analysis\n4\n\n\nSustainability\n4\n\n\nAgricultural Water Management\n3\n\n\nWater Resources and Economics\n3"
+  },
+  {
+    "objectID": "blog/journal_rabbit/index.html",
+    "href": "blog/journal_rabbit/index.html",
+    "title": "Research workflow with rabbit research",
+    "section": "",
+    "text": "Here is another workflow to quickly find and sort out papers related to a single one. I started by selecting an article Decision-making at the sharp end: a survey of literature related to decision-making in humanitarian contexts. I chose this article becasue explores the topic of sensemaking, something that gets overlooked since it is omnipresent in our daily actions.\n\nUsing Research Rabbit i could download a set of related papers (546). See details on this publication.\nFrom this step I used a similar process expalained in this post using ASReview\n\n3.I have uploaded the dataset of 546 entries and have given an initial input on 20 papers by tagging them relevant or not. My focus in on sensemaking and decision making in humanitarian context. Papers on social media are discarded as well as those on using technologies unless there is a focus on decision making.\n\nI went through 120 papers of the 546 and stopped when the relevant papers proposed where areound 20-30% as seen below. Then I downloaded the new list of 63 papers.\n\n\n\n\nHere brief text analysis of the exported file based on abstracts.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe chosen files where imported in research rabbit to be explored again. The same process as from step 2 could be repeated focusing on another article(s). Items could be imported in Zotero if one connects it with Rabbit Research.\n\nI finally asked Perplexity to write a 3 sentences summary of each study. Results below.\n\nMoody experts : How mood and expertise influence judgmental anchoring\nThis study examines how mood and expertise jointly moderate anchoring effects in decision-making. Results suggest that sad judges show stronger anchoring effects than happy judges, while experts’ information processing may be relatively independent of mood. These findings indicate that positive mood may eliminate the otherwise robust anchoring effect, at least for non-experts.\nChallenges in humanitarian information management and exchange: evidence from Haiti\nThis study analyzes challenges to information flow in the 2010 Haiti earthquake response and their implications for effective humanitarian action. The fragmented nature of the response and use of hierarchical information management models led some observers to label the Haiti response a failure. The paper concludes by offering possible paths for overcoming such challenges and restoring the value of humanitarian information management in relief settings.\nhttps://doi.org/10.1111/disa.12052\nHygiene programming during outbreaks: a qualitative case study of the humanitarian response during the Ebola outbreak in Liberia\nThis study describes humanitarian perspectives on changing hygiene behaviors during the 2014-2016 Liberian Ebola outbreak. Humanitarians faced challenges in defining which hygiene behaviors to promote and assumed fear and disease awareness would be the most powerful motivators for behavior change. The experiences of humanitarians allowed researchers to identify areas that could be strengthened when designing hygiene programs in future outbreaks.\nhttps://doi.org/10.1186/s12889-020-8240-9\nCrisis Management in Hindsight: Cognition, Communication, Coordination, and Control\nThis article argues that cognition is central to performance in emergency management, defined as the capacity to recognize emerging risk and act on that information. The author reframes intergovernmental crisis management as a complex, adaptive system that needs to adjust its performance to fit changing environments. A reframed crisis management system is conceived as a dynamic interorganizational system characterized by four primary decision points: risk detection, interpretation, communication, and collective response mobilization.\nhttps://doi.org/10.1111/j.1540-6210.2007.00827.x\nGrounded Theory and Sensitizing Concepts\nThis article examines the relationship between sensitizing concepts and grounded theory in qualitative research. The author illustrates the application of sensitizing concepts in a study of community-based antipoverty projects in Jamaica. The article contains commentary on trustworthiness techniques, the coding process, and the constant comparative method of analysis, as well as a synopsis of study findings.\nOptimizing Decision-Making Processes in Times of COVID-19: Using Reflexivity to Counteract Information-Processing Failures\nThis review outlines how groupthink, narrow focus, and escalation of commitment may pose risks to decision-making processes in handling the COVID-19 crisis. The authors propose group reflexivity as an antidote to these biases and errors in decision-making. They recommend several evidence-based reflexivity tools that could be implemented to counter information-processing errors and improve decision-making processes in uncertain times.\nhttps://doi.org/10.3389/fpsyg.2021.650525\nCognitive biases in humanitarian sensemaking and decision-making lessons from field research\nThis article identifies biases that matter for humanitarian decision support, reflecting on the role of field-based decision-makers and digital responders. The most important biases are reviewed to provide an assessment of their role in disaster response. Areas particularly sensitive to reinforced biases are identified, as well as areas where digital volunteers can likely help, concluding with an agenda for future research.\nhttps://doi.org/10.1109/cogsima.2016.7497786\nCodifying a crisis: progressing from information sharing to distributed decisionâ€making\nThis paper explains why it is difficult to move from information sharing towards support for distributed decision-making in crisis management. The authors argue that two key processes need to be considered: supporting both the translation of meaning and the transformation of interests between those on the front line and those in the remote response network. Results from analyzing three large-scale emergency response operations in the Netherlands indicate that collaborative decision-making was often hampered by actors limiting themselves to factual information exchange.\nhttps://doi.org/10.1111/1468-5973.12323\nEvaluating COVID-19 decision-making in a humanitarian setting: The case study of Somalia\nThis study evaluated the process of policy and operational decision-making in relation to the COVID-19 response in Somalia, focusing on the use of information and the role of transparency. The researchers found that nearly all actors struggled to make sense of the epidemic’s scale and form an appropriate response. Important aspects of the response suffered from a transparency deficit and would have benefitted from more inclusive decision-making.\nhttps://doi.org/10.1371/journal.pgph.0000192\nThe Influence of Decision, Environmental and Firm Characteristics on the Rationality of Strategic Decisionâ€Making\nThis paper develops an integrated model of strategic decision-making rationality, informed by three perspectives that identify decision, environmental, and firm characteristics as influences. Results from a study in Egypt indicate that the rationality of strategic decision-making processes is shaped by variables identified by all three perspectives. The study suggests that the three perspectives do not contribute equally to explaining strategic decision making, and that the national setting is relevant for how decision-makers consider environmental characteristics.\nhttps://doi.org/10.1111/j.1467-6486.2006.00670.x\nThe Reality of Evidence-based Decision Making in Humanitarian Programming: An Exploratory Study of WASH Programs in Uganda\nThis research examined factors influencing the use of evidence in decision-making processes for humanitarian WASH interventions in Uganda. Interviewees reported several factors that impede the implementation of evidence-based decision making, including contradictory and non-repeatable evidence, and information not being in an actionable format. The study shows the importance of considering human aspects and organizational settings that limit access to and use of supporting data, information, and evidence.\nhttps://doi.org/10.1109/ghtc46280.2020.9342885\nKnowledge creation and reliable decision-making in complex emergencies\nThis paper examines how knowledge creation and decision-making authority location within relief organizations influence coordination. The study found that relief organizations rely on quality information dissemination between field and headquarters, but reporting from the field is often overloaded with misplaced precision. The creation of ‘collective-meaning structures’ based on reliable information at all decision-making levels is suggested to open the way to decentralization of decision-making to field officers engaged with inter-organizational coordination structures.\nhttps://doi.org/10.1111/j.1467-7717.2011.01255.x\nManaging cognitive biases during disaster response: the development of an aide memoire\nThis research sought to improve decision-making quality by developing an aide memoire for managing cognitive biases in emergency management. Based on literature and expert input, nine cognitive biases were identified and translated into a series of questions. The aide memoire can be used to assess available information, intelligence, and decisions, and then determine their meaning in emergency management contexts.\nhttps://doi.org/10.1007/s10111-019-00564-5\nAn Emergency Decision Making Method Based on Prospect Theory for Different Emergency Situations\nThis study proposes a novel approach based on prospect theory for emergency decision making (EDM) that considers both decision makers’ psychological behavior and different emergency situations. The approach addresses limitations in existing EDM methods by incorporating these factors into the decision-making process. Two examples and related comparisons are provided to illustrate the feasibility and validity of this approach.\nhttps://doi.org/10.1007/s13753-018-0173-x\nMaking better decisions in groups\nThis review identifies common problems of decision-making in individuals and groups, guided by a Bayesian framework. The authors highlight the advantages of group decision-making in overcoming biases and searching for good solutions, while also noting that diverse groups face their own challenges. The paper discusses means of managing these pitfalls and makes recommendations on how to make better group decisions.\nhttps://doi.org/10.1098/rsos.170193\nRisk, uncertainty, and heuristics\nThis paper distinguishes between risk and uncertainty in business decision-making, associating economic profit with entrepreneurial decisions under fundamental uncertainties. The authors argue that fast-and-frugal heuristics provide robust strategies for performing well under uncertainty, often deliberately ignoring information and using fewer resources. The paper concludes that in an uncertain world, less information often proves to be more effective for decision-making.\nhttps://doi.org/10.1016/j.jbusres.2014.02.013\nHow emergency managers (mis?)interpret forecasts\nThis study examined how emergency managers interpret forecast information using hypothetical climate, flood, and weather scenarios. The research revealed that even experienced emergency managers take decision shortcuts and make biased choices, similar to the general population. Their choices vary depending on factors such as the format of probabilistic forecasts and whether outcomes are represented as gains or losses.\nhttps://doi.org/10.1111/disa.12293\n\n\n\nCitationBibTeX citation:@online{butte2025,\n  author = {Butte, Giacomo},\n  title = {Research Workflow with Rabbit Research},\n  date = {2025-02-12},\n  url = {https://www.giacomobutte.com/blog/journal_rabbit/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2025. “Research Workflow with Rabbit\nResearch.” February 12, 2025. https://www.giacomobutte.com/blog/journal_rabbit/."
   },
   {
     "objectID": "blog/rain/index.html",
@@ -203,263 +336,18 @@
     "text": "Accuracy of models\n\n\n                    ME     RMSE       MAE        MPE     MAPE      MASE\nTraining set  0.170763  7.87356  5.388082  -9.139575 35.28552 0.8073011\nTest set     -9.964325 10.87446 10.165830 -99.206968 99.81011 1.5231554\n                     ACF1 Theil's U\nTraining set  0.063420750        NA\nTest set     -0.004907483 0.9583204\n\n\n                    ME     RMSE     MAE       MPE     MAPE      MASE       ACF1\nTraining set  0.285966  7.61933 5.34607 -13.12624 33.12538 0.8010065 0.02948987\nTest set     -8.700370 10.85699 9.13186 -73.04490 74.33643 1.3682347 0.27990111\n             Theil's U\nTraining set        NA\nTest set     0.7923204\n\n\n##Forecasting and plot"
   },
   {
-    "objectID": "blog/idyll/idyll.html",
-    "href": "blog/idyll/idyll.html",
-    "title": "Explaining QMRA",
-    "section": "",
-    "text": "I had the opportunity of being part of risk assessment that used the Quantitative Microbial Risk Assessment (QMRA) framework. As the name already shows, the desire for academic precision creates usability difficulties by non academic.\n\nConsidering that some very interesting tools exist such as Idyll and curve note that try provide more interactive ways of engaging with the readers, we have set up a 10 minutes explanation of the QMRA framework1 using Idyll. It is still a draft but maybe is able to communicate the core idea behind the framework. If you have 10 minutes, take a look. The idea behind the presentation is to give a preliminary understanding of the QMRA process to stakeholders that do not have a technical background.\n1 Quantitative microbiological risk assessment (QMRA) is the process of estimating the risk from exposure to microorganisms. The process involves measuring known microbial pathogens or indicators and running a Monte Carlo simulation to estimate the risk of transfer. If a dose-response model is available for the microbe, it be used to estimate the probability of infection. QMRA has expanded to be used to estimate microbial risk in many fields, but is particularly important in assessments of food water supply and human faeces/wastewater safety. wikipedia2 An active reader asks questions, considers alternatives, questions assumptions, and even questions the trustworthiness of the author. An active reader tries to generalize specific examples, and devise specific examples for generalities. An active reader doesn’t passively sponge up information, but uses the author’s argument as a springboard for critical thought and deep understanding. From Bret VictorAlong these ideas it is very interesting to read about the idea of the active reader2 as Bret Victor defines it."
-  },
-  {
-    "objectID": "blog/evidence/index.html",
-    "href": "blog/evidence/index.html",
-    "title": "Different workflows for rapid evidence gathering",
-    "section": "",
-    "text": "Some notes on how to streamline a research on a specific topic on academic literature using few available free tools. Following a driagram of the process\n\n\n\n\n\nflowchart TB\n  A[Research topic] --&gt; B(Keywords)\n  B --&gt; C[Lit. search on databases]\n  C --&gt; D[Ranking and screening with AS Review]\n  D --&gt; E[Analysis]\n  E --&gt; F(Revised keyword)\n  F --&gt; C\n  E --&gt; G(Evidence synthesis)\n\n\n\n\n\n\n\n\n\nMy initial interest was on trying to understand the impact of healthcare design and nosocomial infections. I started with few quite general keywords: healthcare facility construction nosocomial. This is not the best choice of keywords but it is likely that at the beginning there is a lack of knowledge and terminology.\n\nhealthcare-associated epidemiology nosocomial Evidence Based Relationship Between Healthcare Infrastructure and Nosocomial Infections in Romania Enhancing appropriate environmental design in healthcare facilities for the inhibition of nosocomial infection Facility Design and Healthcare-Acquired Infections Surfaces and fomites as a source of healthcare-associated infections\n\n\n\n\nThe selected string for research shown above was searched in several databases using the Publish or Perish software1.In Scopus 23 articles were found, in crossreference 1000 articles,in semantic scholar 811 articles adn in PubMed 11.\nThe separate RIS files were imported in Zotero and a new file with all the results from different searches was exported\n\n1 https://harzing.com/resources/publish-or-perish/tutorial\n\n\n\nScreening was done using AS review2 in different steps. At first, article were manually screened. Using the terms “nosocomial AND design” 5 articles out of the 8 proposed were marked as relevant.\nThen ASReview started the active learn process on the 1825 papers3 using TF-IDF and Naive Bayes, clustering and dynamic resampling as options.\nThe model then proposed different papers to be reviewed for relevance. )0 articles were reviewed with 33 found to be relevant. As shown below, the model was suggesting papers with a 30% relevance ( around 3 paper over 10).\n\nThe relevant papers (33 then reduced to 30 due to duplication) were then exported.Since this is a manageable number we move to the analysis phase. Another option would be to use this bibliography and repeat from step 3.\n\n2 ASReview, developed at Utrecht University, helps scholars and practitioners to get an overview of the most relevant records for their work.3 see the website for more explanation\n\n\n\nA first analysis was done to create word-cloud from the titles of the relevant bibliography, see margin column.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNGRAM\n\n\n\nN-Grams\nVOS Viewer\n\n\n\n\nAfter this first round, and by inspecting the most relevant articles a new set of keywords can be proposed:\nFacility Design environmental contamination healthcare nosocomial\n\n\n\nhttps://estech.shinyapps.io/citationchaser/"
-  },
-  {
-    "objectID": "blog/evidence/index.html#tools",
-    "href": "blog/evidence/index.html#tools",
-    "title": "Different workflows for rapid evidence gathering",
-    "section": "Tools",
-    "text": "Tools\nArticle extraction / Google Scholar / after saving in the library, or SerpAPI\nhttps://github.com/rafsanlab/ScrapPaper\nPublish or perish https://harzing.com/resources/publish-or-perish/windows\nVOS viewer"
-  },
-  {
-    "objectID": "blog/climate/index.html",
-    "href": "blog/climate/index.html",
-    "title": "Climate data",
-    "section": "",
-    "text": "Following a few notes on where to get weather datasets. As an example, I am using Cox Bazar"
-  },
-  {
-    "objectID": "blog/climate/index.html#nasa-power",
-    "href": "blog/climate/index.html#nasa-power",
-    "title": "Climate data",
-    "section": "NASA Power",
-    "text": "NASA Power\nData downloaded from NASA Data Power Access Viewer. There are few possibilities in terms of parameters, time frequency. In this case I have downloaded hourly data from 2014 to 2024 for precipitation, temperature and relative humidity.\n\n\n\n\n\nYEAR\nMO\nDY\nHR\nPRECTOTCORR\nT2M\nRH2M\nPS\nWSC\n\n\n\n\n2012\n6\n1\n0\n1.14\n29.42\n84.50\n99.89\n2.64\n\n\n2012\n6\n1\n1\n1.62\n29.33\n84.69\n99.85\n2.67\n\n\n2012\n6\n1\n2\n1.96\n29.26\n84.88\n99.84\n2.73\n\n\n2012\n6\n1\n3\n2.36\n29.19\n85.12\n99.84\n2.76\n\n\n2012\n6\n1\n4\n2.77\n29.12\n85.31\n99.87\n2.77\n\n\n2012\n6\n1\n5\n2.97\n29.08\n85.38\n99.91\n2.75"
-  },
-  {
-    "objectID": "blog/climate/index.html#basic-exploration",
-    "href": "blog/climate/index.html#basic-exploration",
-    "title": "Climate data",
-    "section": "Basic exploration",
-    "text": "Basic exploration\nPlot of rainfall time series for Cox Bazar. While this is interesting, it gives only information on max precipitation, an idea about seasonal cycle. Following the downloaded dataset with the following codes: PRECTOTCORR MERRA-2 Precipitation Corrected (mm/hour) T2M MERRA-2 Temperature at 2 Meters (C) RH2M MERRA-2 Relative Humidity at 2 Meters (%) PS MERRA-2 Surface Pressure (kPa) WSC MERRA-2 Corrected Wind Speed (Adjusted For Elevation) (m/s)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nvars\nn\nmean\nsd\nmedian\ntrimmed\nmad\nmin\nmax\nrange\nskew\nkurtosis\nse\n\n\n\n\nPRECTOTCORR\n1\n105216\n0.7567704\n2.4105843\n0.05\n0.3094081\n0.074130\n0.00\n120.68\n120.68\n13.8753095\n346.0304721\n0.0074316\n\n\nT2M\n2\n105216\n26.2893547\n3.1030949\n27.49\n26.6360528\n2.164596\n15.47\n34.37\n18.90\n-0.9123497\n-0.1179653\n0.0095665\n\n\nRH2M\n3\n105216\n79.2283531\n9.9493103\n81.50\n80.2362743\n9.458988\n34.69\n100.00\n65.31\n-0.9286104\n0.6240939\n0.0306727\n\n\nPS\n4\n105216\n100.6772603\n0.4952691\n100.71\n100.6895272\n0.578214\n98.44\n101.99\n3.55\n-0.2163267\n-0.6503885\n0.0015269\n\n\nWSC\n5\n105216\n2.1160690\n0.9993779\n2.02\n2.0582518\n0.948864\n0.01\n11.71\n11.70\n0.8426524\n2.1072580\n0.0030810\n\n\n\n\n\nTime-series plot of hourly precipitation.\n\n\n\n\n\n\n\n\n\nAggregating results on a daily basis shows the most rainy days with\n\n\n\n\n\nDate\nDayOfYear\nPRECTOTCORR\n\n\n\n\n2019-07-07\n188\n521.24\n\n\n2023-08-07\n219\n470.05\n\n\n2016-07-03\n185\n453.01\n\n\n2017-07-24\n205\n432.32\n\n\n2019-07-11\n192\n421.04\n\n\n2019-09-11\n254\n388.34\n\n\n\n\n\n\n\n\n\n\n\n\nMore interesting is to see precipitation across the same day of the year (numbered from 1-365)"
-  },
-  {
-    "objectID": "blog/climate/index.html#decomposition-of-rainfall",
-    "href": "blog/climate/index.html#decomposition-of-rainfall",
-    "title": "Climate data",
-    "section": "Decomposition of rainfall",
-    "text": "Decomposition of rainfall\nDecomposition of the time series in seasonality remainder and trend for precipitation.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1              0               0.2"
-  },
-  {
-    "objectID": "blog/climate/index.html#decomposition-of-temperature",
-    "href": "blog/climate/index.html#decomposition-of-temperature",
-    "title": "Climate data",
-    "section": "Decomposition of temperature",
-    "text": "Decomposition of temperature\nDecomposition of the time series in seasonality remainder and trend for temperature.\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1            0.1               0.9"
-  },
-  {
-    "objectID": "blog/climate/index.html#decomposition-of-relative-humidity",
-    "href": "blog/climate/index.html#decomposition-of-relative-humidity",
-    "title": "Climate data",
-    "section": "Decomposition of relative humidity",
-    "text": "Decomposition of relative humidity\nDecomposition of the time series in seasonality remainder and trend for relative humidity"
-  },
-  {
-    "objectID": "blog/2021-05-01-acled/index.html",
-    "href": "blog/2021-05-01-acled/index.html",
-    "title": "Interactive map of violent events",
-    "section": "",
-    "text": "While working in Sudan for ICRC and looking at violents events that happened in the last years I created this interactive map that allows to get some of the information contained in the ACLED datasets."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Giacomo Butte",
-    "section": "",
-    "text": "For detailed experience description see this . Linkedin page . See the visual summary below."
-  },
-  {
-    "objectID": "blog/airquality/airquality.html",
-    "href": "blog/airquality/airquality.html",
-    "title": "A short exploration on air quality monitoring",
-    "section": "",
-    "text": "I have been exploring about air quality using the Temptop M2000 2nd Generation to check air quality in the office. Additionally, I am trying to learn ObservableHQ to communicate data."
-  },
-  {
-    "objectID": "blog/dgs/dgsws.html",
-    "href": "blog/dgs/dgsws.html",
-    "title": "Article published on Water Journal",
-    "section": "",
-    "text": "With colleagues from the Water Security Hub we wrote an article that proposes a framework for organizing data collection for Water Security. Within the vast spectrum of definitions and concepts that already exist, we suggest a methodology to guide practitioners through this complexity.\nRead the full article."
-  },
-  {
-    "objectID": "blog/find_journal/index.html",
-    "href": "blog/find_journal/index.html",
-    "title": "Journal finder",
-    "section": "",
-    "text": "Finding an academic journal for publication it is not a linear process. Here some notes I have taken for different methods can be used. As an example I will use my search related to a recent research done at ICIMOD with the following abstract and keywords:"
-  },
-  {
-    "objectID": "blog/find_journal/index.html#using-search-engines",
-    "href": "blog/find_journal/index.html#using-search-engines",
-    "title": "Journal finder",
-    "section": "Using Search engines",
-    "text": "Using Search engines\nThe first method uses ELSEVIER journal finder and using the abstract as input. The matches were all marked as low matches. The second method used JANE semantic engine. results seemed very general and even using the keywords did not produce interesting results. CLARIVATE manuscript matcher (https://mjl.clarivate.com/manuscript-matcher). The reulsts were even less pertinent than in the previous 2 cases. See table below.\n\n\n\nResults of searches form 3 engines\n\n\nRank\nELSEVIER_abs\nJANE\nClarivate\n\n\n\n\n1\nForest Policy and Economics\nThe Science of the total environment \nSUSTAINABILITY\n\n\n2\nEcological Economics\nEnvironmental monitoring and assessment\nENVIRONMENTAL SCIENCE AND POLLUTION RESEARCH\n\n\n3\nLand Use Policy\nScientific reports\nAPPLIED SCIENCES-BASEL\n\n\n4\nWorld Development\nHeliyon \nPEERJ\n\n\n5\nEnvironmental Development\nEnvironmental science and pollution research international\nENERGIES\n\n\n6\nJournal of Rural Studies\nJournal of geophysical research\nENVIRONMENTAL MONITORING AND ASSESSMENT\n\n\n7\nGlobal Environmental Change\nPloS one\nBIOMED RESEARCH INTERNATIONAL\n\n\n8\nWorld Development Perspectives\nBMC microbiology\nENVIRONMENTAL EARTH SCIENCES\n\n\n9\nEcosystem Services\nInternational journal of environmental research and public health\nLAND\n\n\n10\nInternational Journal of Disaster Risk Reduction\nPeerJ\nNATURAL HAZARDS"
-  },
-  {
-    "objectID": "blog/find_journal/index.html#using-cited-bibliography",
-    "href": "blog/find_journal/index.html#using-cited-bibliography",
-    "title": "Journal finder",
-    "section": "Using cited bibliography",
-    "text": "Using cited bibliography\nIn the past I found a simpler and more effective way was also tried simply by looking at the cited bibliography in the text1. Results are shown below and seem to be much more pertinent.\n1 Process: [1] extract references from text using sites as anystyle or rintze:elle. [2]Using R package bib2df import the .bib file as a dataframe. [3] Plot the most frequent journals.\n\n\nResults from cited sources in the article\n\n\nVar1\nFreq\n\n\n\n\nMountain Research and Development\n7\n\n\nWater Policy\n7\n\n\nAnnual Review of Environment and Resources\n3\n\n\nEcological Economics\n3\n\n\nEnvironmental Earth Sciences\n3\n\n\nJournal of Hydrology\n3\n\n\nWater International\n3\n\n\n\n\n\n\n\n\nResults of literature search narrowed to Cost-Benefit analysis\n\n\nVar1\nFreq\n\n\n\n\nWater\n7\n\n\nAnnual Review of Environment and Resources\n5\n\n\nEcological Economics\n5\n\n\nNA\n5\n\n\nJournal of Benefit-Cost Analysis\n4\n\n\nSustainability\n4\n\n\nAgricultural Water Management\n3\n\n\nWater Resources and Economics\n3"
-  },
-  {
-    "objectID": "blog/qmra/index.html",
-    "href": "blog/qmra/index.html",
-    "title": "Article published on Water Research",
-    "section": "",
-    "text": "Very happy to have published with Charles Niwagaba and Annika Nordin an article on the risk assessment of wastewater sludge reuse. What we tried to quantify is the risk that consumer and workers would face while using wastewater sludge as a fertiliser. The numercial models that we built suggest that there is significant risk for both categories but also that other source of microbial contamination exist. We are now working on a policy briefing that will give suggestions on how to better address this issue in Uganda.\nRead the full article or listen to an episode of Paper to Practice."
-  },
-  {
-    "objectID": "blog/rain_cox/index.html",
-    "href": "blog/rain_cox/index.html",
-    "title": "How rainy is the rainy season?",
-    "section": "",
-    "text": "When planning for construction work, rainfall become a very crucial factor. Data is easily available with month averages but more insights into historical data may be beneficial. I gathered data from Cox Bazaar weather station and did some analysis."
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#data-gathering",
-    "href": "blog/rain_cox/index.html#data-gathering",
-    "title": "How rainy is the rainy season?",
-    "section": "Data gathering",
-    "text": "Data gathering\nAnalysis of daily rainy precipitation recorded at Cox’s Bazar weather station, 1970 to 2016. Data source.\n\n\nCode\n#https://www.kaggle.com/datasets/redikod/historical-rainfall-data-in-bangladesh?resource=download\n#https://towardsdatascience.com/rainfall-time-series-analysis-and-forecasting-87a29316494e\nlibrary(rbokeh)\nlibrary(lubridate)\nlibrary(ggplot2)\nlibrary(tidyverse)\nlibrary(dplyr)\nlibrary(astsa)\nlibrary(forecast)\nlibrary(readxl)\nlibrary(urca)\nlibrary(ggfortify)\nlibrary(tsutils)\nlibrary(reshape2)\nlibrary(xts)\nlibrary(tidyr)\n## Load data, select station and erase NA\nraw &lt;- read.csv(\"bgd_hist_precipitation.csv\")%&gt;%filter(Station==\"CoxsBazar\")\nraw$Date &lt;- as.Date(paste(raw$Year,raw$Month,raw$Day,sep=\"-\"))\nraw &lt;- filter(raw,!is.na(raw$Date))\n\n#Create day of the year\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\nraw$MonWord&lt;- format(raw$Date, \"%h\")\n\n# Create timeserie\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \n\n# Compute stats based on DoY\nrain_day &lt;- data.frame(rain=raw$Rainfall, day=raw$DayOfYear)\nrain_avg &lt;- rain_day %&gt;% group_by(day) %&gt;%\n  summarize(mean = mean(rain),\n            median= median(rain),\n            rain_perc=sum(rain &gt; 0)/length(rain),\n            rain_heavy=sum(rain &gt; 80)/length(rain))\n# Add months and day\nrain_avg$month &lt;- raw[1:366, \"Month\"]\nrain_avg$daymonth &lt;- raw[1:366, \"Day\"]\nrain_avg$monword &lt;- raw[1:366, \"MonWord\"]\n\n\n#raw$singleday &lt;- paste(raw$Month,raw$Day,sep=\"-\")\nraw$DayOfYear &lt;- lubridate::yday(raw$Date)\n\n##Filter data for Cox bazar\ndata_cox &lt;- filter(raw, raw$Station==\"CoxsBazar\")\ndata_cox &lt;- filter(data_cox,!is.na(data_cox$Date))\ndata_ts &lt;- xts(raw$Rainfall, raw$Date) \nrain_ts_df &lt;-data.frame(Y=as.matrix(data_ts), date=time(data_ts))\nwrite.csv(data_cox, \"data_cox.csv\")"
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#basic-exploration",
-    "href": "blog/rain_cox/index.html#basic-exploration",
-    "title": "How rainy is the rainy season?",
-    "section": "Basic exploration",
-    "text": "Basic exploration\nPlot of rainfall time series for Cox Bazar. While this is interesting, it gives only information on max precipitation, an idea about seasonal cycle.\n\n\n\n\n\n\n\n\n\nMore interesting is to see precipitation across the same day of the year (numbered from 1-365)"
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#decomposition",
-    "href": "blog/rain_cox/index.html#decomposition",
-    "title": "How rainy is the rainy season?",
-    "section": "Decomposition",
-    "text": "Decomposition\nDecomposition of the time series in seasonality remainer and trend\n\n\n\n\n\n\n\n\n\n  Trend.Strength Seasonal.Strength\n1              0               0.2"
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#above-a-given-threshold",
-    "href": "blog/rain_cox/index.html#above-a-given-threshold",
-    "title": "How rainy is the rainy season?",
-    "section": "Above a given threshold",
-    "text": "Above a given threshold\nAnother analysis could show the occurrence of a rainy day (expressed as fraction 0 to 1) based on the historical data.The plot below shows that in July around 85% of the days in the dataset reported rainy events. This could also be done with a specific threshold of rain (ex. 80mm/24h) indicating the occurance of heavy storms for a given day of the year."
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#analysis-for-a-single-day",
-    "href": "blog/rain_cox/index.html#analysis-for-a-single-day",
-    "title": "How rainy is the rainy season?",
-    "section": "Analysis for a single day",
-    "text": "Analysis for a single day\nLet’s imagine there is a construction work in the first week of June (day 153 to 160)"
-  },
-  {
-    "objectID": "blog/rain_cox/index.html#calendar-with-rain-average-based-on-historical-data",
-    "href": "blog/rain_cox/index.html#calendar-with-rain-average-based-on-historical-data",
-    "title": "How rainy is the rainy season?",
-    "section": "Calendar with rain average based on historical data",
-    "text": "Calendar with rain average based on historical data"
-  },
-  {
-    "objectID": "blog/water_security/index.html",
-    "href": "blog/water_security/index.html",
-    "title": "Water Security as a diagram",
-    "section": "",
-    "text": "When working at Newcastle University on Water Security, I felt the complexity of that concept could be reduced to a simpler form taking inspiration from system diagrams. The idea was to place 3 elements at the center of the diagram. Nature(N), Population (P) mediated by infrastructure (I). Additionally these 3 elements would have close relation to enabling factors such as governance (G) and resources (R). This part of the diagram represent the system at a local level. This can be thought as a region, village, basin, it would depend on local conditions.\nThis “local system” would then have external stressors such as climate change (CC), political change (PL), growth (GU) and economic changes (EC).\n\nWhat is perhaps more interesting is that the relation between these nodes can describe particular situations. For example, nature-population (N-P) represent natural hazards on one way and human threat to the natural environment. Resources given to infrastructure is described by R-I. User behaviours between population and infrastructure (P-I).\n\nTo test the diagram, I associated the Sustainable Development Goals with each section of the diagram:\n\n\n\n\nCitationBibTeX citation:@online{butte2024,\n  author = {Butte, Giacomo},\n  title = {Water {Security} as a Diagram},\n  date = {2024-04-11},\n  url = {https://www.giacomobutte.com/blog/water_security/},\n  langid = {en}\n}\nFor attribution, please cite this work as:\nButte, Giacomo. 2024. “Water Security as a Diagram.” April\n11, 2024. https://www.giacomobutte.com/blog/water_security/."
-  },
-  {
-    "objectID": "blog/whirlybirds/pdf.html",
-    "href": "blog/whirlybirds/pdf.html",
-    "title": "Small Projects: whirly birds",
-    "section": "",
-    "text": "Complying to thermal requirement in terms of temperature and relative humidity is a challenge in countries with tropical weather. In particular, warehouses with metal roof experience high temperature in the attic under the roof. This heat is then transmitted via the suspended ceiling to the space below that is artificially climatised. To reduce the work to be done by AC we installed two whirly birds in the warehouse in Jamtoli. We set up a small monitoring system by using temperature logs in 3 different location: outside, 20 cm below the roof overhang, in a shaded place, inside the corridor that exist between the entrance and the AC space, and above the suspended ceiling."
-  },
-  {
-    "objectID": "blog/whirlybirds/pdf.html#introduction",
-    "href": "blog/whirlybirds/pdf.html#introduction",
-    "title": "Small Projects: whirly birds",
-    "section": "",
-    "text": "Complying to thermal requirement in terms of temperature and relative humidity is a challenge in countries with tropical weather. In particular, warehouses with metal roof experience high temperature in the attic under the roof. This heat is then transmitted via the suspended ceiling to the space below that is artificially climatised. To reduce the work to be done by AC we installed two whirly birds in the warehouse in Jamtoli. We set up a small monitoring system by using temperature logs in 3 different location: outside, 20 cm below the roof overhang, in a shaded place, inside the corridor that exist between the entrance and the AC space, and above the suspended ceiling."
-  },
-  {
-    "objectID": "blog/whirlybirds/pdf.html#data",
-    "href": "blog/whirlybirds/pdf.html#data",
-    "title": "Small Projects: whirly birds",
-    "section": "Data",
-    "text": "Data\nData was collected during the months of April and May with the whirly birds open during that period with the exception of the week between 15 May 5pm to 21 May 5pm. A plot of the collected data in the a two month period. During this period the whirly birds where sealed for 6 days to see if they had any impact.\n\n\n\n\n\n\n\n\n\nA plot of the difference in temperature between ceiling and outside is shown below.\n\n\n\n\n\n\n\n\n\nThe following plot shows the relation of temperature difference versus outdoor temperature. We can observe two modes: with and without sunlight radiation. Up to sunrise, difference is negative while when sun radiation starts to heat the roof the relationship changes and temperature difference reaches positive values (attic warmer than outside). The data collected did not record the amount of haze and therefore the intensity of sun radiation that could be one of the factor (with Relative humidity) that generates variability. Adding a smooth curve shows another difference, above 34 C the whirly birds start to show a statistically significant difference in their impact on temperature difference but in the opposite direction as expected.\nWe should keep in mind that the closure of the whirly birds was done only for 1 week and that sun radiation, affected by cloudiness for example, was not recorded.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAs seen above, the effect of the whirly birds changes across the day and across temperatures. below a plot over the 24h and over working hours.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFour regression models were run: \\[M1: T_{diff} = \\alpha + \\beta T_{ext}\\] \\[M2: T_{diff} = \\alpha + \\beta T_{ext}+ WB\\] \\[M3: T_{diff} = \\alpha + \\beta T_{ext_{8-17h}}\\] \\[M4: T_{diff} = \\alpha + \\beta T_{ext_{8-17h}}+WB\\]\nTwo model only regressing the difference between ceiling and outdoor temperature on outdoor temperature (M1, M3) and two having whirly bird treatment (with values 1 and 0 for open and close) on models M2 and M4. Additionally model M3 and M4 have used only temperature between 7am and 5pm. Result show a negative impact on temperature difference (less difference) across the recorded values (-0.15) and even more in the 7am 5pm range (-0.34). In both case the result are not statistically significant.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n*M1\nM2\nM3\nM4\n\n\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\nBeta\n95% CI1\np-value\n\n\n\n\noutside\n0.71\n0.69, 0.73\n&lt;0.001\n0.71\n0.69, 0.73\n&lt;0.001\n0.72\n0.67, 0.76\n&lt;0.001\n0.71\n0.66, 0.75\n&lt;0.001\n\n\nwb\n\n\n\n\n\n\n0.16\n-0.07, 0.39\n0.2\n\n\n\n\n\n\n-0.34\n-0.70, 0.02\n0.063\n\n\n\n1 CI = Confidence Interval"
-  },
-  {
-    "objectID": "blog/whirlybirds/pdf.html#conclusion",
-    "href": "blog/whirlybirds/pdf.html#conclusion",
-    "title": "Small Projects: whirly birds",
-    "section": "Conclusion",
-    "text": "Conclusion\nthe data collected does not support the positive impact of whirly birds on the difference of temperature between the attic and outside. The data may not be capturing sigmificant other factors such as sun radiance, humidity, wind. interestingly up to 34 C the whirly birds have a positive impact but this reverses at 36. it hsould also be considered that maybe the wrapped whirly birds may act as heat collector and therefore contributing to the overl warming of the roof-attic.\nFurther data should be collected, perhaps adding more information on the sky condition, humidity, wind. Analysis should be run again with thenew gathered data."
+    "objectID": "blog/visuals/index.html#semantic-network",
+    "href": "blog/visuals/index.html#semantic-network",
+    "title": "Visualising complexity",
+    "section": "Semantic network",
+    "text": "Semantic network\nIn an article on Water Security(WS) 1 we tried to find a way to compare different definition for the concept and to break down these definitions in parts for comparison. The result is something fairly close to semantic network 2. From the image below one can see for example how the basic meaning is defined differently. looking at L2 and L3 in the image below, it can be observed that the majority of definitions see WS as “access / availability of water in sufficient quantity and quality”. Other definitions frame it using risk concepts and define it as “acceptable risk level / protection from diseases and disasters”. L4 defines the systems that are supported by WS: most mentioned are a health life and ecosystems, followed by economic aspects (livelihood and production). Lastly L5 indicates other limits that should be considered such as sustainability, geographical limitations, costs.\n1 https://www.mdpi.com/2073-4441/14/18/29072 A semantic network, or frame network is a knowledge base that represents semantic relations between concepts in a network. This is often used as a form of knowledge representation. It is a directed or undirected graph consisting of vertices, which represent concepts, and edges, which represent semantic relations between concepts,[1] mapping or connecting semantic fields. A semantic network may be instantiated as, for example, a graph database or a concept map. Typical standardized semantic networks are expressed as semantic triples.(Wikipedia)"
   },
   {
     "objectID": "blog.html",
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Small Projects: whirly birds\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nJun 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nDifferent workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal finder\n\n\n\ntools\n\n\nR\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualising complexity\n\n\n\nvisualisation\n\n\ncommunication\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Projects: whirly birds\n\n\n\nvisualisation\n\n\nbuilding\n\n\nR\n\n\n\nA short exploration on the effect of whirly birds on the attic temperature of a warehouse\n\n\n\nGiacomo Butte\n\n\nJun 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nClimate data\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\n\n\n\n\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow rainy is the rainy season?\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Cox’ Bazar\n\n\n\nGiacomo Butte\n\n\nApr 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Security as a diagram\n\n\n\ntools\n\n\nvisualisation\n\n\n\n\n\n\n\nGiacomo Butte\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/density_qgis.html",
-    "href": "blog_draft/spatial_R/density_qgis.html",
-    "title": "Giacomo Butte",
-    "section": "",
-    "text": "&lt;!DOCTYPE qgis PUBLIC ‘http://mrcc.com/qgis.dtd’ ‘SYSTEM’&gt;     dataset\n\n\n       GEOGCRS[“WGS 84”,ENSEMBLE[“World Geodetic System 1984 ensemble”,MEMBER[“World Geodetic System 1984 (Transit)”],MEMBER[“World Geodetic System 1984 (G730)”],MEMBER[“World Geodetic System 1984 (G873)”],MEMBER[“World Geodetic System 1984 (G1150)”],MEMBER[“World Geodetic System 1984 (G1674)”],MEMBER[“World Geodetic System 1984 (G1762)”],MEMBER[“World Geodetic System 1984 (G2139)”],ELLIPSOID[“WGS 84”,6378137,298.257223563,LENGTHUNIT[“metre”,1]],ENSEMBLEACCURACY[2.0]],PRIMEM[“Greenwich”,0,ANGLEUNIT[“degree”,0.0174532925199433]],CS[ellipsoidal,2],AXIS[“geodetic latitude (Lat)”,north,ORDER[1],ANGLEUNIT[“degree”,0.0174532925199433]],AXIS[“geodetic longitude (Lon)”,east,ORDER[2],ANGLEUNIT[“degree”,0.0174532925199433]],USAGE[SCOPE[“Horizontal component of 3D system.”],AREA[“World.”],BBOX[-90,-180,90,180]],ID[“EPSG”,4326]] +proj=longlat +datum=WGS84 +no_defs 3452 4326 EPSG:4326 WGS 84 longlat EPSG:7030 true"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html",
-    "href": "blog_draft/spatial_R/index.html",
-    "title": "Spatial analysis in R",
-    "section": "",
-    "text": "After several tentative of connecting Google Earth Engine and R via rgee, I had to abandon this idea and make a different workflow. The initial idea was to export geojson files from GEE and plot them in R. In some cases there were errors with GEOMETRYCOLLECTION features that blocked both leaflet and mapview. I then switched to this workflow, using QGIS for intermediate calculations.\n\n\n\n\n\nflowchart TB\n  A[Dataset] --&gt; B(GEE)\n  B --&gt; C[export tif]\n  C --&gt; D[QGIS]\n  D --&gt; E[Zonal statistics]\n  E --&gt; F(import in R)\n  F --&gt; G[plot with leaflet]"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html#workflow",
-    "href": "blog_draft/spatial_R/index.html#workflow",
-    "title": "Spatial analysis in R",
-    "section": "",
-    "text": "After several tentative of connecting Google Earth Engine and R via rgee, I had to abandon this idea and make a different workflow. The initial idea was to export geojson files from GEE and plot them in R. In some cases there were errors with GEOMETRYCOLLECTION features that blocked both leaflet and mapview. I then switched to this workflow, using QGIS for intermediate calculations.\n\n\n\n\n\nflowchart TB\n  A[Dataset] --&gt; B(GEE)\n  B --&gt; C[export tif]\n  C --&gt; D[QGIS]\n  D --&gt; E[Zonal statistics]\n  E --&gt; F(import in R)\n  F --&gt; G[plot with leaflet]"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html#printing-vector-data",
-    "href": "blog_draft/spatial_R/index.html#printing-vector-data",
-    "title": "Spatial analysis in R",
-    "section": "Printing vector data",
-    "text": "Printing vector data\nThe first example will use a geojson file created from Google Earth Engine indicating the population in each administrative district of Sweden.\n\nPrinting with ‘sf’ package\n\nplot(data_map[,14],max.plot = 14)\n\n\n\n\n\n\n\n\n\n\nPrinting with ‘ggplot’ package\n\nggplot(data_map) + geom_sf(aes(fill = sum)) +\n  scale_fill_viridis() + theme_bw()\n\n\n\n\n\n\n\n\n\n\nPrinting with ‘leaflet’ package\n\nleaflet()%&gt;%\n  addTiles()%&gt;%\n  addPolygons(data= zonal)\n\n\n\n\n\n\n\nPrinting with ‘mapview’ package\n\n#mapview(zonal, zcol = \"_mean\")\n#mapview(map, zcol = \"count\")\n#mapview(pop, zcol = \"sum\")\n#mapview(dens, zcol = \"mean\")\n#mapview(dens_multi, zcol = \"mean\")\n\nBoth leaflet and mapview struggle with GEOMETRYCOLLECTION features."
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html#printing-raster",
-    "href": "blog_draft/spatial_R/index.html#printing-raster",
-    "title": "Spatial analysis in R",
-    "section": "Printing raster",
-    "text": "Printing raster\n\nr &lt;- rast(\"soilT_swe_1000.tif\")\nplot(r)\n\n\n\n\n\n\n\n\n\nPlot using terra\n\nmap &lt;- rnaturalearth::ne_states(\"Sweden\", returnclass = \"sf\")\nsextent &lt;- terra::ext(map)\nr &lt;- terra::crop(r, sextent)\nr &lt;- terra::mask(r, vect(map))\nplot(r)\n\n\n\n\n\n\n\nplot(map)"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html#extracting-raster-values-at-point",
-    "href": "blog_draft/spatial_R/index.html#extracting-raster-values-at-point",
-    "title": "Spatial analysis in R",
-    "section": "Extracting raster values at point",
-    "text": "Extracting raster values at point\n\nv &lt;- vect(\"admin.shp\")\npoints &lt;- crds(centroids(v))\nplot(r)\nplot(v, add = TRUE)\npoints(points)\n\n\n\n\n\n\n\n# data frame with the coordinates\npoints &lt;- as.data.frame(points)\nvaluesatpoints &lt;- extract(r, points)\n\n\nAveraging values\n\ndf_area &lt;- extract(r, v, na.rm = TRUE)\n\n# Average raster values by polygon\nv$avg &lt;- extract(r, v, mean, na.rm = TRUE)$SoilTemp10_40cm_tavg_count\n\n# Area-weighted average raster values by polygon (weights = TRUE)\nv$weightedavg &lt;- extract(r, v, mean, na.rm = TRUE,\n                 weights = TRUE)$SoilTemp10_40cm_tavg_count\n\n\nlibrary(ggplot2)\nlibrary(tidyterra)\n\n# Plot average raster values within polygons\nggplot(data = v) + geom_spatvector(aes(fill = avg)) +\n  scale_fill_terrain_c()\n\n\n\n\n\n\n\n# Plot area-weighted average raster values within polygons\nggplot(data = v) + geom_spatvector(aes(fill = weightedavg)) +\n  scale_fill_terrain_c()"
-  },
-  {
-    "objectID": "blog_draft/spatial_R/index.html#printing-raster-with-leaflet",
-    "href": "blog_draft/spatial_R/index.html#printing-raster-with-leaflet",
-    "title": "Spatial analysis in R",
-    "section": "Printing raster with leaflet",
-    "text": "Printing raster with leaflet\n\nrb &lt;- raster::brick(r)\n\npal &lt;- colorNumeric(\"YlOrRd\", values(r),\n                    na.color = \"transparent\")\nleaflet() %&gt;% addTiles() %&gt;%\n  addLegend(pal = pal, values = values(r), title = \"elevation\")%&gt;%\n  addPolygons(data = zonal$geometry,\n              weight=1,\n              group = \"Admin\")%&gt;%\n    addRasterImage(rb, colors = pal, opacity = 0.4, group=\"Temp\") %&gt;%\n   addLayersControl(\n    overlayGroups = c(\"Temp\", \"Admin\"),\n    options = layersControlOptions(collapsed = FALSE)\n  )\n\n\n\n\n\nhttps://rstudio.github.io/leaflet/articles/showhide.html"
+    "text": "Different workflows for rapid evidence gathering\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 3, 2026\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nResearch workflow with rabbit research\n\n\n\ntools\n\n\nR\n\n\nacademic\n\n\n\na workflow for research in academic journal starting from a single paper\n\n\n\nGiacomo Butte\n\n\nFeb 12, 2025\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJournal finder\n\n\n\ntools\n\n\nR\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nVisualising complexity\n\n\n\nvisualisation\n\n\ncommunication\n\n\n\nideas on how to find an academic journal suitable to your article\n\n\n\nGiacomo Butte\n\n\nSep 4, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nClimate data\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\n\n\n\n\n\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSmall Projects: whirly birds\n\n\n\nvisualisation\n\n\nbuilding\n\n\nR\n\n\n\nA short exploration on the effect of whirly birds on the attic temperature of a warehouse\n\n\n\nGiacomo Butte\n\n\nJun 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nUsing codes for notetaking in Zotero\n\n\n\ntools\n\n\n\n\n\n\n\n\n\n\nApr 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nHow rainy is the rainy season?\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Cox’ Bazar\n\n\n\nGiacomo Butte\n\n\nApr 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWater Security as a diagram\n\n\n\ntools\n\n\nvisualisation\n\n\n\n\n\n\n\nGiacomo Butte\n\n\nApr 11, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nA time series analysis on precipitation in Phyang\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\nR\n\n\n\nA time serie analysis of precipitation in Ladakh\n\n\n\nGiacomo Butte\n\n\nSep 1, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Journal\n\n\nA framework for data gathering for Water Security\n\n\n\nGiacomo Butte\n\n\nMar 9, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nA short exploration on air quality monitoring\n\n\n\nenvironmental monitoring\n\n\ninteractive visualization\n\n\n\nAir quality in an office\n\n\n\nGiacomo Butte\n\n\nMar 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\nExplaining QMRA\n\n\n\nvisualisation\n\n\nexplanations\n\n\n\nA 10 minutes explanation of the QMRA framework\n\n\n\nGiacomo Butte, Ailadi Cortelletti\n\n\nJun 10, 2021\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInteractive map of violent events\n\n\n\nvisualisation\n\n\nhumanitarian\n\n\n\nAn interactive map of violent events in Sudan based on ACLED dataset\n\n\n\nGiacomo Butte\n\n\nMay 1, 2021\n\n\n\n\n\n\n\n\n\n\n\n\nArticle published on Water Research\n\n\na risk quantification using QMRA\n\n\n\nGiacomo Butte\n\n\nMar 5, 2020\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
